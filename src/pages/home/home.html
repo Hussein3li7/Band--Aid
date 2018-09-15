@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-navbar color="orange">
+    <button ion-button menuToggle class="btn-menus" >
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>الرئيسية</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="backimg">
+
+  <div class="info" >   <ion-icon ios="ios-call" md="md-call"></ion-icon>  122&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;  الاسعاف </div>
+  <div class="info">    <ion-icon ios="ios-call" md="md-call"></ion-icon> 104&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  الشرطة</div>
+  <div class="info" >  <ion-icon ios="ios-call" md="md-call"></ion-icon> 115 &nbsp; &nbsp;&nbsp; الدفاع المدني</div>
+</div>
+<div class="contain-cardion">
+  
+  <ion-card class="ion-card-det"  (click)='goState()' >
+
+    <ion-card-content >
+     
+      <div class="details-state">
+        <img src="../../assets/imgs/state.png" alt=""> 
+   
+         <p>الحالات  </p>
+        
+         
+
+      </div>
+      
+    </ion-card-content>
+  </ion-card>
+  
+    
+  <ion-card class="ion-card-det"  (click)='goObjective()'>
+
+    <ion-card-content >
+     
+      <div class="details-state">
+        <img src="../../assets/imgs/objec.png" alt=""> 
+       
+         <p style="font-size: 15px">الطرق الرئيسية للاسعاف الاولي  </p>
+        
+          
+
+      </div>
+      
+    </ion-card-content>
+  </ion-card>
+    
+  <ion-card class="ion-card-det" (click)='goPirciblse()' >
+
+    <ion-card-content >
+     
+      <div class="details-state">
+        <img src="../../assets/imgs/target.png" alt=""> 
+        
+         <p style="font-size: 15px">اهداف الاسعافات  </p>
+        
+          
+
+      </div>
+      
+    </ion-card-content>
+  </ion-card>
+    
+  <ion-card class="ion-card-det"  (click)='goAbout()'  >
+
+    <ion-card-content>
+     
+      <div class="details-state">
+        <img src="../../assets/imgs/band-aid.png" alt=""> 
+       
+         <p>حول  </p>
+        
+         
+
+      </div>
+      
+    </ion-card-content>
+  </ion-card>
+  
+</div>
+
+</ion-content>

@@ -1,0 +1,4 @@
+#Fri Sep 14 07:49:38 AST 2018
+base.0=F\:\\OneDrive\\New folder\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=F\:\\OneDrive\\New folder\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
