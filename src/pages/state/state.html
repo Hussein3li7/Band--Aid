@@ -16,7 +16,7 @@
 
 <ion-content padding>
 
-     <ion-searchbar   searchbar-ios-input-clear-icon-color    searchbar-ios-border-color         searchbar-ios-input-text-color      searchbar-ios-input-background-color    searchbar-ios-input-placeholder-color     searchbar-ios-input-search-icon-color  searchbar-ios-toolbar-input-background searchbar-ios-background-color     searchbar-md-input-text-color searchbar-md-input-search-icon-color searchbar-md-input-placeholder-color  searchbar-md-input-background-color  searchbar-md-input-clear-icon-color  searchbar-md-input-text-color     searchbar-md-input-border-radius    searchbar-md-background-color animated="true" debounce="10" placeholder="بحث" color="orange" class="input-search" (ionInput)="getItems($event)"></ion-searchbar>
+     <ion-searchbar searchbar-md-input-box-shadow searchbar-ios-input-clear-icon-color    searchbar-ios-border-color         searchbar-ios-input-text-color      searchbar-ios-input-background-color    searchbar-ios-input-placeholder-color     searchbar-ios-input-search-icon-color  searchbar-ios-toolbar-input-background searchbar-ios-background-color     searchbar-md-input-text-color searchbar-md-input-search-icon-color searchbar-md-input-placeholder-color  searchbar-md-input-background-color  searchbar-md-input-clear-icon-color  searchbar-md-input-text-color     searchbar-md-input-border-radius    searchbar-md-background-color animated="true" debounce="10" placeholder="بحث" color="orange" class="input-search" (ionInput)="getItems($event)"></ion-searchbar>
 
     <ion-list *ngFor="let item of items">
       <ion-item class="ionList" (click)="goToDatails(item)" >

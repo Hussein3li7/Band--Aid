@@ -26,7 +26,7 @@ $app-direction: rtl;
 
 
 // Named Color Variables
-// --------------------------------------------------
+// --------------------------------------------------1095f4
 // Named colors makes it easy to reuse colors on various components.
 // It's highly recommended to change the default colors
 // to match your app's branding. Ionic uses a Sass map of
@@ -39,21 +39,23 @@ $colors: (
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
-  orange:      #1095f4,
+  orange:      #2699fb,
   dark2:      #34495e
 );
 
 
 
 //android
+
   $searchbar-md-background-color        :#f4f4f4;
   $searchbar-md-input-border-radius     :30px;
-  $searchbar-md-input-text-color        :#f4f4f4;
-  $searchbar-md-input-clear-icon-color  :#f4f4f4;
-  $searchbar-md-input-background-color  :#1095f4;
-  $searchbar-md-input-placeholder-color :	#d6d6d6;
-  $searchbar-md-input-search-icon-color :	#f4f4f4;
-  $searchbar-md-input-border-color      :#1095f4;
+  $searchbar-md-input-text-color        :#222222;
+  $searchbar-md-input-clear-icon-color  :#2699fb;
+  $searchbar-md-input-background-color  :#f4f4f4;
+  $searchbar-md-input-placeholder-color :#7faecf;
+  $searchbar-md-input-search-icon-color :#2699fb;
+  $searchbar-md-input-border-color      :#2699fb;
+  $searchbar-md-input-box-shadow: inset 0px 0px 0px 2px #2699fb;
 
 
   $toolbar-md-title-font-size :1.6rem;
@@ -61,12 +63,12 @@ $colors: (
 //ios
 $searchbar-ios-background-color         :#f4f4f4;
 $searchbar-ios-toolbar-input-background :#1095f4;
-$searchbar-ios-input-search-icon-color  :#f4f4f4;
-$searchbar-ios-input-placeholder-color  :#d6d6d6;
-$searchbar-ios-input-background-color   :#1095f4;
-$searchbar-ios-input-text-color         :#f4f4f4;
+$searchbar-ios-input-search-icon-color  :#1095f4;
+$searchbar-ios-input-placeholder-color  :#838383;
+$searchbar-ios-input-background-color   :#f4f4f4;
+$searchbar-ios-input-text-color         :#1095f4;
 $searchbar-ios-border-color             :#1095f4;
-$searchbar-ios-input-clear-icon-color   :#f4f4f4;
+$searchbar-ios-input-clear-icon-color   :#1095f4;
 
 
 
