@@ -61,17 +61,17 @@ $colors: (
   $toolbar-md-title-font-size :1.6rem;
 
 //ios
-$searchbar-ios-background-color         :#f4f4f4;
+$searchbar-ios-background-color         :#2699fb;
 $searchbar-ios-toolbar-input-background :#1095f4;
 $searchbar-ios-input-search-icon-color  :#1095f4;
 $searchbar-ios-input-placeholder-color  :#838383;
 $searchbar-ios-input-background-color   :#f4f4f4;
-$searchbar-ios-input-text-color         :#1095f4;
-$searchbar-ios-border-color             :#1095f4;
+$searchbar-ios-input-text-color         :#222222;
+//$searchbar-ios-border-color             :red;
 $searchbar-ios-input-clear-icon-color   :#1095f4;
-
-
-
+$searchbar-ios-padding-horizontal:10px;
+//$searchbar-ios-padding-vertical:10px;
+$searchbar-ios-min-height:55px;
 
 // App iOS Variables
 // --------------------------------------------------

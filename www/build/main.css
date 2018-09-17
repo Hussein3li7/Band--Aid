@@ -18868,11 +18868,11 @@ ion-searchbar {
 }
 
 .searchbar-ios {
-  padding: 0 8px;
-  min-height: 44px;
+  padding: 0 10px;
+  min-height: 55px;
   border-top: 0.55px solid transparent;
-  border-bottom: 0.55px solid #1095f4;
-  background: #f4f4f4;
+  border-bottom: 0.55px solid rgba(0, 0, 0, 0.05);
+  background: #2699fb;
 }
 
 .searchbar-ios .searchbar-search-icon {
@@ -18893,7 +18893,7 @@ ion-searchbar {
   height: 3rem;
   font-size: 1.4rem;
   font-weight: 400;
-  color: #1095f4;
+  color: #222222;
   background-color: #f4f4f4;
 }
 
@@ -31104,7 +31104,7 @@ page-state .dedails-btn {
   color: #fff;
 }
 
-page-state .ionList {
+page-state .ionItem {
   text-align: right;
   font-size: 5vw;
   border-bottom: 1px solid #1095f4;
