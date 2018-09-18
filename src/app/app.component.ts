@@ -27,7 +27,7 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'الرئيسية', component: HomePage,icon:'home'  },
-      { title: 'الحالات', component: StatePage,icon:' medkit'  }, 
+      { title: 'الحالات', component: StatePage,icon:'medkit'  }, 
       { title: 'مبادئ الاسعافات الاولية', component: PrinciplesPage,icon:'home'  }, 
       { title: 'اهداف الاسعافات الاولية', component: ObjectivesPage,icon:'wifi'  },
       { title: 'حول', component: AboutPage,icon:'alert'  }

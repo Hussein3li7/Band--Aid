@@ -1317,7 +1317,7 @@ var MyApp = /** @class */ (function () {
         // used for an example of ngFor and navigation
         this.pages = [
             { title: 'الرئيسية', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */], icon: 'home' },
-            { title: 'الحالات', component: __WEBPACK_IMPORTED_MODULE_7__pages_state_state__["a" /* StatePage */], icon: ' medkit' },
+            { title: 'الحالات', component: __WEBPACK_IMPORTED_MODULE_7__pages_state_state__["a" /* StatePage */], icon: 'medkit' },
             { title: 'مبادئ الاسعافات الاولية', component: __WEBPACK_IMPORTED_MODULE_6__pages_principles_principles__["a" /* PrinciplesPage */], icon: 'home' },
             { title: 'اهداف الاسعافات الاولية', component: __WEBPACK_IMPORTED_MODULE_5__pages_objectives_objectives__["a" /* ObjectivesPage */], icon: 'wifi' },
             { title: 'حول', component: __WEBPACK_IMPORTED_MODULE_8__pages_about_about__["a" /* AboutPage */], icon: 'alert' }
@@ -1339,14 +1339,15 @@ var MyApp = /** @class */ (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
+        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]) === "function" && _a || Object)
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n\n    <!-- <ion-toolbar>\n      <ion-title align="center" >الرئيسية</ion-title>\n    </ion-toolbar> -->\n  </ion-header>\n\n  <ion-content class="backIon">\n    <div class="test">\n   <img src="../assets/imgs/Listback/CodeLogo.jpg" alt=""> \n  </div>\n    <ion-list class="cal">\n\n      <div class="btn" menuClose *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n            <!-- <ion-icon [name]="p.icon"></ion-icon> -->\n      </div>\n    </ion-list>\n    <div class="con-img">\n      <p> Code For IRaq</p>\n       \n    </div>\n\n\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n\n    <!-- <ion-toolbar>\n      <ion-title align="center" >الرئيسية</ion-title>\n    </ion-toolbar> -->\n  </ion-header>\n\n  <ion-content class="backIon">\n    <div class="test">\n   <img src="../assets/imgs/Listback/CodeLogo.jpg" alt=""> \n  </div>\n    <ion-list class="cal">\n\n      <div class="btn" menuClose *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n            <ion-icon [name]="p.icon"></ion-icon>\n      </div>\n    </ion-list>\n    <div class="con-img">\n      <p> Code For IRaq</p>\n       \n    </div>\n\n\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
     ], MyApp);
     return MyApp;
+    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=app.component.js.map
