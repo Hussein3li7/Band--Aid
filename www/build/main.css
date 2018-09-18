@@ -30732,6 +30732,19 @@ page-blood-circulation ion-title {
   margin-right: 15%;
 }
 
+page-blood-circulation p {
+  color: #107895;
+}
+
+page-blood-circulation .main-ul > li {
+  list-style-image: url("../../assets/imgs/listIcon/Untitled-2.png");
+}
+
+page-blood-circulation .main-ul li ul li {
+  list-style-image: url("../../assets/imgs/listIcon/Untitled-1.png");
+  margin: 7px 0px 10px 0px;
+}
+
 page-broken body, page-broken ion-item, page-broken ion-title, page-broken ul {
   font-family: 'kufi' !important;
 }

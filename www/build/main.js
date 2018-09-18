@@ -205,96 +205,6 @@ var AlienObjectsPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BandagesPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the BandagesPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var BandagesPage = /** @class */ (function () {
-    function BandagesPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    BandagesPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad BandagesPage');
-    };
-    BandagesPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-bandages',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\bandages\bandages.html"*/'<!--\n  Generated template for the BandagesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>الضمادات والعصائب  </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\bandages\bandages.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], BandagesPage);
-    return BandagesPage;
-}());
-
-//# sourceMappingURL=bandages.js.map
-
-/***/ }),
-
-/***/ 106:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BloodCirculationPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the BloodCirculationPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var BloodCirculationPage = /** @class */ (function () {
-    function BloodCirculationPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    BloodCirculationPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad BloodCirculationPage');
-    };
-    BloodCirculationPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-blood-circulation',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\blood-circulation\blood-circulation.html"*/'<!--\n  Generated template for the BloodCirculationPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الدورة الدموية </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\blood-circulation\blood-circulation.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], BloodCirculationPage);
-    return BloodCirculationPage;
-}());
-
-//# sourceMappingURL=blood-circulation.js.map
-
-/***/ }),
-
-/***/ 107:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BackInjuriesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -336,7 +246,52 @@ var BackInjuriesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 108:
+/***/ 106:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BandagesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the BandagesPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var BandagesPage = /** @class */ (function () {
+    function BandagesPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    BandagesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad BandagesPage');
+    };
+    BandagesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-bandages',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\bandages\bandages.html"*/'<!--\n  Generated template for the BandagesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>الضمادات والعصائب  </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\bandages\bandages.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], BandagesPage);
+    return BandagesPage;
+}());
+
+//# sourceMappingURL=bandages.js.map
+
+/***/ }),
+
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -378,6 +333,51 @@ var BrokenPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=broken.js.map
+
+/***/ }),
+
+/***/ 108:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BloodCirculationPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the BloodCirculationPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var BloodCirculationPage = /** @class */ (function () {
+    function BloodCirculationPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    BloodCirculationPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad BloodCirculationPage');
+    };
+    BloodCirculationPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-blood-circulation',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\blood-circulation\blood-circulation.html"*/'<!--\n  Generated template for the BloodCirculationPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الدورة الدموية </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n\n  <ul class="main-ul" dir="rtl">\n\n\n\n    <li>\n      <ul>\n        <p>الصدمة</p>\n        <p>الاعراض والعلامات </p>\n\n        <li>يصبح المصاب شاحباً او رمادي واوضح ما يكون ذالك في القسم الداخلي من الشفاه </li>\n        <li> يبرد الجلد ويكون رطباً من العرق</li>\n        <li>قد يشعر المصاب بضعف وقد ينتابه اغماء او دوخة </li>\n        <li>يصبح النبض سريعا ً وضعيفاً</li>\n        <li>يكون التنفس سطحيا وسريعا </li>\n        <li>قد يصبح المصاب قلقاً او متململاً ,ويتثائب او يلهث </li>\n        <li>قد يشكو المصاب من العطش</li>\n        <li>قد يشعر بغثيان وقد يتقيء</li>\n        <li>تحتمل اصابته بفقدان وعي </li>\n\n      </ul>\n\n      <ul>\n\n     \n          <p> *تنبيه </p>\n\n        <li> لا تحرك المصاب بدون داعٍ </li>\n        <li>لا تعطِهِ اي شي يأكله او يشربه</li>\n        <li> لا تستخدم اكياس الماء الساخن لان ذالك يزيد من جريان الدم في الجلد ويبعده عن الاعضاء الحيوية </li>\n        <li>لا تسمح للمصاب بالتدخين </li>\n    \n\n    <p>المعالجة</p>\n\n    <li> عالج اي اصابة بوسعك معالجتها كالنزف الخارجي مثلا , قلل من تحرك المصاب قدر الامكان وطمئنه</li>\n    <li> اجعله يستلقي على ظهره واجهل رأسه منخفضا ومداراً الى جهة واحدة للتخفيف من اخطار القيء </li>\n    <img src="../../assets/imgs/brokenimg/sa1.png" alt="">\n    <li>ارفع ساقيه واسندهما على ملابس مطوية او اشياء اخرى مناسبة </li>\n    <img src="../../assets/imgs/brokenimg/sa2.png" alt="" srcset="">\n    <li>فك الملابس الضيقة عند الرقبة والصدر والخصر</li>\n    <li>احفظه من الحرارة القصوى والدنيا.وحافظ على راحته ,ورطب شفيه بالماء ولكن لا تسقيه اي شي</li>\n    <li> عالج اي اصابات اخرى</li>\n    <li>اذا اصبح التنفس صعبا او توقعت حصول القيء ضعه في وضع الافاقة </li>\n    <li> اذا فقد وعيه ,افتح مسلك الهواء لديه وتحقق من التنفس وعمل على انعاشه اذا وجدت ضرورة لذالك ثم ضعه في وضع الافاقة</li>\n    <li>اعمل على نقله بسرعة الى المستشفى مع المحافظة على وضع المعالجة </li>\n\n\n\n  </ul>\n\n  </li>\n\n\n\n  </ul>\n\n</ion-content>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\blood-circulation\blood-circulation.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], BloodCirculationPage);
+    return BloodCirculationPage;
+}());
+
+//# sourceMappingURL=blood-circulation.js.map
 
 /***/ }),
 
@@ -430,51 +430,6 @@ var BurnsPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmergencyBirthPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the EmergencyBirthPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var EmergencyBirthPage = /** @class */ (function () {
-    function EmergencyBirthPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    EmergencyBirthPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad EmergencyBirthPage');
-    };
-    EmergencyBirthPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-emergency-birth',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\emergency-birth\emergency-birth.html"*/'<!--\n  Generated template for the EmergencyBirthPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الولادة الطارئة  </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\emergency-birth\emergency-birth.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], EmergencyBirthPage);
-    return EmergencyBirthPage;
-}());
-
-//# sourceMappingURL=emergency-birth.js.map
-
-/***/ }),
-
-/***/ 111:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChokingPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -513,6 +468,51 @@ var ChokingPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=choking.js.map
+
+/***/ }),
+
+/***/ 111:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmergencyBirthPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the EmergencyBirthPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var EmergencyBirthPage = /** @class */ (function () {
+    function EmergencyBirthPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    EmergencyBirthPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad EmergencyBirthPage');
+    };
+    EmergencyBirthPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-emergency-birth',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\emergency-birth\emergency-birth.html"*/'<!--\n  Generated template for the EmergencyBirthPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الولادة الطارئة  </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\emergency-birth\emergency-birth.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], EmergencyBirthPage);
+    return EmergencyBirthPage;
+}());
+
+//# sourceMappingURL=emergency-birth.js.map
 
 /***/ }),
 
@@ -835,51 +835,6 @@ var TransportationPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WoundsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the WoundsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var WoundsPage = /** @class */ (function () {
-    function WoundsPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    WoundsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad WoundsPage');
-    };
-    WoundsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-wounds',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\wounds\wounds.html"*/'<!--\n  Generated template for the WoundsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الجروح  </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\wounds\wounds.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], WoundsPage);
-    return WoundsPage;
-}());
-
-//# sourceMappingURL=wounds.js.map
-
-/***/ }),
-
-/***/ 120:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UnconsciousnessPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -921,6 +876,51 @@ var UnconsciousnessPage = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 120:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WoundsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the WoundsPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var WoundsPage = /** @class */ (function () {
+    function WoundsPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    WoundsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad WoundsPage');
+    };
+    WoundsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-wounds',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\wounds\wounds.html"*/'<!--\n  Generated template for the WoundsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الجروح  </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\wounds\wounds.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], WoundsPage);
+    return WoundsPage;
+}());
+
+//# sourceMappingURL=wounds.js.map
+
+/***/ }),
+
 /***/ 130:
 /***/ (function(module, exports) {
 
@@ -955,19 +955,19 @@ var map = {
 		16
 	],
 	"../pages/back-injuries/back-injuries.module": [
-		296,
+		294,
 		15
 	],
 	"../pages/bandages/bandages.module": [
-		294,
+		295,
 		14
 	],
 	"../pages/blood-circulation/blood-circulation.module": [
-		295,
+		297,
 		13
 	],
 	"../pages/broken/broken.module": [
-		297,
+		296,
 		12
 	],
 	"../pages/burns/burns.module": [
@@ -975,11 +975,11 @@ var map = {
 		11
 	],
 	"../pages/choking/choking.module": [
-		300,
+		299,
 		10
 	],
 	"../pages/emergency-birth/emergency-birth.module": [
-		299,
+		300,
 		9
 	],
 	"../pages/fainting/fainting.module": [
@@ -1011,11 +1011,11 @@ var map = {
 		2
 	],
 	"../pages/unconsciousness/unconsciousness.module": [
-		309,
+		308,
 		1
 	],
 	"../pages/wounds/wounds.module": [
-		308,
+		309,
 		0
 	]
 };
@@ -1119,26 +1119,26 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_objectives_objectives__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_principles_principles__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_about_about__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_broken_broken__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_broken_broken__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_fainting_fainting__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_burns_burns__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_sunstroke_sunstroke__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_choking_choking__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_blood_circulation_blood_circulation__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_unconsciousness_unconsciousness__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_back_injuries_back_injuries__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_choking_choking__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_blood_circulation_blood_circulation__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_unconsciousness_unconsciousness__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_back_injuries_back_injuries__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_musculoskeletal_injuries_musculoskeletal_injuries__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_max_temperatures_max_temperatures__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_alien_objects_alien_objects__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_aches_aches__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_major_accidents_major_accidents__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_bandages_bandages__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_bandages_bandages__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_transportation_transportation__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_python_python__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_status_bar__ = __webpack_require__(211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_splash_screen__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_emergency_birth_emergency_birth__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_wounds_wounds__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_emergency_birth_emergency_birth__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_wounds_wounds__ = __webpack_require__(120);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1214,13 +1214,13 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/about/about.module#AboutPageModule', name: 'AboutPage', segment: 'about', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/aches/aches.module#AchesPageModule', name: 'AchesPage', segment: 'aches', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/alien-objects/alien-objects.module#AlienObjectsPageModule', name: 'AlienObjectsPage', segment: 'alien-objects', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/bandages/bandages.module#BandagesPageModule', name: 'BandagesPage', segment: 'bandages', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/blood-circulation/blood-circulation.module#BloodCirculationPageModule', name: 'BloodCirculationPage', segment: 'blood-circulation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/back-injuries/back-injuries.module#BackInjuriesPageModule', name: 'BackInjuriesPage', segment: 'back-injuries', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/bandages/bandages.module#BandagesPageModule', name: 'BandagesPage', segment: 'bandages', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/broken/broken.module#BrokenPageModule', name: 'BrokenPage', segment: 'broken', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/blood-circulation/blood-circulation.module#BloodCirculationPageModule', name: 'BloodCirculationPage', segment: 'blood-circulation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/burns/burns.module#BurnsPageModule', name: 'BurnsPage', segment: 'burns', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/emergency-birth/emergency-birth.module#EmergencyBirthPageModule', name: 'EmergencyBirthPage', segment: 'emergency-birth', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/choking/choking.module#ChokingPageModule', name: 'ChokingPage', segment: 'choking', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/emergency-birth/emergency-birth.module#EmergencyBirthPageModule', name: 'EmergencyBirthPage', segment: 'emergency-birth', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/fainting/fainting.module#FaintingPageModule', name: 'FaintingPage', segment: 'fainting', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/major-accidents/major-accidents.module#MajorAccidentsPageModule', name: 'MajorAccidentsPage', segment: 'major-accidents', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/max-temperatures/max-temperatures.module#MaxTemperaturesPageModule', name: 'MaxTemperaturesPage', segment: 'max-temperatures', priority: 'low', defaultHistory: [] },
@@ -1228,8 +1228,8 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/python/python.module#PythonPageModule', name: 'PythonPage', segment: 'python', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/sunstroke/sunstroke.module#SunstrokePageModule', name: 'SunstrokePage', segment: 'sunstroke', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/transportation/transportation.module#TransportationPageModule', name: 'TransportationPage', segment: 'transportation', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/wounds/wounds.module#WoundsPageModule', name: 'WoundsPage', segment: 'wounds', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/unconsciousness/unconsciousness.module#UnconsciousnessPageModule', name: 'UnconsciousnessPage', segment: 'unconsciousness', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/unconsciousness/unconsciousness.module#UnconsciousnessPageModule', name: 'UnconsciousnessPage', segment: 'unconsciousness', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/wounds/wounds.module#WoundsPageModule', name: 'WoundsPage', segment: 'wounds', priority: 'low', defaultHistory: [] }
                     ]
                 }),
             ],
@@ -1316,11 +1316,11 @@ var MyApp = /** @class */ (function () {
         this.initializeApp();
         // used for an example of ngFor and navigation
         this.pages = [
-            { title: 'الرئيسية', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */] },
-            { title: 'الحالات', component: __WEBPACK_IMPORTED_MODULE_7__pages_state_state__["a" /* StatePage */] },
-            { title: 'مبادئ الاسعافات الاولية', component: __WEBPACK_IMPORTED_MODULE_6__pages_principles_principles__["a" /* PrinciplesPage */] },
-            { title: 'اهداف الاسعافات الاولية', component: __WEBPACK_IMPORTED_MODULE_5__pages_objectives_objectives__["a" /* ObjectivesPage */] },
-            { title: 'حول', component: __WEBPACK_IMPORTED_MODULE_8__pages_about_about__["a" /* AboutPage */] }
+            { title: 'الرئيسية', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */], icon: 'home' },
+            { title: 'الحالات', component: __WEBPACK_IMPORTED_MODULE_7__pages_state_state__["a" /* StatePage */], icon: ' medkit' },
+            { title: 'مبادئ الاسعافات الاولية', component: __WEBPACK_IMPORTED_MODULE_6__pages_principles_principles__["a" /* PrinciplesPage */], icon: 'home' },
+            { title: 'اهداف الاسعافات الاولية', component: __WEBPACK_IMPORTED_MODULE_5__pages_objectives_objectives__["a" /* ObjectivesPage */], icon: 'wifi' },
+            { title: 'حول', component: __WEBPACK_IMPORTED_MODULE_8__pages_about_about__["a" /* AboutPage */], icon: 'alert' }
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -1342,7 +1342,7 @@ var MyApp = /** @class */ (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n\n    <!-- <ion-toolbar>\n      <ion-title align="center" >الرئيسية</ion-title>\n    </ion-toolbar> -->\n  </ion-header>\n\n  <ion-content class="backIon">\n    <div class="test">\n   <img src="../assets/imgs/Listback/CodeLogo.jpg" alt=""> \n  </div>\n    <ion-list class="cal">\n\n      <div class="btn" menuClose *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </div>\n    </ion-list>\n    <div class="con-img">\n      <p> Code For IRaq</p>\n       \n    </div>\n\n\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n\n    <!-- <ion-toolbar>\n      <ion-title align="center" >الرئيسية</ion-title>\n    </ion-toolbar> -->\n  </ion-header>\n\n  <ion-content class="backIon">\n    <div class="test">\n   <img src="../assets/imgs/Listback/CodeLogo.jpg" alt=""> \n  </div>\n    <ion-list class="cal">\n\n      <div class="btn" menuClose *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n            <!-- <ion-icon [name]="p.icon"></ion-icon> -->\n      </div>\n    </ion-list>\n    <div class="con-img">\n      <p> Code For IRaq</p>\n       \n    </div>\n\n\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -1401,23 +1401,23 @@ var ListPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__broken_broken__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__broken_broken__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fainting_fainting__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__burns_burns__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sunstroke_sunstroke__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__choking_choking__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__blood_circulation_blood_circulation__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__unconsciousness_unconsciousness__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__back_injuries_back_injuries__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__choking_choking__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__blood_circulation_blood_circulation__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__unconsciousness_unconsciousness__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__back_injuries_back_injuries__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__musculoskeletal_injuries_musculoskeletal_injuries__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__max_temperatures_max_temperatures__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__alien_objects_alien_objects__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__aches_aches__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__major_accidents_major_accidents__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__bandages_bandages__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__bandages_bandages__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__transportation_transportation__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__emergency_birth_emergency_birth__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__wounds_wounds__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__emergency_birth_emergency_birth__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__wounds_wounds__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__python_python__ = __webpack_require__(116);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1576,7 +1576,7 @@ var StatePage = /** @class */ (function () {
     };
     StatePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-state',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\state\state.html"*/'<!--\n  Generated template for the StatePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n      <button ion-button menuToggle >\n        <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title align="center" >  الحالات </ion-title>\n    </ion-navbar>\n  </ion-header>\n\n<ion-content >\n\n \n\n     <ion-searchbar searchbar-ios-min-height searchbar-ios-padding-horizontal searchbar-ios-padding-vertical searchbar-md-input-box-shadow searchbar-ios-input-clear-icon-color    searchbar-ios-border-color  searchbar-ios-input-text-color      searchbar-ios-input-background-color    searchbar-ios-input-placeholder-color     searchbar-ios-input-search-icon-color  searchbar-ios-toolbar-input-background searchbar-ios-background-color     searchbar-md-input-text-color searchbar-md-input-search-icon-color searchbar-md-input-placeholder-color  searchbar-md-input-background-color  searchbar-md-input-clear-icon-color  searchbar-md-input-text-color     searchbar-md-input-border-radius    searchbar-md-background-color animated="true" debounce="10" placeholder="بحث" color="orange" class="input-search" (ionInput)="getItems($event)"></ion-searchbar>\n \n\n    <ion-list  *ngFor="let item of items">\n      <ion-item class="ionItem" (click)="goToDatails(item)" >\n        <button class="dedails-btn">  التفاصيل &nbsp;  <ion-icon color="light" name="md-information"></ion-icon> \n        </button> \n        {{ item }} \n      </ion-item>\n      \n    </ion-list>\n    \n</ion-content>\n\n <!-- style="float: left; padding: 10px;border-radius: 10px" -->'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\state\state.html"*/,
+            selector: 'page-state',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\state\state.html"*/'<!--\n  Generated template for the StatePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n      <button ion-button menuToggle >\n        <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title  >  الحالات </ion-title>\n    </ion-navbar>\n  </ion-header>\n\n<ion-content >\n\n \n\n     <ion-searchbar searchbar-ios-min-height searchbar-ios-padding-horizontal searchbar-ios-padding-vertical searchbar-md-input-box-shadow searchbar-ios-input-clear-icon-color    searchbar-ios-border-color  searchbar-ios-input-text-color      searchbar-ios-input-background-color    searchbar-ios-input-placeholder-color     searchbar-ios-input-search-icon-color  searchbar-ios-toolbar-input-background searchbar-ios-background-color     searchbar-md-input-text-color searchbar-md-input-search-icon-color searchbar-md-input-placeholder-color  searchbar-md-input-background-color  searchbar-md-input-clear-icon-color  searchbar-md-input-text-color     searchbar-md-input-border-radius    searchbar-md-background-color animated="true" debounce="10" placeholder="بحث" color="orange" class="input-search" (ionInput)="getItems($event)"></ion-searchbar>\n \n\n    <ion-list  *ngFor="let item of items">\n      <ion-item class="ionItem" (click)="goToDatails(item)" >\n        <button class="dedails-btn">  التفاصيل &nbsp;  <ion-icon color="light" name="md-information"></ion-icon> \n        </button> \n        {{ item }} \n      </ion-item>\n      \n    </ion-list>\n    \n</ion-content>\n\n <!-- style="float: left; padding: 10px;border-radius: 10px" -->'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\state\state.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], StatePage);

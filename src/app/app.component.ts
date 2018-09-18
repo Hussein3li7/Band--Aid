@@ -19,21 +19,24 @@ export class MyApp {
 
   rootPage: any = HomePage;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{title: string, component: any ,icon:string}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'الرئيسية', component: HomePage  },
-      { title: 'الحالات', component: StatePage }, 
-      { title: 'مبادئ الاسعافات الاولية', component: PrinciplesPage }, 
-      { title: 'اهداف الاسعافات الاولية', component: ObjectivesPage },
-      { title: 'حول', component: AboutPage }
+      { title: 'الرئيسية', component: HomePage,icon:'home'  },
+      { title: 'الحالات', component: StatePage,icon:' medkit'  }, 
+      { title: 'مبادئ الاسعافات الاولية', component: PrinciplesPage,icon:'home'  }, 
+      { title: 'اهداف الاسعافات الاولية', component: ObjectivesPage,icon:'wifi'  },
+      { title: 'حول', component: AboutPage,icon:'alert'  }
     ];
 
   }
+
+
+
 
   initializeApp() {
     this.platform.ready().then(() => {
