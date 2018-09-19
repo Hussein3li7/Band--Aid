@@ -295,51 +295,6 @@ var BandagesPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BrokenPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the BrokenPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var BrokenPage = /** @class */ (function () {
-    function BrokenPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    BrokenPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad BrokenPage');
-    };
-    BrokenPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-broken',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\broken\broken.html"*/'<!--\n  Generated template for the BrokenPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<!-- <ion-header>\n\n  <ion-navbar>\n    <ion-title align="right">الكسور</ion-title>\n  </ion-navbar>\n\n</ion-header> -->\n\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الكسور </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <ul class="main-ul" dir="rtl">\n\n    <li>\n      <ul>\n        <p>الاعراض والعلامات العامة </p>\n        <li>الألم والانتفاخ هما العلامتان النموذجيتان للكسر، بسبب تضرر الأعصاب والأوعية الدموية في العظم وفي النسيج المحيط به.</li>\n        <li>يمكن ان يكون المصاب قد شعر او سمع صوت صك العظم </li>\n        <li> الالم في منطقة الاصابة او قربها وهو يزداد مع الحركة </li>\n        <li>قد يشعر المصاب بصعوبة او استحالة تحريك الجزء المصاب بشكل طبيعي </li>\n        <li>الشعور بالم في مكان الكسر اذا ضغط بلطف على المنطقة واحذر من لمس منطفة الكسر المفتوح </li>\n      </ul>\n    </li>\n\n\n    <li>\n\n\n\n      <ul type="square">\n        <p> الكسور المفتوحة</p>\n        <p> التي تنتج عنها نزيف جروح ظاهرة على مستوى الجلد بسبب العظم المتكسر و الذي يظهر خارج الجلد.</p>\n\n        <img src="../../assets/imgs/openBroken.jfif" alt="">\n\n        <li>ركز ورافع الذراع وسندها </li>\n        <img src="../../assets/imgs/brokenimg/1.png" alt="">\n        <li> ضع قطعة من الشاش المعقم او اي ضماد مناسب فوق الجرح ثم اضغط ضغطاً كافيا لقطع النزيف </li>\n        <img src="../../assets/imgs/brokenimg/2.png" alt="">\n        <li>ضع رفادات من القطن او ماشابه من المواد فوق الجرح وحوله</li>\n        <img src="../../assets/imgs/brokenimg/3.png" alt="">\n        <li> ثبت الضماد والرفادات برباط مشدود </li>\n        <img src="../../assets/imgs/brokenimg/4.png" alt="">\n        <li>ثبت كما في طريقة المعالجة العامة للكسور ثم ارفع الجزء المصاب اذا امكن </li>\n        <img src="../../assets/imgs/brokenimg/5.png" alt="">\n        <li>اعمل على نقل المصاب الي المستشفى مع المحافضة على وضع المعالجة واحمله بواسطة النقالة اذا لزم الامر</li>\n\n\n      </ul>\n    </li>\n\n    <hr>\n\n    <li>\n    <p> الكسور المغلقة</p> \n\n      التي تكون داخلية و لا تحدث أي جرح ظاهرا على مستوى الجلد لكن بالمقابل قد تحدث نزيفا داخليا بالاضافة أن العظم فيها قد\n        لا يتكسر كليا\n      <ul type="square">\n        <img src="../../assets/imgs/closedBroken.jfif" alt="" srcset="">\n        <li>نفس خطوات الكسور المفتوحة</li>\n      </ul>\n    </li>\n\n    <hr>\n\n\n    <li> \n      <hr>\n     <p> كسور عضام الترقوة</p>\n     \n      حدث هذه الكسور عادة من قوة غير مباشرة تنتج عن السقوط على يد ممدودة او على نتوء الكتف اما كسور الترقوة الناجمة عن قوة\n        مباشرة في نادرة \n\n      <ul>\n        الاعراض والعلامات\n\n        <li>نفس الاعراض العامة للكسور</li>\n        <li>الم وضعف في مكان الاصابة يزدادان بالحركة </li>\n        <li>يمانع المصاب في تحريك الطرف في الجهة المصابة </li>\n        <li>يمكن ملاحظة التشوه او الشعور به في موقع الكسر</li>\n\n      </ul>\n\n      <sub>والهدف الرئيسية من الاسعاف االاولي هو تثبيت الطرف العلوي ونقل المصاب الي المستشفى*</sub>\n\n\n      <ul>\n        المعالجة\n\n        <li>اجلس المصاب ثم ضع الطرف المصاب بلطف على الصدر بحيث ترتكز رؤوس الاصابع على الكتف المقابلة </li>\n        <img src="../../assets/imgs/brokenimg/6.png" alt="" srcset="">\n        <li>اسند الطرف بواسطة معلاق رفع </li>\n        <img src="../../assets/imgs/brokenimg/fracture-2.jpg" alt="" srcset="">\n        <li>ضع رفادات طرية بين العضد والصدر في الجهة المصابة </li>\n        <img src="../../assets/imgs/brokenimg/7.png" alt="" srcset="">\n        <li>تثبيت الطرف المصاب على الصدر بواسطة عصابة ذات طية عرضة فوق معلاق لرفع وجعل العقدة امام الجهة السليمة </li>\n        <img src="../../assets/imgs/brokenimg/fracture-3.jpg" alt="" srcset="">\n        <li>اعمل على نقل المصاب الي المستشفى في وضع الجلوس او المشي الا اذا كاننت هنالك مضاعفات </li>\n\n\n      </ul>\n\n\n    </li>\n\n\n    <hr>\n\n    <li>\n      <p>كسور العضد والساعد </p>\n      <ul>\n        الاعراض والعلامات\n        <li>الاعراض والعلامات العامة للكسور </li>\n        <li> الم في مكان الكسر يزداد بالحركة </li>\n        <li>ربما اصبح المصاب غير قادر على استعمال الطرف</li>\n        <li>احتمال عدم القدرة على ثني او تقويم المرفق في الطرف المصاب</li>\n      </ul>\n      <sup>\n\n        *الهدف تثبيت الطرف المصاب والنقل الي المستشفى\n      </sup>\n\n    </li>\n    <hr>\n<li>\n  <ul>كسر عضم العضد \n    <li>اجلس المصاب واسند ذراع الطرف المصاب على صدره</li>\n    <li>اسند الطرف بواسطة معلاق للذراع </li>\n    <li>ضع برفق رفادات طرية بين عضده وصدره </li>\n    <li>ثبت الطرف على صدره بواسطة عصابة ذات طية عريضة فوق المعلاق والرفع يكون قريب من المرفق لليد الاخرى ويفضل الا يكون فوق مكان الكسر وجعل العقدة امام الجهة السليمة </li>\n    <img src="../../assets/imgs/brokenimg/8.png" alt="">\n    <li>اعمل على نقل المصاب الى المستشفى وحعله في وضع الجلوس</li>\n\n  </ul>\n</li>\n\n<hr>\n<li>\n  <ul>\n      كسور الساعد  والرسغ\n    <li>اجلس المصاب واسند الساعد المصاب بلطف وضعه على صدره</li>\n    <img src="../../assets/imgs/brokenimg/9.png" alt="">\n    <li>ضع الساعد بلطف بين طيات رفادة لينة</li>\n    <li>احمل الطرف بواسطة معلاق للذراع </li>\n    <li>ثبت الطرف على صدره بواسطة عصابة ذات طية عريضة فوق المعلاق الرقع قريب من المرفق تحاشي مكان المسر واجعل العقدة امام الجهة السليمة </li>\n    <img src="../../assets/imgs/brokenimg/10.png" alt="">\n    <li> اعمل على نقل المصاب الي المستشفى وحمله في وجع الجلوس</li>\n  </ul>\n</li>\n<hr>\n<li>\n  <ul>\n      *في حالة عدم التمكن من ثني المرفق او كان المصاب مستلقيا\n    <li>اضجع المريض وسند الطرف المصاب على جذعه ولا تحاول ثني المرفق بالقوة</li>\n    <img src="../../assets/imgs/brokenimg/11.png" alt="">\n    <li>ضع كمية كافية من الرفادات الينة بين الطرف المصاب والجذع للتتاكد من ان وضع الرباط لن يزحزح العضام المكسورة </li>\n    <li>ثبت الطرف المصاب الى جسم المريض بواسطة ثلاثة عصائب ذات طيات عريضة احدها حول المعصم والوركين والثاني حول العضد والجذع والثالث حول الساعد والجذع عند المرفق ويفضل الا تكون العصائب فوق الجهة المكسورة وانت تكون العقد في الجهة السليمة </li>\n    <img src="../../assets/imgs/brokenimg/12.png" alt="">\n    <li>اعمل على نقل المريض الى المستشفى واحمله على نقالة مع المحافضة على وضع المعالجة </li>\n\n  </ul>\n</li>\n\n<hr>\n\n<li>\n  <p>كسور اليد والاصابع </p>\n\n<ul>\n    الهدف \n    تثبيت اليد  المصابة واعمل على نقل المصاب على المستشفى \n\n    <li>احمِ اليد المصابة بوضعها بين طيات رفادة لينة</li>\n    <img src="../../assets/imgs/brokenimg/13.png" alt="">\n    <li>اسند الطرف المصاب بلطف بواسطة معلاق رفع</li>\n    <li>ثبت الطرف على الصدر المصاب  بواسطة عصابة ذات طية عريضة فوق المعلاق واعقد العصابة فوق الجهة السليمة</li>\n    <img src="../../assets/imgs/brokenimg/14.png" alt="">\n    <li>اعمل على نقل المصاب الي المستشفى واحمله في وضع الجلوس اذا امكن</li>\n</ul>\n</li>\n<hr>\n\n<li>\n  <p>كسور الاضلاع والقص</p>\n  <ul>\n      الاعراض والعلامات \n      <li> الاعراض نفسها للكسور</li>\n      <li>احتمال وجود اعراض نزف داخلي </li>\n      <li>قد يكون هناك جرح مفتوح في جدار الصدر فوق الكسر(يسمى جرح ماص)</li>\n  </ul>\n  <ul>\n      المعالجة \n<li>اسند الطرف في الجهة المصابة بواسطة معلاق للذراع </li>\n<li>اعمل على نقله الى المستشفى اما في وضع الجلوس او مشيا على الاقدام الا اذا كانت هنالك مضاعفات</li>      \n  </ul>\n</li>\n\n<hr>\n\n<li>\n  <ul>\n    <p>*في حالة الكسر ذي مضاعفات </p>\n    <p>المعالجة </p>\n\n    <li>عالج مباشرة اي جرح ماص </li>\n    <li>اضجع المصاب في وضع نصف جلوس بحيث يكون رأسه وكتفاه مدارة وجسمه يميل الي الجهة المصابة ,اسنده بوضع بطانية مطوية علة طولها وراء ضهره</li>\n    <img src="../../assets/imgs/brokenimg/15.png" alt="">\n    <li> اسند الطرف في الجاهة المصابة بواسطة معلاق رفع</li>\n    <li> اذا كان المصاب فااقداً وعيه او اصبح تنفسه صعبا ضعهة في وضع الافاقة (اذهب الى اهداف الاسعاف الاولي) على ان يكون الجهة السليمة هي العليا</li>\n    <li>اعمل على نقله الي المستشفى واحمله على نقالة مع المحافظة على وضع المعالجة\n</li>\n    \n  </ul>\n\n</li>\n\n<hr>\n<li>\n\n  <p>كسور الحوض</p>\n\n  <ul> الاعراض والعلامات \n    <li>الاعراض والعلامات العامة للكسور</li>\n    <li>الم وضعف في ناحية الوركين او الضهر بزدادان عندما يتحرك المصاب</li>\n    <li>لا يستطيع المصاب المشي ولا حتى الوقوف بالرغم من المظهر السليم للساقين</li>\n    <li>اذا تبول المصاب قد يكون البول مدمّى</li>\n  </ul>\n\n<ul>\n  <p>*الهدف\n      تأمين الراحة للمصاب ونقله الى المستشفى\n      </p>\n  <li>ارقد المصاب على ظهره وجعل ساقيه مستقيمتين وذا لاحظت ان ثني الركبة يزيد من راحته فاثنهما وضع بطانية مطوية تحتهما </li>\n  <img src="../../assets/imgs/brokenimg/18.png" alt="">\n  <li>اذا كان المسعف الاولي هو المسؤول عن نقل المصاب بادر بلطف الى وضع عصابتين بطيتين عريضتين حول حوضه على ان تبدأ وتجعل العقدة في الوسط ان هذا الترتيب ليس ضروريا دوما ولا لزوم لتطبيقه اذا حدث الماً شديداً</li>\n  <img src="../../assets/imgs/brokenimg/16.png" alt="">\n  <li>ضع رفادات لينة كافية بين ركبتيه وكاحله</li>\n  <img src="../../assets/imgs/brokenimg/17.png" alt="">\n  <li>ضع رباطا بشكل رقم ثمانية 8 حول كاحليه وقدمه وعصابة ذات طية عريضة حول ركبته </li>\n  <img src="../../assets/imgs/brokenimg/19.png" alt="">\n  <li>للتخفيف من شدة الصدمة غطه ببطانية</li>\n  <li>اعمل على نقله الى المستشفى ,احمله على نقالة مع المحافضة على وضع المعالجة</li>\n</ul>\n\n</li>\n<hr>\n<li>\n<p>كسور الاطراف السفلية </p>\n  <ul>\nالمعالجة\n    <li>ارقد المصاب ,وركز الطرف واسنده برفق بإمساكه من المفاصل قبل وبعد مكان الاصابة .اطلب من احد المارة القيام بهذا العمل اذا امكن ذالك</li>\n    <img src="../../assets/imgs/brokenimg/20.png" alt="">\n    <li>اذا ادعت الحاجة جرد الساق المصابة (مزق الملابس) ,وفحصه لكي تحدد نوع الكسر (مغلق ام مفتوح )</li>\n    <li>امسك بالكاحل والقدم واسحب بلطف وعناية على مستوى المحور الطولاني للطرف سعيا وراء ايصاله الى وضع مستقيم </li>\n    <img src="../../assets/imgs/brokenimg/21.png" alt="">\n    <li>اذا كان وصول سيارة الاسعاف وشيكا ثابر على سند الطرف الى ان تصل</li>\n    <li>اما اذا كانت ستتأخر سيارة الاسعاف ,بينما تستمر في سند الطرف من جهة الكاحل استفد من الفراغات الطبيعية وضع عصائب ذات طيات عريضة بلطف تحت ساقي المصاب عند الوركين و فوق الكسر وتحته وعصابة ذات طية ضيقة عند الكاحلين</li>\n    <li> قرب الطرف السليم بلطف الى جانت الطرف المصاب</li>\n    <li>ضع كمية كافية من الرفادات بين الساقين لتغطية النتوءات العظمية في الركبتين والكاحلين واضف المزيد من الرفادات للتاكد من ان وضع المصاب لن يزحزح العضام المكسورة </li>\n\n    <li>اعقد العصابة على كاحلي المصاب بشكل رقم 8 ثم العصائب الاخرى حول ركبته وفوق الكسر وتحته في الساق واضغط ضغطا لطيفا اثناء وضع العصائب لكي تضمن استقرارها </li>\n    <img src="../../assets/imgs/brokenimg/22.png" alt="">\n    <li>*اذا كان الكسر قريبا من الكاحل لا تضع العصابة رقم 8 تحت السر لكي لا ياتي التضميد فوق الكسر</li>\n  </ul>\n\n</li>\n<hr>\n<li>\n  <p>كسور عضم الفخذ</p>\n\n  <ul>الاعراض \n   \n    <li> الاعرض والعلامات العامة للكسور</li>\n  </ul>\n\n  <ul>\n     المعاجلة \n    <li>ارقد المصاب ,وركز الطرف واسنده برفق بإمساكه من المفاصل قبل وبعد مكان الاصابة </li>\n    <li>اذا لزم الامر اكشف الساق بعناية لتحديد نوع الكسر (مفتوح ام مغلق)</li>\n    <img src="../../assets/imgs/brokenimg/f1.png" alt="">\n\n    <li>جر بلطف وانت ممسك بركتبه وبينما يستمر الجر والاسناد على ركبته بادر الى تقويم الساق برفق وحول الرجل المصابة الى وضع مستقيم بالاستمرار في الجر من الكاحل </li>\n    <img src="../../assets/imgs/brokenimg/f2.png" alt="">\n    <li>اذا كان وصول سيارة الاسعاف بعيداً , بينما يكون طرف المصاب مسنوداً من الكاحل استعمل الفراغات الطبيعية لكي تضع برفق عصائب ذات طيات عريضة تحت ساقي المصاب على مستوى الركبتين وفوق الكسر وتحته باضافة الى عصابة ذات طيات ضيقة عند الكاحلين</li>\n    <li>قرب بلطف الطرف السليم الى جانب الطرف المصاب</li>\n    <li>ضع كمية كافية من الرفادات الطرية بين ساقيه وذالك لتغطية النتوءات العظمية في الركبتين والكاحلين </li>\n    <img src="../../assets/imgs/brokenimg/f3.png" alt="">\n    <li>اعقد العصابة على شكل رقم 8 حول الكاحلين والقدمين واعقد الاربطة الاخرى حول ركبته و وفوق الكسر وتجته على فخذه </li>\n\n  </ul>\n\n\n</li>\n\n  </ul>\n\n</ion-content>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\broken\broken.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], BrokenPage);
-    return BrokenPage;
-}());
-
-//# sourceMappingURL=broken.js.map
-
-/***/ }),
-
-/***/ 108:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BloodCirculationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -381,11 +336,11 @@ var BloodCirculationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 109:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BurnsPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BrokenPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -400,33 +355,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the BurnsPage page.
+ * Generated class for the BrokenPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var BurnsPage = /** @class */ (function () {
-    function BurnsPage(navCtrl, navParams) {
+var BrokenPage = /** @class */ (function () {
+    function BrokenPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    BurnsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad BurnsPage');
+    BrokenPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad BrokenPage');
     };
-    BurnsPage = __decorate([
+    BrokenPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-burns',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\burns\burns.html"*/'<!--\n  Generated template for the BurnsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الحروق </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n  <p>حروق</p>\n\n  \n  <p>حروق</p>\n\n  <p>حروق</p>\n\n\n  \n  <p>حروق</p>\n\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\burns\burns.html"*/,
+            selector: 'page-broken',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\broken\broken.html"*/'<!--\n  Generated template for the BrokenPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<!-- <ion-header>\n\n  <ion-navbar>\n    <ion-title align="right">الكسور</ion-title>\n  </ion-navbar>\n\n</ion-header> -->\n\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الكسور </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <ul class="main-ul" dir="rtl">\n\n    <li>\n      <ul>\n        <p>الاعراض والعلامات العامة </p>\n        <li>الألم والانتفاخ هما العلامتان النموذجيتان للكسر، بسبب تضرر الأعصاب والأوعية الدموية في العظم وفي النسيج المحيط به.</li>\n        <li>يمكن ان يكون المصاب قد شعر او سمع صوت صك العظم </li>\n        <li> الالم في منطقة الاصابة او قربها وهو يزداد مع الحركة </li>\n        <li>قد يشعر المصاب بصعوبة او استحالة تحريك الجزء المصاب بشكل طبيعي </li>\n        <li>الشعور بالم في مكان الكسر اذا ضغط بلطف على المنطقة واحذر من لمس منطفة الكسر المفتوح </li>\n      </ul>\n    </li>\n\n\n    <li>\n\n\n\n      <ul type="square">\n        <p> الكسور المفتوحة</p>\n        <p> التي تنتج عنها نزيف جروح ظاهرة على مستوى الجلد بسبب العظم المتكسر و الذي يظهر خارج الجلد.</p>\n\n        <img src="../../assets/imgs/openBroken.jfif" alt="">\n\n        <li>ركز ورافع الذراع وسندها </li>\n        <img src="../../assets/imgs/brokenimg/1.png" alt="">\n        <li> ضع قطعة من الشاش المعقم او اي ضماد مناسب فوق الجرح ثم اضغط ضغطاً كافيا لقطع النزيف </li>\n        <img src="../../assets/imgs/brokenimg/2.png" alt="">\n        <li>ضع رفادات من القطن او ماشابه من المواد فوق الجرح وحوله</li>\n        <img src="../../assets/imgs/brokenimg/3.png" alt="">\n        <li> ثبت الضماد والرفادات برباط مشدود </li>\n        <img src="../../assets/imgs/brokenimg/4.png" alt="">\n        <li>ثبت كما في طريقة المعالجة العامة للكسور ثم ارفع الجزء المصاب اذا امكن </li>\n        <img src="../../assets/imgs/brokenimg/5.png" alt="">\n        <li>اعمل على نقل المصاب الي المستشفى مع المحافضة على وضع المعالجة واحمله بواسطة النقالة اذا لزم الامر</li>\n\n\n      </ul>\n    </li>\n\n    <hr>\n\n    <li>\n    <p> الكسور المغلقة</p> \n\n      التي تكون داخلية و لا تحدث أي جرح ظاهرا على مستوى الجلد لكن بالمقابل قد تحدث نزيفا داخليا بالاضافة أن العظم فيها قد\n        لا يتكسر كليا\n      <ul type="square">\n        <img src="../../assets/imgs/closedBroken.jfif" alt="" srcset="">\n        <li>نفس خطوات الكسور المفتوحة</li>\n      </ul>\n    </li>\n\n    <hr>\n\n\n    <li> \n      <hr>\n     <p> كسور عضام الترقوة</p>\n     \n      حدث هذه الكسور عادة من قوة غير مباشرة تنتج عن السقوط على يد ممدودة او على نتوء الكتف اما كسور الترقوة الناجمة عن قوة\n        مباشرة في نادرة \n\n      <ul>\n        الاعراض والعلامات\n\n        <li>نفس الاعراض العامة للكسور</li>\n        <li>الم وضعف في مكان الاصابة يزدادان بالحركة </li>\n        <li>يمانع المصاب في تحريك الطرف في الجهة المصابة </li>\n        <li>يمكن ملاحظة التشوه او الشعور به في موقع الكسر</li>\n\n      </ul>\n\n      <sub>والهدف الرئيسية من الاسعاف االاولي هو تثبيت الطرف العلوي ونقل المصاب الي المستشفى*</sub>\n\n\n      <ul>\n        المعالجة\n\n        <li>اجلس المصاب ثم ضع الطرف المصاب بلطف على الصدر بحيث ترتكز رؤوس الاصابع على الكتف المقابلة </li>\n        <img src="../../assets/imgs/brokenimg/6.png" alt="" srcset="">\n        <li>اسند الطرف بواسطة معلاق رفع </li>\n        <img src="../../assets/imgs/brokenimg/fracture-2.jpg" alt="" srcset="">\n        <li>ضع رفادات طرية بين العضد والصدر في الجهة المصابة </li>\n        <img src="../../assets/imgs/brokenimg/7.png" alt="" srcset="">\n        <li>تثبيت الطرف المصاب على الصدر بواسطة عصابة ذات طية عرضة فوق معلاق لرفع وجعل العقدة امام الجهة السليمة </li>\n        <img src="../../assets/imgs/brokenimg/fracture-3.jpg" alt="" srcset="">\n        <li>اعمل على نقل المصاب الي المستشفى في وضع الجلوس او المشي الا اذا كاننت هنالك مضاعفات </li>\n\n\n      </ul>\n\n\n    </li>\n\n\n    <hr>\n\n    <li>\n      <p>كسور العضد والساعد </p>\n      <ul>\n        الاعراض والعلامات\n        <li>الاعراض والعلامات العامة للكسور </li>\n        <li> الم في مكان الكسر يزداد بالحركة </li>\n        <li>ربما اصبح المصاب غير قادر على استعمال الطرف</li>\n        <li>احتمال عدم القدرة على ثني او تقويم المرفق في الطرف المصاب</li>\n      </ul>\n      <sup>\n\n        *الهدف تثبيت الطرف المصاب والنقل الي المستشفى\n      </sup>\n\n    </li>\n    <hr>\n<li>\n  <ul>كسر عضم العضد \n    <li>اجلس المصاب واسند ذراع الطرف المصاب على صدره</li>\n    <li>اسند الطرف بواسطة معلاق للذراع </li>\n    <li>ضع برفق رفادات طرية بين عضده وصدره </li>\n    <li>ثبت الطرف على صدره بواسطة عصابة ذات طية عريضة فوق المعلاق والرفع يكون قريب من المرفق لليد الاخرى ويفضل الا يكون فوق مكان الكسر وجعل العقدة امام الجهة السليمة </li>\n    <img src="../../assets/imgs/brokenimg/8.png" alt="">\n    <li>اعمل على نقل المصاب الى المستشفى وحعله في وضع الجلوس</li>\n\n  </ul>\n</li>\n\n<hr>\n<li>\n  <ul>\n      كسور الساعد  والرسغ\n    <li>اجلس المصاب واسند الساعد المصاب بلطف وضعه على صدره</li>\n    <img src="../../assets/imgs/brokenimg/9.png" alt="">\n    <li>ضع الساعد بلطف بين طيات رفادة لينة</li>\n    <li>احمل الطرف بواسطة معلاق للذراع </li>\n    <li>ثبت الطرف على صدره بواسطة عصابة ذات طية عريضة فوق المعلاق الرقع قريب من المرفق تحاشي مكان المسر واجعل العقدة امام الجهة السليمة </li>\n    <img src="../../assets/imgs/brokenimg/10.png" alt="">\n    <li> اعمل على نقل المصاب الي المستشفى وحمله في وجع الجلوس</li>\n  </ul>\n</li>\n<hr>\n<li>\n  <ul>\n      *في حالة عدم التمكن من ثني المرفق او كان المصاب مستلقيا\n    <li>اضجع المريض وسند الطرف المصاب على جذعه ولا تحاول ثني المرفق بالقوة</li>\n    <img src="../../assets/imgs/brokenimg/11.png" alt="">\n    <li>ضع كمية كافية من الرفادات الينة بين الطرف المصاب والجذع للتتاكد من ان وضع الرباط لن يزحزح العضام المكسورة </li>\n    <li>ثبت الطرف المصاب الى جسم المريض بواسطة ثلاثة عصائب ذات طيات عريضة احدها حول المعصم والوركين والثاني حول العضد والجذع والثالث حول الساعد والجذع عند المرفق ويفضل الا تكون العصائب فوق الجهة المكسورة وانت تكون العقد في الجهة السليمة </li>\n    <img src="../../assets/imgs/brokenimg/12.png" alt="">\n    <li>اعمل على نقل المريض الى المستشفى واحمله على نقالة مع المحافضة على وضع المعالجة </li>\n\n  </ul>\n</li>\n\n<hr>\n\n<li>\n  <p>كسور اليد والاصابع </p>\n\n<ul>\n    الهدف \n    تثبيت اليد  المصابة واعمل على نقل المصاب على المستشفى \n\n    <li>احمِ اليد المصابة بوضعها بين طيات رفادة لينة</li>\n    <img src="../../assets/imgs/brokenimg/13.png" alt="">\n    <li>اسند الطرف المصاب بلطف بواسطة معلاق رفع</li>\n    <li>ثبت الطرف على الصدر المصاب  بواسطة عصابة ذات طية عريضة فوق المعلاق واعقد العصابة فوق الجهة السليمة</li>\n    <img src="../../assets/imgs/brokenimg/14.png" alt="">\n    <li>اعمل على نقل المصاب الي المستشفى واحمله في وضع الجلوس اذا امكن</li>\n</ul>\n</li>\n<hr>\n\n<li>\n  <p>كسور الاضلاع والقص</p>\n  <ul>\n      الاعراض والعلامات \n      <li> الاعراض نفسها للكسور</li>\n      <li>احتمال وجود اعراض نزف داخلي </li>\n      <li>قد يكون هناك جرح مفتوح في جدار الصدر فوق الكسر(يسمى جرح ماص)</li>\n  </ul>\n  <ul>\n      المعالجة \n<li>اسند الطرف في الجهة المصابة بواسطة معلاق للذراع </li>\n<li>اعمل على نقله الى المستشفى اما في وضع الجلوس او مشيا على الاقدام الا اذا كانت هنالك مضاعفات</li>      \n  </ul>\n</li>\n\n<hr>\n\n<li>\n  <ul>\n    <p>*في حالة الكسر ذي مضاعفات </p>\n    <p>المعالجة </p>\n\n    <li>عالج مباشرة اي جرح ماص </li>\n    <li>اضجع المصاب في وضع نصف جلوس بحيث يكون رأسه وكتفاه مدارة وجسمه يميل الي الجهة المصابة ,اسنده بوضع بطانية مطوية علة طولها وراء ضهره</li>\n    <img src="../../assets/imgs/brokenimg/15.png" alt="">\n    <li> اسند الطرف في الجاهة المصابة بواسطة معلاق رفع</li>\n    <li> اذا كان المصاب فااقداً وعيه او اصبح تنفسه صعبا ضعهة في وضع الافاقة (اذهب الى اهداف الاسعاف الاولي) على ان يكون الجهة السليمة هي العليا</li>\n    <li>اعمل على نقله الي المستشفى واحمله على نقالة مع المحافظة على وضع المعالجة\n</li>\n    \n  </ul>\n\n</li>\n\n<hr>\n<li>\n\n  <p>كسور الحوض</p>\n\n  <ul> الاعراض والعلامات \n    <li>الاعراض والعلامات العامة للكسور</li>\n    <li>الم وضعف في ناحية الوركين او الضهر بزدادان عندما يتحرك المصاب</li>\n    <li>لا يستطيع المصاب المشي ولا حتى الوقوف بالرغم من المظهر السليم للساقين</li>\n    <li>اذا تبول المصاب قد يكون البول مدمّى</li>\n  </ul>\n\n<ul>\n  <p>*الهدف\n      تأمين الراحة للمصاب ونقله الى المستشفى\n      </p>\n  <li>ارقد المصاب على ظهره وجعل ساقيه مستقيمتين وذا لاحظت ان ثني الركبة يزيد من راحته فاثنهما وضع بطانية مطوية تحتهما </li>\n  <img src="../../assets/imgs/brokenimg/18.png" alt="">\n  <li>اذا كان المسعف الاولي هو المسؤول عن نقل المصاب بادر بلطف الى وضع عصابتين بطيتين عريضتين حول حوضه على ان تبدأ وتجعل العقدة في الوسط ان هذا الترتيب ليس ضروريا دوما ولا لزوم لتطبيقه اذا حدث الماً شديداً</li>\n  <img src="../../assets/imgs/brokenimg/16.png" alt="">\n  <li>ضع رفادات لينة كافية بين ركبتيه وكاحله</li>\n  <img src="../../assets/imgs/brokenimg/17.png" alt="">\n  <li>ضع رباطا بشكل رقم ثمانية 8 حول كاحليه وقدمه وعصابة ذات طية عريضة حول ركبته </li>\n  <img src="../../assets/imgs/brokenimg/19.png" alt="">\n  <li>للتخفيف من شدة الصدمة غطه ببطانية</li>\n  <li>اعمل على نقله الى المستشفى ,احمله على نقالة مع المحافضة على وضع المعالجة</li>\n</ul>\n\n</li>\n<hr>\n<li>\n<p>كسور الاطراف السفلية </p>\n  <ul>\nالمعالجة\n    <li>ارقد المصاب ,وركز الطرف واسنده برفق بإمساكه من المفاصل قبل وبعد مكان الاصابة .اطلب من احد المارة القيام بهذا العمل اذا امكن ذالك</li>\n    <img src="../../assets/imgs/brokenimg/20.png" alt="">\n    <li>اذا ادعت الحاجة جرد الساق المصابة (مزق الملابس) ,وفحصه لكي تحدد نوع الكسر (مغلق ام مفتوح )</li>\n    <li>امسك بالكاحل والقدم واسحب بلطف وعناية على مستوى المحور الطولاني للطرف سعيا وراء ايصاله الى وضع مستقيم </li>\n    <img src="../../assets/imgs/brokenimg/21.png" alt="">\n    <li>اذا كان وصول سيارة الاسعاف وشيكا ثابر على سند الطرف الى ان تصل</li>\n    <li>اما اذا كانت ستتأخر سيارة الاسعاف ,بينما تستمر في سند الطرف من جهة الكاحل استفد من الفراغات الطبيعية وضع عصائب ذات طيات عريضة بلطف تحت ساقي المصاب عند الوركين و فوق الكسر وتحته وعصابة ذات طية ضيقة عند الكاحلين</li>\n    <li> قرب الطرف السليم بلطف الى جانت الطرف المصاب</li>\n    <li>ضع كمية كافية من الرفادات بين الساقين لتغطية النتوءات العظمية في الركبتين والكاحلين واضف المزيد من الرفادات للتاكد من ان وضع المصاب لن يزحزح العضام المكسورة </li>\n\n    <li>اعقد العصابة على كاحلي المصاب بشكل رقم 8 ثم العصائب الاخرى حول ركبته وفوق الكسر وتحته في الساق واضغط ضغطا لطيفا اثناء وضع العصائب لكي تضمن استقرارها </li>\n    <img src="../../assets/imgs/brokenimg/22.png" alt="">\n    <li>*اذا كان الكسر قريبا من الكاحل لا تضع العصابة رقم 8 تحت السر لكي لا ياتي التضميد فوق الكسر</li>\n  </ul>\n\n</li>\n<hr>\n<li>\n  <p>كسور عضم الفخذ</p>\n\n  <ul>الاعراض \n   \n    <li> الاعرض والعلامات العامة للكسور</li>\n  </ul>\n\n  <ul>\n     المعاجلة \n    <li>ارقد المصاب ,وركز الطرف واسنده برفق بإمساكه من المفاصل قبل وبعد مكان الاصابة </li>\n    <li>اذا لزم الامر اكشف الساق بعناية لتحديد نوع الكسر (مفتوح ام مغلق)</li>\n    <img src="../../assets/imgs/brokenimg/f1.png" alt="">\n\n    <li>جر بلطف وانت ممسك بركتبه وبينما يستمر الجر والاسناد على ركبته بادر الى تقويم الساق برفق وحول الرجل المصابة الى وضع مستقيم بالاستمرار في الجر من الكاحل </li>\n    <img src="../../assets/imgs/brokenimg/f2.png" alt="">\n    <li>اذا كان وصول سيارة الاسعاف بعيداً , بينما يكون طرف المصاب مسنوداً من الكاحل استعمل الفراغات الطبيعية لكي تضع برفق عصائب ذات طيات عريضة تحت ساقي المصاب على مستوى الركبتين وفوق الكسر وتحته باضافة الى عصابة ذات طيات ضيقة عند الكاحلين</li>\n    <li>قرب بلطف الطرف السليم الى جانب الطرف المصاب</li>\n    <li>ضع كمية كافية من الرفادات الطرية بين ساقيه وذالك لتغطية النتوءات العظمية في الركبتين والكاحلين </li>\n    <img src="../../assets/imgs/brokenimg/f3.png" alt="">\n    <li>اعقد العصابة على شكل رقم 8 حول الكاحلين والقدمين واعقد الاربطة الاخرى حول ركبته و وفوق الكسر وتجته على فخذه </li>\n\n  </ul>\n\n\n</li>\n\n  </ul>\n\n</ion-content>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\broken\broken.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], BurnsPage);
-    return BurnsPage;
+    ], BrokenPage);
+    return BrokenPage;
 }());
 
-//# sourceMappingURL=burns.js.map
+//# sourceMappingURL=broken.js.map
 
 /***/ }),
 
-/***/ 110:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -468,6 +423,51 @@ var ChokingPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=choking.js.map
+
+/***/ }),
+
+/***/ 110:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BurnsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the BurnsPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var BurnsPage = /** @class */ (function () {
+    function BurnsPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    BurnsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad BurnsPage');
+    };
+    BurnsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-burns',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\burns\burns.html"*/'<!--\n  Generated template for the BurnsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الحروق </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n  <p>حروق</p>\n\n  \n  <p>حروق</p>\n\n  <p>حروق</p>\n\n\n  \n  <p>حروق</p>\n\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\burns\burns.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], BurnsPage);
+    return BurnsPage;
+}());
+
+//# sourceMappingURL=burns.js.map
 
 /***/ }),
 
@@ -550,7 +550,7 @@ var FaintingPage = /** @class */ (function () {
     };
     FaintingPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-fainting',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\fainting\fainting.html"*/'<!--\n  Generated template for the FaintingPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الاغماء </ion-title>\n  </ion-navbar>\n</ion-header>\n\n \n\n<ion-content padding>\n\n\n\n\n\n<p>اغماء</p>\n\n\n\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\fainting\fainting.html"*/,
+            selector: 'page-fainting',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\fainting\fainting.html"*/'<!--\n  Generated template for the FaintingPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الاغماء </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <ul class="main-ul" dir="rtl">\n\n    <li>\n\n      <ul>\n        <p>الاعراض والعلامات</p>\n        <li>يكون النبض بطيئاً في المرحلة الاولى\n          قد يكون المصاب شاحباً جداً</li>\n\n\n      </ul>\n\n      <ul>\n        <p>الوقاية</p>\n        <li>اذا كان المصاب في استعراض او ضمن تجمع من الناس انصحه بأن يثني عضلات الساق واصابع القدمين لمساعدة الدورات</li>\n        <li>واذا شعر المصاب بأنه غير متماسك اجلسه ,وساعده على الانحناء الى الامام ووضع رأسه بين ركبتيه واطلب اله ان\n          يتنفس بعمق</li>\n          <img src="../../assets/imgs/brokenimg/eg1.png" alt="">\n\n      </ul>\n\n\n      <ul>\n\n        <p> تنبه*</p>\n        <li>لا تعطِ المصاب اي شي عن طريق الفم حتى يعود اليه وعيه بالكامل ,ولا تعطيه اي مشروب كحولي</li>\n      </ul>\n      <ul>\n        <p> المعالجة </p>\n        <li> عندما يغمى على المصاب,ارقده وارافع ساقيه وابق مسلك الهواء لديه مفتوحا\n        </li>\n        <img src="../../assets/imgs/brokenimg/eg2.png" alt="">\n        <li> فك اي ملابس مشدودة على الرقبة او الصدر او الخصر وذالك لمساعدة دروان الدم والتنفس</li>\n        <img src="../../assets/imgs/brokenimg/eg3.png" alt="">\n        <li>تأكد من ان المصاب يحصل على الكثير من الهواء الطلق . ضعه في تيار من الهواء المنعش وهو امام وجهه وضعه في الظل\n          اذا لزم الامر</li>\n        <li> طمئنه وهو يعود الى وعيه ,وارفعه بالتدريج حتى يصل الى وضع الجلوس</li>\n        <img src="../../assets/imgs/brokenimg/eg4.png" alt="">\n        <li>تحقق من وجود اصابات لحقت به اثناء السقوط وعالجها </li>\n        <li>اذا لم يبدأ المصاب في استعادة وعيه بسرعة ,افتح مسلك الهواء وتحقق من التنفس واعمل على انعاشه اذا وجدت لزوما\n          لذالك ,وضعه في وضع الافاقة ,واطلب العون الطبي بسرعة</li>\n\n      </ul>\n    </li>\n\n  </ul>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\fainting\fainting.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], FaintingPage);
@@ -963,19 +963,19 @@ var map = {
 		14
 	],
 	"../pages/blood-circulation/blood-circulation.module": [
-		297,
+		296,
 		13
 	],
 	"../pages/broken/broken.module": [
-		296,
+		297,
 		12
 	],
 	"../pages/burns/burns.module": [
-		298,
+		299,
 		11
 	],
 	"../pages/choking/choking.module": [
-		299,
+		298,
 		10
 	],
 	"../pages/emergency-birth/emergency-birth.module": [
@@ -1119,12 +1119,12 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_objectives_objectives__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_principles_principles__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_about_about__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_broken_broken__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_broken_broken__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_fainting_fainting__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_burns_burns__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_burns_burns__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_sunstroke_sunstroke__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_choking_choking__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_blood_circulation_blood_circulation__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_choking_choking__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_blood_circulation_blood_circulation__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_unconsciousness_unconsciousness__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_back_injuries_back_injuries__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_musculoskeletal_injuries_musculoskeletal_injuries__ = __webpack_require__(115);
@@ -1216,10 +1216,10 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/alien-objects/alien-objects.module#AlienObjectsPageModule', name: 'AlienObjectsPage', segment: 'alien-objects', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/back-injuries/back-injuries.module#BackInjuriesPageModule', name: 'BackInjuriesPage', segment: 'back-injuries', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/bandages/bandages.module#BandagesPageModule', name: 'BandagesPage', segment: 'bandages', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/broken/broken.module#BrokenPageModule', name: 'BrokenPage', segment: 'broken', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/blood-circulation/blood-circulation.module#BloodCirculationPageModule', name: 'BloodCirculationPage', segment: 'blood-circulation', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/burns/burns.module#BurnsPageModule', name: 'BurnsPage', segment: 'burns', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/broken/broken.module#BrokenPageModule', name: 'BrokenPage', segment: 'broken', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/choking/choking.module#ChokingPageModule', name: 'ChokingPage', segment: 'choking', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/burns/burns.module#BurnsPageModule', name: 'BurnsPage', segment: 'burns', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/emergency-birth/emergency-birth.module#EmergencyBirthPageModule', name: 'EmergencyBirthPage', segment: 'emergency-birth', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/fainting/fainting.module#FaintingPageModule', name: 'FaintingPage', segment: 'fainting', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/major-accidents/major-accidents.module#MajorAccidentsPageModule', name: 'MajorAccidentsPage', segment: 'major-accidents', priority: 'low', defaultHistory: [] },
@@ -1339,15 +1339,14 @@ var MyApp = /** @class */ (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n\n    <!-- <ion-toolbar>\n      <ion-title align="center" >الرئيسية</ion-title>\n    </ion-toolbar> -->\n  </ion-header>\n\n  <ion-content class="backIon">\n    <div class="test">\n   <img src="../assets/imgs/Listback/CodeLogo.jpg" alt=""> \n  </div>\n    <ion-list class="cal">\n\n      <div class="btn" menuClose *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n            <ion-icon [name]="p.icon"></ion-icon>\n      </div>\n    </ion-list>\n    <div class="con-img">\n      <p> Code For IRaq</p>\n       \n    </div>\n\n\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
-    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=app.component.js.map
@@ -1402,12 +1401,12 @@ var ListPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__broken_broken__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__broken_broken__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fainting_fainting__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__burns_burns__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__burns_burns__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sunstroke_sunstroke__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__choking_choking__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__blood_circulation_blood_circulation__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__choking_choking__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__blood_circulation_blood_circulation__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__unconsciousness_unconsciousness__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__back_injuries_back_injuries__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__musculoskeletal_injuries_musculoskeletal_injuries__ = __webpack_require__(115);

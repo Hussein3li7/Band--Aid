@@ -30906,11 +30906,24 @@ page-fainting ion-title {
   margin-right: 15%;
 }
 
+page-fainting p {
+  color: #107895;
+}
+
+page-fainting .main-ul > li {
+  list-style-image: url("../../assets/imgs/listIcon/Untitled-2.png");
+}
+
+page-fainting .main-ul li ul li {
+  list-style-image: url("../../assets/imgs/listIcon/Untitled-1.png");
+  margin: 7px 0px 10px 0px;
+}
+
 page-home .backimg {
   width: 100%;
   height: 180px;
   overflow: hidden;
-  background-image: url("../../assets/imgs/Listback/back.png");
+  background-image: url("../../assets/imgs/Listback/back2.jpg");
   background-size: cover;
   margin-bottom: 20px;
 }

@@ -1,14 +1,14 @@
 webpackJsonp([7],{
 
-/***/ 300:
+/***/ 302:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FaintingPageModule", function() { return FaintingPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MajorAccidentsPageModule", function() { return MajorAccidentsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__fainting__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__major_accidents__ = __webpack_require__(113);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var FaintingPageModule = /** @class */ (function () {
-    function FaintingPageModule() {
+var MajorAccidentsPageModule = /** @class */ (function () {
+    function MajorAccidentsPageModule() {
     }
-    FaintingPageModule = __decorate([
+    MajorAccidentsPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__fainting__["a" /* FaintingPage */],
+                __WEBPACK_IMPORTED_MODULE_2__major_accidents__["a" /* MajorAccidentsPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__fainting__["a" /* FaintingPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__major_accidents__["a" /* MajorAccidentsPage */]),
             ],
         })
-    ], FaintingPageModule);
-    return FaintingPageModule;
+    ], MajorAccidentsPageModule);
+    return MajorAccidentsPageModule;
 }());
 
-//# sourceMappingURL=fainting.module.js.map
+//# sourceMappingURL=major-accidents.module.js.map
 
 /***/ })
 
