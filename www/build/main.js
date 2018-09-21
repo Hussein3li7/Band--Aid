@@ -250,51 +250,6 @@ var BackInjuriesPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BandagesPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the BandagesPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var BandagesPage = /** @class */ (function () {
-    function BandagesPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    BandagesPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad BandagesPage');
-    };
-    BandagesPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-bandages',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\bandages\bandages.html"*/'<!--\n  Generated template for the BandagesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>الضمادات والعصائب  </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\bandages\bandages.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], BandagesPage);
-    return BandagesPage;
-}());
-
-//# sourceMappingURL=bandages.js.map
-
-/***/ }),
-
-/***/ 107:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BloodCirculationPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -336,7 +291,7 @@ var BloodCirculationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 108:
+/***/ 107:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -378,6 +333,51 @@ var BrokenPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=broken.js.map
+
+/***/ }),
+
+/***/ 108:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BurnsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the BurnsPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var BurnsPage = /** @class */ (function () {
+    function BurnsPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    BurnsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad BurnsPage');
+    };
+    BurnsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-burns',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\burns\burns.html"*/'<!--\n  Generated template for the BurnsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الحروق </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n  <p>حروق</p>\n\n  \n  <p>حروق</p>\n\n  <p>حروق</p>\n\n\n  \n  <p>حروق</p>\n\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\burns\burns.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], BurnsPage);
+    return BurnsPage;
+}());
+
+//# sourceMappingURL=burns.js.map
 
 /***/ }),
 
@@ -430,51 +430,6 @@ var ChokingPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BurnsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the BurnsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var BurnsPage = /** @class */ (function () {
-    function BurnsPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    BurnsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad BurnsPage');
-    };
-    BurnsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-burns',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\burns\burns.html"*/'<!--\n  Generated template for the BurnsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الحروق </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n  <p>حروق</p>\n\n  \n  <p>حروق</p>\n\n  <p>حروق</p>\n\n\n  \n  <p>حروق</p>\n\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\burns\burns.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], BurnsPage);
-    return BurnsPage;
-}());
-
-//# sourceMappingURL=burns.js.map
-
-/***/ }),
-
-/***/ 111:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmergencyBirthPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -516,7 +471,7 @@ var EmergencyBirthPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 112:
+/***/ 111:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -561,7 +516,7 @@ var FaintingPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 113:
+/***/ 112:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -606,7 +561,7 @@ var MajorAccidentsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 114:
+/***/ 113:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -651,7 +606,7 @@ var MaxTemperaturesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 115:
+/***/ 114:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -696,7 +651,7 @@ var MusculoskeletalInjuriesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 116:
+/***/ 115:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -741,7 +696,7 @@ var PythonPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 117:
+/***/ 116:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -786,7 +741,7 @@ var SunstrokePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 118:
+/***/ 117:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -831,7 +786,7 @@ var TransportationPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 119:
+/***/ 118:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -876,7 +831,7 @@ var UnconsciousnessPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 120:
+/***/ 119:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -921,6 +876,51 @@ var WoundsPage = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 120:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BandagesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the BandagesPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var BandagesPage = /** @class */ (function () {
+    function BandagesPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    BandagesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad BandagesPage');
+    };
+    BandagesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-bandages',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\bandages\bandages.html"*/'<!--\n  Generated template for the BandagesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>الضمادات والعصائب  </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\bandages\bandages.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], BandagesPage);
+    return BandagesPage;
+}());
+
+//# sourceMappingURL=bandages.js.map
+
+/***/ }),
+
 /***/ 130:
 /***/ (function(module, exports) {
 
@@ -959,19 +959,19 @@ var map = {
 		15
 	],
 	"../pages/bandages/bandages.module": [
-		295,
+		309,
 		14
 	],
 	"../pages/blood-circulation/blood-circulation.module": [
-		296,
+		295,
 		13
 	],
 	"../pages/broken/broken.module": [
-		297,
+		296,
 		12
 	],
 	"../pages/burns/burns.module": [
-		299,
+		297,
 		11
 	],
 	"../pages/choking/choking.module": [
@@ -979,43 +979,43 @@ var map = {
 		10
 	],
 	"../pages/emergency-birth/emergency-birth.module": [
-		300,
+		299,
 		9
 	],
 	"../pages/fainting/fainting.module": [
-		301,
+		300,
 		8
 	],
 	"../pages/major-accidents/major-accidents.module": [
-		302,
+		301,
 		7
 	],
 	"../pages/max-temperatures/max-temperatures.module": [
-		303,
+		302,
 		6
 	],
 	"../pages/musculoskeletal-injuries/musculoskeletal-injuries.module": [
-		304,
+		303,
 		5
 	],
 	"../pages/python/python.module": [
-		305,
+		304,
 		4
 	],
 	"../pages/sunstroke/sunstroke.module": [
-		306,
+		305,
 		3
 	],
 	"../pages/transportation/transportation.module": [
-		307,
+		306,
 		2
 	],
 	"../pages/unconsciousness/unconsciousness.module": [
-		308,
+		307,
 		1
 	],
 	"../pages/wounds/wounds.module": [
-		309,
+		308,
 		0
 	]
 };
@@ -1119,26 +1119,26 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_objectives_objectives__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_principles_principles__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_about_about__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_broken_broken__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_fainting_fainting__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_burns_burns__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_sunstroke_sunstroke__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_broken_broken__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_fainting_fainting__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_burns_burns__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_sunstroke_sunstroke__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_choking_choking__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_blood_circulation_blood_circulation__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_unconsciousness_unconsciousness__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_blood_circulation_blood_circulation__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_unconsciousness_unconsciousness__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_back_injuries_back_injuries__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_musculoskeletal_injuries_musculoskeletal_injuries__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_max_temperatures_max_temperatures__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_musculoskeletal_injuries_musculoskeletal_injuries__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_max_temperatures_max_temperatures__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_alien_objects_alien_objects__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_aches_aches__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_major_accidents_major_accidents__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_bandages_bandages__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_transportation_transportation__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_python_python__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_major_accidents_major_accidents__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_bandages_bandages__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_transportation_transportation__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_python_python__ = __webpack_require__(115);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_status_bar__ = __webpack_require__(211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_splash_screen__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_emergency_birth_emergency_birth__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_wounds_wounds__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_emergency_birth_emergency_birth__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_wounds_wounds__ = __webpack_require__(119);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1215,11 +1215,10 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/aches/aches.module#AchesPageModule', name: 'AchesPage', segment: 'aches', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/alien-objects/alien-objects.module#AlienObjectsPageModule', name: 'AlienObjectsPage', segment: 'alien-objects', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/back-injuries/back-injuries.module#BackInjuriesPageModule', name: 'BackInjuriesPage', segment: 'back-injuries', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/bandages/bandages.module#BandagesPageModule', name: 'BandagesPage', segment: 'bandages', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/blood-circulation/blood-circulation.module#BloodCirculationPageModule', name: 'BloodCirculationPage', segment: 'blood-circulation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/broken/broken.module#BrokenPageModule', name: 'BrokenPage', segment: 'broken', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/choking/choking.module#ChokingPageModule', name: 'ChokingPage', segment: 'choking', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/burns/burns.module#BurnsPageModule', name: 'BurnsPage', segment: 'burns', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/choking/choking.module#ChokingPageModule', name: 'ChokingPage', segment: 'choking', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/emergency-birth/emergency-birth.module#EmergencyBirthPageModule', name: 'EmergencyBirthPage', segment: 'emergency-birth', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/fainting/fainting.module#FaintingPageModule', name: 'FaintingPage', segment: 'fainting', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/major-accidents/major-accidents.module#MajorAccidentsPageModule', name: 'MajorAccidentsPage', segment: 'major-accidents', priority: 'low', defaultHistory: [] },
@@ -1229,7 +1228,8 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/sunstroke/sunstroke.module#SunstrokePageModule', name: 'SunstrokePage', segment: 'sunstroke', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/transportation/transportation.module#TransportationPageModule', name: 'TransportationPage', segment: 'transportation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/unconsciousness/unconsciousness.module#UnconsciousnessPageModule', name: 'UnconsciousnessPage', segment: 'unconsciousness', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/wounds/wounds.module#WoundsPageModule', name: 'WoundsPage', segment: 'wounds', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/wounds/wounds.module#WoundsPageModule', name: 'WoundsPage', segment: 'wounds', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/bandages/bandages.module#BandagesPageModule', name: 'BandagesPage', segment: 'bandages', priority: 'low', defaultHistory: [] }
                     ]
                 }),
             ],
@@ -1318,7 +1318,7 @@ var MyApp = /** @class */ (function () {
         this.pages = [
             { title: 'الرئيسية', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */], icon: 'home' },
             { title: 'الحالات', component: __WEBPACK_IMPORTED_MODULE_7__pages_state_state__["a" /* StatePage */], icon: 'medkit' },
-            { title: 'مبادئ الاسعافات الاولية', component: __WEBPACK_IMPORTED_MODULE_6__pages_principles_principles__["a" /* PrinciplesPage */], icon: 'home' },
+            { title: 'مبادئ الاسعافات الاولية', component: __WEBPACK_IMPORTED_MODULE_6__pages_principles_principles__["a" /* PrinciplesPage */], icon: 'pulse' },
             { title: 'اهداف الاسعافات الاولية', component: __WEBPACK_IMPORTED_MODULE_5__pages_objectives_objectives__["a" /* ObjectivesPage */], icon: 'wifi' },
             { title: 'حول', component: __WEBPACK_IMPORTED_MODULE_8__pages_about_about__["a" /* AboutPage */], icon: 'alert' }
         ];
@@ -1401,24 +1401,24 @@ var ListPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__broken_broken__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fainting_fainting__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__burns_burns__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sunstroke_sunstroke__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__broken_broken__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fainting_fainting__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__burns_burns__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sunstroke_sunstroke__ = __webpack_require__(116);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__choking_choking__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__blood_circulation_blood_circulation__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__unconsciousness_unconsciousness__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__blood_circulation_blood_circulation__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__unconsciousness_unconsciousness__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__back_injuries_back_injuries__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__musculoskeletal_injuries_musculoskeletal_injuries__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__max_temperatures_max_temperatures__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__musculoskeletal_injuries_musculoskeletal_injuries__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__max_temperatures_max_temperatures__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__alien_objects_alien_objects__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__aches_aches__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__major_accidents_major_accidents__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__bandages_bandages__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__transportation_transportation__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__emergency_birth_emergency_birth__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__wounds_wounds__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__python_python__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__major_accidents_major_accidents__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__bandages_bandages__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__transportation_transportation__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__emergency_birth_emergency_birth__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__wounds_wounds__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__python_python__ = __webpack_require__(115);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);

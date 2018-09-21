@@ -28,13 +28,12 @@ export class MyApp {
     this.pages = [
       { title: 'الرئيسية', component: HomePage,icon:'home'  },
       { title: 'الحالات', component: StatePage,icon:'medkit'  }, 
-      { title: 'مبادئ الاسعافات الاولية', component: PrinciplesPage,icon:'home'  }, 
+      { title: 'مبادئ الاسعافات الاولية', component: PrinciplesPage,icon:'pulse'  }, 
       { title: 'اهداف الاسعافات الاولية', component: ObjectivesPage,icon:'wifi'  },
       { title: 'حول', component: AboutPage,icon:'alert'  }
     ];
 
   }
-
 
 
 
