@@ -1,10 +1,203 @@
 webpackJsonp([19],{
 
+/***/ 100:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__broken_broken__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fainting_fainting__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__burns_burns__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sunstroke_sunstroke__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__choking_choking__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__blood_circulation_blood_circulation__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__unconsciousness_unconsciousness__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__back_injuries_back_injuries__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__musculoskeletal_injuries_musculoskeletal_injuries__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__max_temperatures_max_temperatures__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__alien_objects_alien_objects__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__aches_aches__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__major_accidents_major_accidents__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__bandages_bandages__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__transportation_transportation__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__emergency_birth_emergency_birth__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__wounds_wounds__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__python_python__ = __webpack_require__(115);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Generated class for the StatePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var StatePage = /** @class */ (function () {
+    function StatePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.searchQuery = '';
+        this.initializeItems();
+    }
+    StatePage.prototype.initializeItems = function () {
+        this.items = [
+            'الكسر',
+            'ضربة شمس',
+            'الاغماء',
+            'الجروح',
+            'الحروق',
+            'الاختناق',
+            'اظطرابات الدورة الدموية',
+            'فقدان الوعي',
+            'اصابات الظهر',
+            'اصابات العضلات والمفاصل',
+            'تاثير درجات الحرارة القصوى',
+            'الاجسام الغريبة',
+            'الاوجاع',
+            'التصرف في الحوادث الكبرى',
+            'الضمادات والعصائب',
+            'التدبير والنقل',
+            'الولادة الطارئة',
+            'لدغة الافعى'
+        ];
+    };
+    StatePage.prototype.getItems = function (ev) {
+        var _this = this;
+        // Reset items back to all of the items
+        this.initializeItems();
+        // set val to the value of the searchbar
+        this.val = ev.target.value;
+        this.items2 = this.val;
+        console.log(this.val);
+        // if the value is an empty string don't filter the items
+        if (this.val && this.val.trim() != '') {
+            this.items = this.items.filter(function (item) {
+                return (item.toLowerCase().indexOf(_this.val.toLowerCase()) > -1);
+            });
+        }
+    };
+    StatePage.prototype.goToDatails = function (getitems) {
+        for (var _i = 0, _a = this.items; _i < _a.length; _i++) {
+            var i = _a[_i];
+            console.log(getitems);
+            if (i == getitems) {
+                if (i == 'الكسر') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__broken_broken__["a" /* BrokenPage */]);
+                }
+                else if (i == 'ضربة شمس') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__sunstroke_sunstroke__["a" /* SunstrokePage */]);
+                }
+                else if (i == 'الجروح') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_18__wounds_wounds__["a" /* WoundsPage */]);
+                }
+                else if (i == 'الحروق') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__burns_burns__["a" /* BurnsPage */]);
+                }
+                else if (i == 'الاغماء') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__fainting_fainting__["a" /* FaintingPage */]);
+                }
+                else if (i == 'الاختناق') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__choking_choking__["a" /* ChokingPage */]);
+                }
+                else if (i == 'اظطرابات الدورة الدموية') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__blood_circulation_blood_circulation__["a" /* BloodCirculationPage */]);
+                }
+                else if (i == 'فقدان الوعي') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__unconsciousness_unconsciousness__["a" /* UnconsciousnessPage */]);
+                }
+                else if (i == 'اصابات الظهر') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_9__back_injuries_back_injuries__["a" /* BackInjuriesPage */]);
+                }
+                else if (i == 'اصابات العضلات والمفاصل') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_10__musculoskeletal_injuries_musculoskeletal_injuries__["a" /* MusculoskeletalInjuriesPage */]);
+                }
+                else if (i == 'تاثير درجات الحرارة القصوى') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_11__max_temperatures_max_temperatures__["a" /* MaxTemperaturesPage */]);
+                }
+                else if (i == 'الاجسام الغريبة') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_12__alien_objects_alien_objects__["a" /* AlienObjectsPage */]);
+                }
+                else if (i == 'الاوجاع') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_13__aches_aches__["a" /* AchesPage */]);
+                }
+                else if (i == 'التصرف في الحوادث الكبرى') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_14__major_accidents_major_accidents__["a" /* MajorAccidentsPage */]);
+                }
+                else if (i == 'الضمادات والعصائب') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_15__bandages_bandages__["a" /* BandagesPage */]);
+                }
+                else if (i == 'التدبير والنقل') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_16__transportation_transportation__["a" /* TransportationPage */]);
+                }
+                else if (i == 'الولادة الطارئة') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_17__emergency_birth_emergency_birth__["a" /* EmergencyBirthPage */]);
+                }
+                else if (i == 'لدغة الافعى') {
+                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_19__python_python__["a" /* PythonPage */]);
+                }
+                // 'اظطرابات الدورة الدموية',
+                // 'فقدان الوعي',
+                // ' اصابات الظهر',
+                // 'اصابات العضلات والمفاصل',
+                // 'تاثير درجات الحرارة القصوى',
+                // '',
+                // ' الاوجاع',
+                // 'التصرف في الحوادث الاكبرى',
+                // 'الضمادات والعصائب',
+                // 'التدبير والنقل',
+                // ' الولادة الطارئة',
+            }
+        }
+    };
+    StatePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad StatePage');
+    };
+    StatePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-state',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\state\state.html"*/'<!--\n  Generated template for the StatePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header >\n  <ion-navbar color="orange">\n      <button ion-button menuToggle >\n        <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title  >  الحالات </ion-title>\n    </ion-navbar>\n  </ion-header>\n\n<ion-content >\n\n \n\n     <ion-searchbar searchbar-ios-min-height searchbar-ios-padding-horizontal searchbar-ios-padding-vertical searchbar-md-input-box-shadow searchbar-ios-input-clear-icon-color    searchbar-ios-border-color  searchbar-ios-input-text-color      searchbar-ios-input-background-color    searchbar-ios-input-placeholder-color     searchbar-ios-input-search-icon-color  searchbar-ios-toolbar-input-background searchbar-ios-background-color     searchbar-md-input-text-color searchbar-md-input-search-icon-color searchbar-md-input-placeholder-color  searchbar-md-input-background-color  searchbar-md-input-clear-icon-color  searchbar-md-input-text-color     searchbar-md-input-border-radius    searchbar-md-background-color animated="true" debounce="10" placeholder="بحث" color="orange" class="input-search" (ionInput)="getItems($event)"></ion-searchbar>\n \n\n    <ion-list  *ngFor="let item of items">\n      <ion-item class="ionItem" (click)="goToDatails(item)" >\n        <button class="dedails-btn">  التفاصيل &nbsp;  <ion-icon color="light" name="md-information"></ion-icon> \n        </button> \n        {{ item }} \n      </ion-item>\n      \n    </ion-list>\n    \n</ion-content>\n\n <!-- style="float: left; padding: 10px;border-radius: 10px" -->'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\state\state.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], StatePage);
+    return StatePage;
+}());
+
+//# sourceMappingURL=state.js.map
+
+/***/ }),
+
 /***/ 101:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ObjectivesPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -19,99 +212,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the ObjectivesPage page.
+ * Generated class for the AboutPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var ObjectivesPage = /** @class */ (function () {
-    function ObjectivesPage(navCtrl, navParams) {
+var AboutPage = /** @class */ (function () {
+    function AboutPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    ObjectivesPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ObjectivesPage');
+    AboutPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AboutPage');
     };
-    ObjectivesPage = __decorate([
+    AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-objectives',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\objectives\objectives.html"*/'<!--\n  Generated template for the ObjectivesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="orange">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title align="right"> الطرق الرئيسية للاسعاف الاولي </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n  <ul class="main-ul" dir="rtl">\n\n    <li>\n\n      <ul type="square"> يستطيع المسعف الاولي الماهر ان ينقذ حياة المصاب بان يوفر ضروريات الحياة الازمة وهي\n        <hr>\n        <li> مسك الهواء المفتوح </li>\n\n\n\n        <li> تنفس ملائم </li>\n\n        <li> دورة دومية منتضمة</li>\n\n      </ul>\n\n    </li>\n\n    <li>\n\n      <ul>\n        الطرق الرئيسية للاسعاف الاولي\n        <p>الانعاش</p>\n        <li> اذا كان المصاب لا يتنفس وقلبة لا ينبض فمن الامور الحيوية ان تتولى امر التهوية وتشغل دورة الدم لضمان وصول الاوكسجين\n          الي الدماغ وذالك من خلال ضمان مسلك الهواء مفتوح</li>\n\n        <img src="../../assets/imgs/PhotoOfLearn/PhotoOfLearn.png" alt="">\n\n        <li>وثانيا عمل التنفس الاصطناعي </li>\n\n        <img src="../../assets/imgs/PhotoOfLearn/tanfuasEstinaie.png" alt="">\n\n        <li>وثالثا تشغيل دوران الدم بالضغط على صدره (الضغط الخارجي ع الصدر )</li>\n\n        <img src="../../assets/imgs/PhotoOfLearn/pushing.png" alt="">\n\n      </ul>\n\n\n      <hr>\n\n      <ul>\n        <p>فتح مسلك الهواء </p>\n        اذا كان المصاب فاقداً وعيه فان مسلك الهواء قد يضيق او ينسد فيصبح التنفس مصحوبا بصوت او بدون صوت لذا في هذه الحالة من الضروري\n        القيام بفتح مسلك الهواء في الحال\n        <li>اركع الى جانب المصاب </li>\n        <li>ارفع ذقن المصاب باحدى يديك (استعمل السبابة والوسطى) وانت تضغط على جبهتة الى الوراء بباطن اليد الاخرى وبهذا يدفع فكه\n          لسانه الى الامام وبالتالي يفتح مسلك الهواء </li>\n        <img src="../../assets/imgs/PhotoOfLearn/tanafius.png" alt="">\n        <span>\n          <sup>*اذا صاحب نفس المصاب صوت فانه يدل على وجود انسداد فقم على الفور وتسليك مجرى الهواي عبر الخطوات اعلاه </sup>\n        </span>\n\n      </ul>\n\n      <ul>\n        <p>التحقق من التنفس </p>\n        <p>لكي تثبت ان المصاب الفاقد للوعي يتنفس عليك بعد فتح مسلك الهواء ان تبحث عن اي علامة من علامات التنفس وتتسمعها وتتحسسها\n        </p>\n        <li>واصل ابقاء مسلك الهواء لدى المصاب مفتوحا ثم ضع اذنك فوق فمه وانفه</li>\n        <img src="../../assets/imgs/PhotoOfLearn/listen.png" alt="">\n        <li>التحقق بالنظر لملاحظة ارتفاع وهبوط الصدر</li>\n        <li>التحقق بالسمع وذلك بوضع أذنك على مقربة من فم وأنف المصاب</li>\n        <li> التحقق بالحس بحيث تشعر بزفير المصاب على خدك.</li>\n\n      </ul>\n\n      <ul>\n        <p>تنضيف مسلك الهواء </p>\n        <p>حتى بعد فتح مسلك الهواء لدى المصاب قد تسده مرة ثانية المواد الغريبة كالقيء او سن مخلخلة(سن يتحرك) او اسنان اصطناعية\n          (طقم اسنان) او الطعام وتمنع المصاب من التنفس لذالك يجب ازالة اي شي ممكن رؤيته او تحسه من خلال </p>\n\n        <li>ادر رأس المصاب الي الجانب وابقه مرفوعا الى الخلف </li>\n        <li>ضم اصبعيك السبابة والوسطى والنهما ,وافرغ بهما مافي الفم دون ان تضيع الوقت في التفتيش عن الاشياء المسببة للانسداد\n          وانتبه الى عدم دفع اي شي نحو الحلق </li>\n\n        <img src="../../assets/imgs/PhotoOfLearn/openMonth.png" alt="">\n\n        <li>تحقق من التنفس مرة اخرى</li>\n\n      </ul>\n      <hr>\n      <ul>\n        <p>التنفس الاصطناعي</p>\n        <p>ويمكن للمسعف الاولي ان يستخدم طريقة التنفس فماً لفم يصرف النظر عن سنّه وفي جميع الضروف ويكون تنفيذها اسهل اذا كان\n          المصاب راقداً على ضهره ولكن ينبغي البدء باجرائها في الحال مهما كان الوضع الذي عليه ويجب ان نقوم بأول نفختين ببطء.\n          وقد يعود المصاب للتنفس في اي مرحلة ولكن قد يحتاج للمساعدة الى أن يستقر التنفس بمعدل طبيعي .</p>\n        <sup>وقد يتعذر اجراء التنفس فماً لفم , او يكون غير مناسب في بعض الضروف , كما هو الحال عند وجود جروح بليغة جداً في الوجه\n          او عندما يكون وجه المصاب محصور ومتجهاً نحو الاسفل او عندما تلاحض وجود مادة حول الفم </sup>\n        <sup>* الحديث فيما يلي عن التنفس فما لفم يتضمن التنفس من فم لانف ومن الفم للانف والفم </sup>\n        <p>التنفس فماً لفم </p>\n        <p>هي الطريقة المفضلة للتنفس الاصطناعي في جميع الحالات التي لا يتنفس فيها المصاب (فما عدى بعض الحالات المذكورة اعلاه\n          ) </p>\n        <sup>واذا تعذر استخدام الفم يمكن اجراء التنفس بشكل مقبول عن طريق الانف (التنفس من الفم الى الانف ) او عن طريق الفم والانف\n          معا لدى الاطفال الصغار والرضع </sup>\n\n        <li>ازل اي عائق ظاهر على الوجه او اي شي ضاغظ حول الرقبة (القلادة) افتح مسلك الهواء واخرج ماتراه في الفم والحلق من بقايا\n          (الخطوات اعلاه)</li>\n          <img src="../../assets/imgs/PhotoOfLearn/tanfs1.png" alt="">\n        <sup> * تنبيه قم بالنفخ مرتين بأسرع مايكمن ولا تضيع الوقت كثيرا عن العوائق التي تمنع التنفس </sup>\n\n        <li>افتح فمك بقدر المستطاع وخذ شهيقاً عميقاً واضغط على فتحتي انف المصاب باصبعيك واطبق يشفتيك حول فمه </li>\n        <img src="../../assets/imgs/PhotoOfLearn/tanfs2.png" alt="">\n        <li>انفخ في رئتي المصاب وفي الوقت نفسه راقب صدره الى ان تشاهده يرتفع الى اقصى حد ممكن</li>\n        <img src="../../assets/imgs/PhotoOfLearn/tanfs3.png" alt="">\n        <sup>*تنبيه اذا لم يرتفع صدر المصاب فأفترض ان مسلك الهواء لديه غير مفتوح تماما اضبط وضع رأسه وفكه وحاول مرة اخرى فاذا\n          وجدت ان ادخال الهواء لا يزال متعذرا فقد يكون مسلك الهواء مسدودا ويجب عليك ان تعالج الاختناق لديه (الخطوات اعلاه\n          الانعاش وفتح مسلك الهواء)</sup>\n        <li> ارفع فمك بعيداً عن فم المصاب وزفر الهواء الفائض اثناء مراقبتك لانخفاض صدره خذ شهيقا عميقا وكرر النفخ </li>\n        <img src="../../assets/imgs/PhotoOfLearn/tanfs4.png" alt="">\n        <li>بعد تكرار النفخ مرتين تحقق من النبض وتاكد انت القلب يخفق</li>\n\n        <sup>* اذا كان القلب يخفق ويمكن جس النبض واصل النفخ بمعدل 12 الى 16 مرة بالدقيقة الى ان يعود التنفس طبيعي وعندما يتنفس\n          المصاب وحده اجلسه في وضع الافاقة </sup>\n\n      </ul>\n\n      <ul>\n\n        <p>التنفس من الفم للانف</p>\n\n        <li>اذا تعذر اجراء التنفس فماً لفم اغلق فم المصاب بواسطة ابهامك وطبق بشفتيك حول انفه واكمل العمل كما في تنفس فما لفم\n          </li>\n          <img src="../../assets/imgs/PhotoOfLearn/tanfs5.png" alt="">\n      </ul>\n\n    </li>\n\n  </ul>\n\n</ion-content>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\objectives\objectives.html"*/,
+            selector: 'page-about',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\about\about.html"*/'<!--\n  Generated template for the AboutPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar color="orange">\n      <button ion-button menuToggle >\n        <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title align="right"  > حول </ion-title>\n    </ion-navbar>\n  </ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\about\about.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], ObjectivesPage);
-    return ObjectivesPage;
+    ], AboutPage);
+    return AboutPage;
 }());
 
-//# sourceMappingURL=objectives.js.map
+//# sourceMappingURL=about.js.map
 
 /***/ }),
 
 /***/ 102:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrinciplesPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the PrinciplesPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var PrinciplesPage = /** @class */ (function () {
-    function PrinciplesPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        // If we navigated to this page, we will have an item available as a nav param
-        this.selectedItem = navParams.get('item');
-        // Let's populate this page with some filler content for funzies
-        this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
-            'american-football', 'boat', 'bluetooth', 'build'];
-        this.items = [];
-        for (var i = 1; i < 11; i++) {
-            this.items.push({
-                title: 'Item ' + i,
-                note: 'This is item #' + i,
-                icon: this.icons[Math.floor(Math.random() * this.icons.length)]
-            });
-        }
-    }
-    PrinciplesPage_1 = PrinciplesPage;
-    PrinciplesPage.prototype.itemTapped = function (event, item) {
-        // That's right, we're pushing to ourselves!
-        this.navCtrl.push(PrinciplesPage_1, {
-            item: item
-        });
-    };
-    PrinciplesPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad PrinciplesPage');
-    };
-    PrinciplesPage = PrinciplesPage_1 = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-principles',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\principles\principles.html"*/' \n<ion-header>\n  <ion-navbar color="orange">\n      <button ion-button menuToggle >\n        <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title align="right"  >  المبادئ الرئيسية للاسعافات الاولية </ion-title>\n    </ion-navbar>\n  </ion-header>\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n  \n\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\principles\principles.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], PrinciplesPage);
-    return PrinciplesPage;
-    var PrinciplesPage_1;
-}());
-
-//# sourceMappingURL=principles.js.map
-
-/***/ }),
-
-/***/ 103:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -156,7 +283,7 @@ var AchesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 104:
+/***/ 103:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -201,7 +328,7 @@ var AlienObjectsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 105:
+/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -243,6 +370,51 @@ var BackInjuriesPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=back-injuries.js.map
+
+/***/ }),
+
+/***/ 105:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BandagesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the BandagesPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var BandagesPage = /** @class */ (function () {
+    function BandagesPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    BandagesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad BandagesPage');
+    };
+    BandagesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-bandages',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\bandages\bandages.html"*/'<!--\n  Generated template for the BandagesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>الضمادات والعصائب  </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\bandages\bandages.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], BandagesPage);
+    return BandagesPage;
+}());
+
+//# sourceMappingURL=bandages.js.map
 
 /***/ }),
 
@@ -385,51 +557,6 @@ var BurnsPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChokingPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the ChokingPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ChokingPage = /** @class */ (function () {
-    function ChokingPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    ChokingPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ChokingPage');
-    };
-    ChokingPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-choking',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\choking\choking.html"*/'<!--\n  Generated template for the ChokingPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<!-- <ion-header>\n\n  <ion-navbar>\n    <ion-title>الاختناق</ion-title>\n  </ion-navbar>\n\n</ion-header> -->\n\n\n\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الاختناق </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n\n\n<ion-content padding dir="rtl">\n\n  <img src="../../assets/imgs/Choking.jpg" alt="" srcset="">\n\n  <p>ماهو الاختناق</p>\n  <p>هو عدم وصول الهواء وبمعنى أدق عدم وصول الأكسجين إلى الجهاز التنفسي و الرئتين للشخص المصاب، ويحدث فيه صعوبة شديدة في التنفس</p>\n\n\n  <ul class="main-ul" dir="rtl">\n\n    <li>\n\n      <ul>\n        <p>أعراض الاختناق</p>\n        <li>إغماء وحالة تسبق الإغماء وهي الدوار أو كما يطلق عليها بالعامية الدوخة.</li>\n        <li>شحوب الوجه واصفراره.</li>\n        <li>برودة أطراف الأصابع ، وتميل للون الأزرق.</li>\n      </ul>\n\n    </li>\n\n\n    <li>\n      <ul>\n        <p>المعالجة العامة</p>\n\n        <li> قم بنقل الشخص المصاب من المكان الذي سقط فيه ، إلى مكان جيد التهوئة، إن كان المصاب سيدة محجبة فك الحجاب قليلاً من\n          جهة الحلق.\n        </li>\n        <li> يجب خلع الملابس الضيقة عند العنق والصدر، ليصل له التهوئة. </li>\n\n      </ul>\n\n\n      <hr>\n      <li>\n        <p>الاسعافات الاولية للاختناق بسبب الغرق </p>\n        <ul>\n          <p>الاعراض</p>\n          <li>نفس الاعراض العامة للاختناق </li>\n          <li>ظهور الزبد حول فم المصاب وانفه</li>\n        </ul>\n\n        <ul>\n          المعالجة\n          <li>قم بتحريك رأس الغريق بحيث يكون الرأس في الأسفل، قم برفع القدمين لأعلى.</li>\n          <li>اضغط على المنطقة أعلى البطن لتدفع الماء بقوة خارج الرئتين. </li>\n          <li>اخرج من فم المصاب بسرعة كل مايمكن ان يسد مسلك الهواء كالاعشاب البحرية وابدء التنفس الاصطناعي فورا </li>\n\n          <li>قد بتدفئة المصاب وذا امكن انزع ملابسه المبللة وجففه وغطيه باغطية اضافية او مناشف</li>\n\n          <li>اعمل على نقله الى المستشفى</li>\n\n        </ul>\n      </li>\n<hr>\n\n      <li>\n\n        <ul>\n          <p>الشرق</p>\n          <img src="../../assets/imgs/brokenimg/eq1.png" alt="">\n          <li>\n            <ul>\n              الاعراض والعلامات\n              <li>الاعراض العامة للاختناق</li>\n              <li>لا يتمكن المصاب من الكلام او التنفس وربما امسك بعنقه وان ابرز مايميز هذه الحالة هو ان المصاب يسكت تماماً</li>\n              <li>احتقان الوجه والعنق وبروز الاوردة وازرقاق الشفتين والفم</li>\n              <li>احتمال فقد الوعي</li>\n\n            </ul>\n          </li>\n<hr>\n          <li>\n            <ul>المعالجة\n\n              <li>اخرج اي بقايا او اسنان اصطناعية من فم المصاب بإصبعيك وحثه على السعال</li>\n              <li>إذا لم يتزحزح الجسم الغريب بالسعال ساعد المصاب على الانحناء بحيث يكون رأسه ادنى من رئتيه اضربه بقوة على عظمتي\n                الكتفين براحة يدك وكرر ذالك اربع مرات اذا لزم الامر</li>\n              <img src="../../assets/imgs/brokenimg/eq2.png" alt="">\n              <li>افحص الفم هل تزحزح الجسم المسبب للانسداد فإذا لم يحصل اي شي من ذالك فقد تتمكن من اخراجه بالضغط على البطن </li>\n              <li>افحص الفم مرة اخرى ,فإذا كان الجسم المسبب للشرق موجود ولم يخرج قم باخراجه بإصبعيك</li>\n              <li>اذا لم ينته الشرق أعد مرة اخرى الضرب على الضهر حتى اربع ملات وضغط على البطن حتى اربع مرات واذا اصبح المصاب\n                فاقداً لوعيه عالجه كما هو مبين ادناه </li>\n\n            </ul>\n          </li>\n\n          <li>\n            <ul>\n\n              <p>*بالنسبة للمصاب بالشرق الفاقد للوعي</p>\n              <li> ضع المصاب على ظهره ,وافتح مسلك الهواء لديه وابدأ التنفس الاصطناعي</li>\n              <li>اذا لم تصل الى نتيجة مقبولة ,ضع المصاب على جانبه بحيث يواجهك ويكون صدره مستنداً الى فخذك ورأسه مائلا الى الخلف\n                واضربه حتى اربع ضربات على ضهره كما مبين ادناه</li>\n              <img src="../../assets/imgs/brokenimg/eq3.png" alt="">\n              <li>افحص الفم لترى هل تزحزح الجسم المسبب للشرق , فإذا حدث ذالك اخرجه بإصبعيك ولا فضع المصاب في وضع الاستلقاء على\n                ضهره مع الاحتفاظ بالرأس في وضع فتح مسلك الهواي واضغط على البطن </li>\n              <li>افحص الفم مرة اخرى لترى هم تزحزح الجسم الغريب</li>\n              <li>اذا استمر الشرق عدّل وضع رأس المصاب وحاول إجراء التنفس الاصطناعي وبعد ذالك كرر الخطوات اعلاه</li>\n              <li>عندما يُستخرج الجسم الغريب ويعود المصاب الى التنفس ضعه في وضع الافاقة واعمل على نقله الى المستشفى</li>\n\n            </ul>\n          </li>\n<hr>\n          <li>\n            <ul>\n              <p>*بالنسبة للشرق عند الاطفال </p>\n              <li> اتبع الخطوات نفسها الموصوفة لبالغين ولكن اجلس على كرسي او اركع على ركبة واحدة وضع الطفل على ركبتك ورأسه الى\n                الاسفل , اسند الصدر بإحدى يديك واضرب الطفل بقوة بين عظمتي الكتفين باليد الاخرى حتى اربع مرات فإذا لم يتزحزح\n                الجسم الغريب فقد يحتاج الامر الى استعمال ضغط البطن وذا كان الطفل فاقداً للوعي فأتبع نفس الخطوات التي وصفت\n                بالنسبة للبالغين الفاقدين الوعي\n              </li>\n              <img src="../../assets/imgs/brokenimg/eq4.jpg" alt="">\n            </ul>\n          </li>\n<hr>\n          <li>\n            <ul>\n              <p> *الشرق عند الرّضع</p>\n              <li>ضع الرضيع على ساعدك ورأسه وصدره وبطنه متجهين الى الاسفل اضرب بقوة بين الكتفين اربع ضربات ,فإذا لم يخرج الجسم\n                الغريب يصبح ضرورياً القيام بضغط البطن</li>\n              <img src="../../assets/imgs/brokenimg/eq5.jpg" alt="">\n            </ul>\n          </li>\n<hr>\n          <li>\n\n            <ul>\n              <p> * الضغط على البطن بالنسبة للبالغين </p>\n              <li>قف او اركع خلف المصاب وضع احدى ذراعيك حول بطنه .اطبق قبضة يدك وضعها مع ابهامك متجهة نحو الداخل في منتصف القسم\n                العلوي للبطن بين السرة وعظم القص</li>\n              <img src="../../assets/imgs/brokenimg/eqb1.png" alt="">\n              <li>امسك قبضة يدك باليد الثانية</li>\n              <li>اسحب يديك الاثنين نحوك مع القيام بضغط سريع نحو الداخل والى اعلى من المرفقين بشكل يحدث ضغطا على القسم العوي\n                للبطن .ويجب ان يكون الضغط شديداً لدرجة تكفي لزحزحة الجسم الساد ,فإذا اخفقت كرر ذالك حتى اربع مرات حسب الضرورة\n              </li>\n              <img src="../../assets/imgs/brokenimg/eqb2.png" alt="">\n\n            </ul>\n\n          </li>\n<hr>\n          <li>\n            <ul>\n              <p> الضغط على البطن بالنسبة للمصاب الفاقد للوعي * </p>\n\n              <li>ضع المصاب على ضهره بحيث يكون رأسه في وضع فتح مسلك الهواء اركع منفرج الساقين فوق فخذي المصاب بشكل يمكنك من تطبيق\n                ضغط كافي في المكان الصحيح بمنتصف البطن ,فإذا لم تتمكن من احتواء المصاب بس ساقيك فأركع الى جانبه </li>\n                <img src="../../assets/imgs/brokenimg/eqb3.png" alt="">\n              <li>ضع قاعدة إحدى يديك في منتصف القسم العلوي لبطن المصاب ,ثم ضع يديك الثانية فوقه مع ابعاد الاصابع عن البطن</li>\n              <img src="../../assets/imgs/brokenimg/eqb4.png" alt="">\n              <li>مع المحافظة على ساعديك مستقيمين اضغط البطن بسرعة نحو الداخل والى الاعلى ,ويجب ان يكون الضغط قوياً لدرجة تزحزح\n                الجسم الساد وذا اخفقت كرر الضغط اربع مرات</li>\n                <img src="../../assets/imgs/brokenimg/eqb5.png" alt="">\n\n            </ul>\n\n          </li>\n        </ul>\n\n      </li>\n\n      <hr>\n      <hr>\n      <li>\n        <ul>\n          <p>الربو</p>\n\n          <li>اشر على المصاب بأن يجلس مع ميل خفيف الى الامام ,وان يتكئ على مسند كطاولة مثلا , وهيئ له  مكان به هواء منعش</li>\n          <img src="../../assets/imgs/brokenimg/eqr1.png" alt="">\n          <li>اذا كان المصاب يحمل علاجه ,فدعه يستعمله ,فقد يخفف المه</li>\n          <img src="../../assets/imgs/brokenimg/eqr2.png" alt="">\n          <li>اذا استمرت الاعراض او تكررت اطلب العون الطبي</li>\n\n\n        </ul>\n      </li>\n\n  </ul>\n\n</ion-content>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\choking\choking.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], ChokingPage);
-    return ChokingPage;
-}());
-
-//# sourceMappingURL=choking.js.map
-
-/***/ }),
-
-/***/ 110:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmergencyBirthPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -468,6 +595,51 @@ var EmergencyBirthPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=emergency-birth.js.map
+
+/***/ }),
+
+/***/ 110:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChokingPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ChokingPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ChokingPage = /** @class */ (function () {
+    function ChokingPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ChokingPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ChokingPage');
+    };
+    ChokingPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-choking',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\choking\choking.html"*/'<!--\n  Generated template for the ChokingPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<!-- <ion-header>\n\n  <ion-navbar>\n    <ion-title>الاختناق</ion-title>\n  </ion-navbar>\n\n</ion-header> -->\n\n\n\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title> الاختناق </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n\n\n\n\n<ion-content padding dir="rtl">\n\n  <img src="../../assets/imgs/Choking.jpg" alt="" srcset="">\n\n  <p>ماهو الاختناق</p>\n  <p>هو عدم وصول الهواء وبمعنى أدق عدم وصول الأكسجين إلى الجهاز التنفسي و الرئتين للشخص المصاب، ويحدث فيه صعوبة شديدة في التنفس</p>\n\n\n  <ul class="main-ul" dir="rtl">\n\n    <li>\n\n      <ul>\n        <p>أعراض الاختناق</p>\n        <li>إغماء وحالة تسبق الإغماء وهي الدوار أو كما يطلق عليها بالعامية الدوخة.</li>\n        <li>شحوب الوجه واصفراره.</li>\n        <li>برودة أطراف الأصابع ، وتميل للون الأزرق.</li>\n      </ul>\n\n    </li>\n\n\n    <li>\n      <ul>\n        <p>المعالجة العامة</p>\n\n        <li> قم بنقل الشخص المصاب من المكان الذي سقط فيه ، إلى مكان جيد التهوئة، إن كان المصاب سيدة محجبة فك الحجاب قليلاً من\n          جهة الحلق.\n        </li>\n        <li> يجب خلع الملابس الضيقة عند العنق والصدر، ليصل له التهوئة. </li>\n\n      </ul>\n\n\n      <hr>\n      <li>\n        <p>الاسعافات الاولية للاختناق بسبب الغرق </p>\n        <ul>\n          <p>الاعراض</p>\n          <li>نفس الاعراض العامة للاختناق </li>\n          <li>ظهور الزبد حول فم المصاب وانفه</li>\n        </ul>\n\n        <ul>\n          المعالجة\n          <li>قم بتحريك رأس الغريق بحيث يكون الرأس في الأسفل، قم برفع القدمين لأعلى.</li>\n          <li>اضغط على المنطقة أعلى البطن لتدفع الماء بقوة خارج الرئتين. </li>\n          <li>اخرج من فم المصاب بسرعة كل مايمكن ان يسد مسلك الهواء كالاعشاب البحرية وابدء التنفس الاصطناعي فورا </li>\n\n          <li>قد بتدفئة المصاب وذا امكن انزع ملابسه المبللة وجففه وغطيه باغطية اضافية او مناشف</li>\n\n          <li>اعمل على نقله الى المستشفى</li>\n\n        </ul>\n      </li>\n<hr>\n\n      <li>\n\n        <ul>\n          <p>الشرق</p>\n          <img src="../../assets/imgs/brokenimg/eq1.png" alt="">\n          <li>\n            <ul>\n              الاعراض والعلامات\n              <li>الاعراض العامة للاختناق</li>\n              <li>لا يتمكن المصاب من الكلام او التنفس وربما امسك بعنقه وان ابرز مايميز هذه الحالة هو ان المصاب يسكت تماماً</li>\n              <li>احتقان الوجه والعنق وبروز الاوردة وازرقاق الشفتين والفم</li>\n              <li>احتمال فقد الوعي</li>\n\n            </ul>\n          </li>\n<hr>\n          <li>\n            <ul>المعالجة\n\n              <li>اخرج اي بقايا او اسنان اصطناعية من فم المصاب بإصبعيك وحثه على السعال</li>\n              <li>إذا لم يتزحزح الجسم الغريب بالسعال ساعد المصاب على الانحناء بحيث يكون رأسه ادنى من رئتيه اضربه بقوة على عظمتي\n                الكتفين براحة يدك وكرر ذالك اربع مرات اذا لزم الامر</li>\n              <img src="../../assets/imgs/brokenimg/eq2.png" alt="">\n              <li>افحص الفم هل تزحزح الجسم المسبب للانسداد فإذا لم يحصل اي شي من ذالك فقد تتمكن من اخراجه بالضغط على البطن </li>\n              <li>افحص الفم مرة اخرى ,فإذا كان الجسم المسبب للشرق موجود ولم يخرج قم باخراجه بإصبعيك</li>\n              <li>اذا لم ينته الشرق أعد مرة اخرى الضرب على الضهر حتى اربع ملات وضغط على البطن حتى اربع مرات واذا اصبح المصاب\n                فاقداً لوعيه عالجه كما هو مبين ادناه </li>\n\n            </ul>\n          </li>\n\n          <li>\n            <ul>\n\n              <p>*بالنسبة للمصاب بالشرق الفاقد للوعي</p>\n              <li> ضع المصاب على ظهره ,وافتح مسلك الهواء لديه وابدأ التنفس الاصطناعي</li>\n              <li>اذا لم تصل الى نتيجة مقبولة ,ضع المصاب على جانبه بحيث يواجهك ويكون صدره مستنداً الى فخذك ورأسه مائلا الى الخلف\n                واضربه حتى اربع ضربات على ضهره كما مبين ادناه</li>\n              <img src="../../assets/imgs/brokenimg/eq3.png" alt="">\n              <li>افحص الفم لترى هل تزحزح الجسم المسبب للشرق , فإذا حدث ذالك اخرجه بإصبعيك ولا فضع المصاب في وضع الاستلقاء على\n                ضهره مع الاحتفاظ بالرأس في وضع فتح مسلك الهواي واضغط على البطن </li>\n              <li>افحص الفم مرة اخرى لترى هم تزحزح الجسم الغريب</li>\n              <li>اذا استمر الشرق عدّل وضع رأس المصاب وحاول إجراء التنفس الاصطناعي وبعد ذالك كرر الخطوات اعلاه</li>\n              <li>عندما يُستخرج الجسم الغريب ويعود المصاب الى التنفس ضعه في وضع الافاقة واعمل على نقله الى المستشفى</li>\n\n            </ul>\n          </li>\n<hr>\n          <li>\n            <ul>\n              <p>*بالنسبة للشرق عند الاطفال </p>\n              <li> اتبع الخطوات نفسها الموصوفة لبالغين ولكن اجلس على كرسي او اركع على ركبة واحدة وضع الطفل على ركبتك ورأسه الى\n                الاسفل , اسند الصدر بإحدى يديك واضرب الطفل بقوة بين عظمتي الكتفين باليد الاخرى حتى اربع مرات فإذا لم يتزحزح\n                الجسم الغريب فقد يحتاج الامر الى استعمال ضغط البطن وذا كان الطفل فاقداً للوعي فأتبع نفس الخطوات التي وصفت\n                بالنسبة للبالغين الفاقدين الوعي\n              </li>\n              <img src="../../assets/imgs/brokenimg/eq4.jpg" alt="">\n            </ul>\n          </li>\n<hr>\n          <li>\n            <ul>\n              <p> *الشرق عند الرّضع</p>\n              <li>ضع الرضيع على ساعدك ورأسه وصدره وبطنه متجهين الى الاسفل اضرب بقوة بين الكتفين اربع ضربات ,فإذا لم يخرج الجسم\n                الغريب يصبح ضرورياً القيام بضغط البطن</li>\n              <img src="../../assets/imgs/brokenimg/eq5.jpg" alt="">\n            </ul>\n          </li>\n<hr>\n          <li>\n\n            <ul>\n              <p> * الضغط على البطن بالنسبة للبالغين </p>\n              <li>قف او اركع خلف المصاب وضع احدى ذراعيك حول بطنه .اطبق قبضة يدك وضعها مع ابهامك متجهة نحو الداخل في منتصف القسم\n                العلوي للبطن بين السرة وعظم القص</li>\n              <img src="../../assets/imgs/brokenimg/eqb1.png" alt="">\n              <li>امسك قبضة يدك باليد الثانية</li>\n              <li>اسحب يديك الاثنين نحوك مع القيام بضغط سريع نحو الداخل والى اعلى من المرفقين بشكل يحدث ضغطا على القسم العوي\n                للبطن .ويجب ان يكون الضغط شديداً لدرجة تكفي لزحزحة الجسم الساد ,فإذا اخفقت كرر ذالك حتى اربع مرات حسب الضرورة\n              </li>\n              <img src="../../assets/imgs/brokenimg/eqb2.png" alt="">\n\n            </ul>\n\n          </li>\n<hr>\n          <li>\n            <ul>\n              <p> الضغط على البطن بالنسبة للمصاب الفاقد للوعي * </p>\n\n              <li>ضع المصاب على ضهره بحيث يكون رأسه في وضع فتح مسلك الهواء اركع منفرج الساقين فوق فخذي المصاب بشكل يمكنك من تطبيق\n                ضغط كافي في المكان الصحيح بمنتصف البطن ,فإذا لم تتمكن من احتواء المصاب بس ساقيك فأركع الى جانبه </li>\n                <img src="../../assets/imgs/brokenimg/eqb3.png" alt="">\n              <li>ضع قاعدة إحدى يديك في منتصف القسم العلوي لبطن المصاب ,ثم ضع يديك الثانية فوقه مع ابعاد الاصابع عن البطن</li>\n              <img src="../../assets/imgs/brokenimg/eqb4.png" alt="">\n              <li>مع المحافظة على ساعديك مستقيمين اضغط البطن بسرعة نحو الداخل والى الاعلى ,ويجب ان يكون الضغط قوياً لدرجة تزحزح\n                الجسم الساد وذا اخفقت كرر الضغط اربع مرات</li>\n                <img src="../../assets/imgs/brokenimg/eqb5.png" alt="">\n\n            </ul>\n\n          </li>\n        </ul>\n\n      </li>\n\n      <hr>\n      <hr>\n      <li>\n        <ul>\n          <p>الربو</p>\n\n          <li>اشر على المصاب بأن يجلس مع ميل خفيف الى الامام ,وان يتكئ على مسند كطاولة مثلا , وهيئ له  مكان به هواء منعش</li>\n          <img src="../../assets/imgs/brokenimg/eqr1.png" alt="">\n          <li>اذا كان المصاب يحمل علاجه ,فدعه يستعمله ,فقد يخفف المه</li>\n          <img src="../../assets/imgs/brokenimg/eqr2.png" alt="">\n          <li>اذا استمرت الاعراض او تكررت اطلب العون الطبي</li>\n\n\n        </ul>\n      </li>\n\n  </ul>\n\n</ion-content>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\choking\choking.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], ChokingPage);
+    return ChokingPage;
+}());
+
+//# sourceMappingURL=choking.js.map
 
 /***/ }),
 
@@ -876,52 +1048,7 @@ var WoundsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 120:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BandagesPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the BandagesPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var BandagesPage = /** @class */ (function () {
-    function BandagesPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    BandagesPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad BandagesPage');
-    };
-    BandagesPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-bandages',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\bandages\bandages.html"*/'<!--\n  Generated template for the BandagesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>الضمادات والعصائب  </ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\bandages\bandages.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], BandagesPage);
-    return BandagesPage;
-}());
-
-//# sourceMappingURL=bandages.js.map
-
-/***/ }),
-
-/***/ 130:
+/***/ 129:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -934,88 +1061,88 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 130;
+webpackEmptyAsyncContext.id = 129;
 
 /***/ }),
 
-/***/ 171:
+/***/ 170:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/about/about.module": [
-		291,
+		292,
 		18
 	],
 	"../pages/aches/aches.module": [
-		292,
+		293,
 		17
 	],
 	"../pages/alien-objects/alien-objects.module": [
-		293,
+		294,
 		16
 	],
 	"../pages/back-injuries/back-injuries.module": [
-		294,
+		295,
 		15
 	],
 	"../pages/bandages/bandages.module": [
-		309,
+		296,
 		14
 	],
 	"../pages/blood-circulation/blood-circulation.module": [
-		295,
+		297,
 		13
 	],
 	"../pages/broken/broken.module": [
-		296,
+		298,
 		12
 	],
 	"../pages/burns/burns.module": [
-		297,
+		299,
 		11
 	],
 	"../pages/choking/choking.module": [
-		298,
+		301,
 		10
 	],
 	"../pages/emergency-birth/emergency-birth.module": [
-		299,
+		300,
 		9
 	],
 	"../pages/fainting/fainting.module": [
-		300,
+		302,
 		8
 	],
 	"../pages/major-accidents/major-accidents.module": [
-		301,
+		303,
 		7
 	],
 	"../pages/max-temperatures/max-temperatures.module": [
-		302,
+		304,
 		6
 	],
 	"../pages/musculoskeletal-injuries/musculoskeletal-injuries.module": [
-		303,
+		305,
 		5
 	],
 	"../pages/python/python.module": [
-		304,
+		306,
 		4
 	],
 	"../pages/sunstroke/sunstroke.module": [
-		305,
+		307,
 		3
 	],
 	"../pages/transportation/transportation.module": [
-		306,
+		308,
 		2
 	],
 	"../pages/unconsciousness/unconsciousness.module": [
-		307,
+		309,
 		1
 	],
 	"../pages/wounds/wounds.module": [
-		308,
+		310,
 		0
 	]
 };
@@ -1030,22 +1157,19 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 171;
+webpackAsyncContext.id = 170;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 215:
+/***/ 214:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__state_state__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__objectives_objectives__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__principles_principles__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__about_about__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_call_number__ = __webpack_require__(210);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1058,30 +1182,36 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
-
-
 var HomePage = /** @class */ (function () {
-    function HomePage(navCtrl) {
+    function HomePage(navCtrl, callNumber) {
         this.navCtrl = navCtrl;
+        this.callNumber = callNumber;
     }
-    HomePage.prototype.goState = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__state_state__["a" /* StatePage */]);
+    HomePage.prototype.police = function () {
+        this.callNumber.callNumber("121", true)
+            .then(function (res) { return console.log('Launched dialer!', res); })
+            .catch(function (err) { return console.log('Error launching dialer', err); });
     };
-    HomePage.prototype.goObjective = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__objectives_objectives__["a" /* ObjectivesPage */]);
+    HomePage.prototype.ambulance = function () {
+        this.callNumber.callNumber("122", true)
+            .then(function (res) { return console.log('Launched dialer!', res); })
+            .catch(function (err) { return console.log('Error launching dialer', err); });
     };
-    HomePage.prototype.goPirciblse = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__principles_principles__["a" /* PrinciplesPage */]);
+    HomePage.prototype.Cvile = function () {
+        this.callNumber.callNumber("115", true)
+            .then(function (res) { return console.log('Launched dialer!', res); })
+            .catch(function (err) { return console.log('Error launching dialer', err); });
     };
-    HomePage.prototype.goAbout = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__about_about__["a" /* AboutPage */]);
+    HomePage.prototype.midical = function () {
+        this.callNumber.callNumber("404", true)
+            .then(function (res) { return console.log('Launched dialer!', res); })
+            .catch(function (err) { return console.log('Error launching dialer', err); });
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="btn-menus" >\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>الرئيسية</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <div class="backimg">\n\n  <div class="info" > <div class="con-call">  <ion-icon ios="ios-call" md="md-call"></ion-icon></div>  122 &nbsp;&nbsp; &nbsp; &nbsp;  الاسعاف </div>\n  <div class="info">   <div class="con-call">  <ion-icon ios="ios-call" md="md-call"></ion-icon></div>  104 &nbsp;&nbsp; &nbsp; &nbsp;  الشرطة</div>\n  <div class="info" > <div class="con-call">  <ion-icon ios="ios-call" md="md-call"></ion-icon></div>  115 &nbsp;&nbsp; الدفاع المدني</div>\n</div>\n<div class="contain-cardion">\n  \n  <ion-card class="ion-card-det"  (click)=\'goState()\' >\n\n    <ion-card-content >\n     \n      <div class="details-state">\n        <img src="../../assets/imgs/state.png" alt=""> \n   \n         <p>الحالات  </p>\n        \n         \n\n      </div>\n      \n    </ion-card-content>\n  </ion-card>\n  \n    \n  <ion-card class="ion-card-det"  (click)=\'goObjective()\'>\n\n    <ion-card-content >\n     \n      <div class="details-state">\n        <img src="../../assets/imgs/objec.png" alt=""> \n       \n         <p style="font-size: 15px">طرق الاسعافات   </p>\n        \n          \n\n      </div>\n      \n    </ion-card-content>\n  </ion-card>\n    \n  <ion-card class="ion-card-det" (click)=\'goPirciblse()\' >\n\n    <ion-card-content >\n     \n      <div class="details-state">\n        <img src="../../assets/imgs/target.png" alt=""> \n        \n         <p style="font-size: 15px">اهداف الاسعافات  </p>\n        \n          \n\n      </div>\n      \n    </ion-card-content>\n  </ion-card>\n    \n  <ion-card class="ion-card-det"  (click)=\'goAbout()\'  >\n\n    <ion-card-content>\n     \n      <div class="details-state">\n        <img src="../../assets/imgs/band-aid.png" alt=""> \n       \n         <p>حول  </p>\n        \n         \n\n      </div>\n      \n    </ion-card-content>\n  </ion-card>\n  \n</div>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar color="orange">\n    <button ion-button menuToggle class="btn-menus">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>الرئيسية</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <div class="backimg">\n\n    <p>اذا كنت انت والمصاب في مأزق يرجى <br> الاتصال باحدى الارقام ادناه</p>\n\n  </div>\n\n\n  <div class="con-call-list">\n\n    <div class="call-list">\n      <img src="../../assets/imgs/police-station.png" alt="">\n\n      <h4>النجدة والدوريات<br>\n        <h6>121</h6>\n      </h4>\n\n      <img (click)="police()" src="../../assets/imgs/Phone-1.png" alt="">\n    </div>\n    <div class="call-list">\n      <img src="../../assets/imgs/ambulance.png" alt="">\n\n      <h4>الاسعاف الفوري<br>\n        <h6>122</h6>\n      </h4>\n\n      <img (click)="ambulance()" src="../../assets/imgs/Phone-1.png" alt="">\n    </div>\n\n    <div class="call-list">\n      <img src="../../assets/imgs/heart (1).png" alt="">\n\n      <h4>الدفاع المدني<br>\n        <h6>115</h6>\n      </h4>\n\n      <img (click)="Cvile()" src="../../assets/imgs/Phone-1.png" alt="">\n    </div>\n\n    <div class="call-list">\n      <img src="../../assets/imgs/objec.png" alt="">\n\n      <h4>الاستشارة الطبية<br>\n        <h6>404</h6>\n      </h4>\n\n      <img (click)="midical()" src="../../assets/imgs/Phone-1.png" alt="">\n    </div>\n\n\n\n\n\n\n  </div>\n\n\n\n</ion-content>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_call_number__["a" /* CallNumber */]])
     ], HomePage);
     return HomePage;
 }());
@@ -1090,13 +1220,124 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
+/***/ 215:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ObjectivesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ObjectivesPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ObjectivesPage = /** @class */ (function () {
+    function ObjectivesPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ObjectivesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ObjectivesPage');
+    };
+    ObjectivesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-objectives',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\objectives\objectives.html"*/'<!--\n  Generated template for the ObjectivesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar color="orange">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title align="right"> الطرق الرئيسية للاسعاف الاولي </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n  <ul class="main-ul" dir="rtl">\n\n    <li>\n\n      <ul type="square"> يستطيع المسعف الاولي الماهر ان ينقذ حياة المصاب بان يوفر ضروريات الحياة الازمة وهي\n        <hr>\n        <li> مسك الهواء المفتوح </li>\n\n\n\n        <li> تنفس ملائم </li>\n\n        <li> دورة دومية منتضمة</li>\n\n      </ul>\n\n    </li>\n\n    <li>\n\n      <ul>\n        الطرق الرئيسية للاسعاف الاولي\n        <p>الانعاش</p>\n        <li> اذا كان المصاب لا يتنفس وقلبة لا ينبض فمن الامور الحيوية ان تتولى امر التهوية وتشغل دورة الدم لضمان وصول الاوكسجين\n          الي الدماغ وذالك من خلال ضمان مسلك الهواء مفتوح</li>\n\n        <img src="../../assets/imgs/PhotoOfLearn/PhotoOfLearn.png" alt="">\n\n        <li>وثانيا عمل التنفس الاصطناعي </li>\n\n        <img src="../../assets/imgs/PhotoOfLearn/tanfuasEstinaie.png" alt="">\n\n        <li>وثالثا تشغيل دوران الدم بالضغط على صدره (الضغط الخارجي ع الصدر )</li>\n\n        <img src="../../assets/imgs/PhotoOfLearn/pushing.png" alt="">\n\n      </ul>\n\n\n      <hr>\n\n      <ul>\n        <p>فتح مسلك الهواء </p>\n        اذا كان المصاب فاقداً وعيه فان مسلك الهواء قد يضيق او ينسد فيصبح التنفس مصحوبا بصوت او بدون صوت لذا في هذه الحالة من الضروري\n        القيام بفتح مسلك الهواء في الحال\n        <li>اركع الى جانب المصاب </li>\n        <li>ارفع ذقن المصاب باحدى يديك (استعمل السبابة والوسطى) وانت تضغط على جبهتة الى الوراء بباطن اليد الاخرى وبهذا يدفع فكه\n          لسانه الى الامام وبالتالي يفتح مسلك الهواء </li>\n        <img src="../../assets/imgs/PhotoOfLearn/tanafius.png" alt="">\n        <span>\n          <sup>*اذا صاحب نفس المصاب صوت فانه يدل على وجود انسداد فقم على الفور وتسليك مجرى الهواي عبر الخطوات اعلاه </sup>\n        </span>\n\n      </ul>\n\n      <ul>\n        <p>التحقق من التنفس </p>\n        <p>لكي تثبت ان المصاب الفاقد للوعي يتنفس عليك بعد فتح مسلك الهواء ان تبحث عن اي علامة من علامات التنفس وتتسمعها وتتحسسها\n        </p>\n        <li>واصل ابقاء مسلك الهواء لدى المصاب مفتوحا ثم ضع اذنك فوق فمه وانفه</li>\n        <img src="../../assets/imgs/PhotoOfLearn/listen.png" alt="">\n        <li>التحقق بالنظر لملاحظة ارتفاع وهبوط الصدر</li>\n        <li>التحقق بالسمع وذلك بوضع أذنك على مقربة من فم وأنف المصاب</li>\n        <li> التحقق بالحس بحيث تشعر بزفير المصاب على خدك.</li>\n\n      </ul>\n\n      <ul>\n        <p>تنضيف مسلك الهواء </p>\n        <p>حتى بعد فتح مسلك الهواء لدى المصاب قد تسده مرة ثانية المواد الغريبة كالقيء او سن مخلخلة(سن يتحرك) او اسنان اصطناعية\n          (طقم اسنان) او الطعام وتمنع المصاب من التنفس لذالك يجب ازالة اي شي ممكن رؤيته او تحسه من خلال </p>\n\n        <li>ادر رأس المصاب الي الجانب وابقه مرفوعا الى الخلف </li>\n        <li>ضم اصبعيك السبابة والوسطى والنهما ,وافرغ بهما مافي الفم دون ان تضيع الوقت في التفتيش عن الاشياء المسببة للانسداد\n          وانتبه الى عدم دفع اي شي نحو الحلق </li>\n\n        <img src="../../assets/imgs/PhotoOfLearn/openMonth.png" alt="">\n\n        <li>تحقق من التنفس مرة اخرى</li>\n\n      </ul>\n      <hr>\n      <ul>\n        <p>التنفس الاصطناعي</p>\n        <p>ويمكن للمسعف الاولي ان يستخدم طريقة التنفس فماً لفم يصرف النظر عن سنّه وفي جميع الضروف ويكون تنفيذها اسهل اذا كان\n          المصاب راقداً على ضهره ولكن ينبغي البدء باجرائها في الحال مهما كان الوضع الذي عليه ويجب ان نقوم بأول نفختين ببطء.\n          وقد يعود المصاب للتنفس في اي مرحلة ولكن قد يحتاج للمساعدة الى أن يستقر التنفس بمعدل طبيعي .</p>\n        <sup>وقد يتعذر اجراء التنفس فماً لفم , او يكون غير مناسب في بعض الضروف , كما هو الحال عند وجود جروح بليغة جداً في الوجه\n          او عندما يكون وجه المصاب محصور ومتجهاً نحو الاسفل او عندما تلاحض وجود مادة حول الفم </sup>\n        <sup>* الحديث فيما يلي عن التنفس فما لفم يتضمن التنفس من فم لانف ومن الفم للانف والفم </sup>\n        <p>التنفس فماً لفم </p>\n        <p>هي الطريقة المفضلة للتنفس الاصطناعي في جميع الحالات التي لا يتنفس فيها المصاب (فما عدى بعض الحالات المذكورة اعلاه\n          ) </p>\n        <sup>واذا تعذر استخدام الفم يمكن اجراء التنفس بشكل مقبول عن طريق الانف (التنفس من الفم الى الانف ) او عن طريق الفم والانف\n          معا لدى الاطفال الصغار والرضع </sup>\n\n        <li>ازل اي عائق ظاهر على الوجه او اي شي ضاغظ حول الرقبة (القلادة) افتح مسلك الهواء واخرج ماتراه في الفم والحلق من بقايا\n          (الخطوات اعلاه)</li>\n          <img src="../../assets/imgs/PhotoOfLearn/tanfs1.png" alt="">\n        <sup> * تنبيه قم بالنفخ مرتين بأسرع مايكمن ولا تضيع الوقت كثيرا عن العوائق التي تمنع التنفس </sup>\n\n        <li>افتح فمك بقدر المستطاع وخذ شهيقاً عميقاً واضغط على فتحتي انف المصاب باصبعيك واطبق يشفتيك حول فمه </li>\n        <img src="../../assets/imgs/PhotoOfLearn/tanfs2.png" alt="">\n        <li>انفخ في رئتي المصاب وفي الوقت نفسه راقب صدره الى ان تشاهده يرتفع الى اقصى حد ممكن</li>\n        <img src="../../assets/imgs/PhotoOfLearn/tanfs3.png" alt="">\n        <sup>*تنبيه اذا لم يرتفع صدر المصاب فأفترض ان مسلك الهواء لديه غير مفتوح تماما اضبط وضع رأسه وفكه وحاول مرة اخرى فاذا\n          وجدت ان ادخال الهواء لا يزال متعذرا فقد يكون مسلك الهواء مسدودا ويجب عليك ان تعالج الاختناق لديه (الخطوات اعلاه\n          الانعاش وفتح مسلك الهواء)</sup>\n        <li> ارفع فمك بعيداً عن فم المصاب وزفر الهواء الفائض اثناء مراقبتك لانخفاض صدره خذ شهيقا عميقا وكرر النفخ </li>\n        <img src="../../assets/imgs/PhotoOfLearn/tanfs4.png" alt="">\n        <li>بعد تكرار النفخ مرتين تحقق من النبض وتاكد انت القلب يخفق</li>\n\n        <sup>* اذا كان القلب يخفق ويمكن جس النبض واصل النفخ بمعدل 12 الى 16 مرة بالدقيقة الى ان يعود التنفس طبيعي وعندما يتنفس\n          المصاب وحده اجلسه في وضع الافاقة </sup>\n\n      </ul>\n\n      <ul>\n\n        <p>التنفس من الفم للانف</p>\n\n        <li>اذا تعذر اجراء التنفس فماً لفم اغلق فم المصاب بواسطة ابهامك وطبق بشفتيك حول انفه واكمل العمل كما في تنفس فما لفم\n          </li>\n          <img src="../../assets/imgs/PhotoOfLearn/tanfs5.png" alt="">\n      </ul>\n\n    </li>\n\n  </ul>\n\n</ion-content>'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\objectives\objectives.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], ObjectivesPage);
+    return ObjectivesPage;
+}());
+
+//# sourceMappingURL=objectives.js.map
+
+/***/ }),
+
 /***/ 216:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrinciplesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the PrinciplesPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var PrinciplesPage = /** @class */ (function () {
+    function PrinciplesPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        // If we navigated to this page, we will have an item available as a nav param
+        this.selectedItem = navParams.get('item');
+        // Let's populate this page with some filler content for funzies
+        this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
+            'american-football', 'boat', 'bluetooth', 'build'];
+        this.items = [];
+        for (var i = 1; i < 11; i++) {
+            this.items.push({
+                title: 'Item ' + i,
+                note: 'This is item #' + i,
+                icon: this.icons[Math.floor(Math.random() * this.icons.length)]
+            });
+        }
+    }
+    PrinciplesPage_1 = PrinciplesPage;
+    PrinciplesPage.prototype.itemTapped = function (event, item) {
+        // That's right, we're pushing to ourselves!
+        this.navCtrl.push(PrinciplesPage_1, {
+            item: item
+        });
+    };
+    PrinciplesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad PrinciplesPage');
+    };
+    PrinciplesPage = PrinciplesPage_1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-principles',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\principles\principles.html"*/' \n<ion-header>\n  <ion-navbar color="orange">\n      <button ion-button menuToggle >\n        <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title align="right"  >  المبادئ الرئيسية للاسعافات الاولية </ion-title>\n    </ion-navbar>\n  </ion-header>\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n  \n\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\principles\principles.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], PrinciplesPage);
+    return PrinciplesPage;
+    var PrinciplesPage_1;
+}());
+
+//# sourceMappingURL=principles.js.map
+
+/***/ }),
+
+/***/ 217:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(217);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(240);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1104,7 +1345,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 239:
+/***/ 240:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1112,39 +1353,41 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(290);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_state_state__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_objectives_objectives__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_principles_principles__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_about_about__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_broken_broken__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_fainting_fainting__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_burns_burns__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_sunstroke_sunstroke__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_choking_choking__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_blood_circulation_blood_circulation__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_unconsciousness_unconsciousness__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_back_injuries_back_injuries__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_musculoskeletal_injuries_musculoskeletal_injuries__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_max_temperatures_max_temperatures__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_alien_objects_alien_objects__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_aches_aches__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_major_accidents_major_accidents__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_bandages_bandages__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_transportation_transportation__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_python_python__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_status_bar__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_splash_screen__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_emergency_birth_emergency_birth__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_wounds_wounds__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_call_number__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_home_home__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_state_state__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_objectives_objectives__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_principles_principles__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_about_about__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_broken_broken__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_fainting_fainting__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_burns_burns__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_sunstroke_sunstroke__ = __webpack_require__(116);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_choking_choking__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_blood_circulation_blood_circulation__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_unconsciousness_unconsciousness__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_back_injuries_back_injuries__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_musculoskeletal_injuries_musculoskeletal_injuries__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_max_temperatures_max_temperatures__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_alien_objects_alien_objects__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_aches_aches__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_major_accidents_major_accidents__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_bandages_bandages__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_transportation_transportation__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_python_python__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_status_bar__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_splash_screen__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__pages_emergency_birth_emergency_birth__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__pages_wounds_wounds__ = __webpack_require__(119);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -1181,45 +1424,46 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_state_state__["a" /* StatePage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_principles_principles__["a" /* PrinciplesPage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_objectives_objectives__["a" /* ObjectivesPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_about_about__["a" /* AboutPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_broken_broken__["a" /* BrokenPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_fainting_fainting__["a" /* FaintingPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_burns_burns__["a" /* BurnsPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_sunstroke_sunstroke__["a" /* SunstrokePage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_choking_choking__["a" /* ChokingPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_blood_circulation_blood_circulation__["a" /* BloodCirculationPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_unconsciousness_unconsciousness__["a" /* UnconsciousnessPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_back_injuries_back_injuries__["a" /* BackInjuriesPage */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_musculoskeletal_injuries_musculoskeletal_injuries__["a" /* MusculoskeletalInjuriesPage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_max_temperatures_max_temperatures__["a" /* MaxTemperaturesPage */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_alien_objects_alien_objects__["a" /* AlienObjectsPage */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_aches_aches__["a" /* AchesPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_major_accidents_major_accidents__["a" /* MajorAccidentsPage */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_bandages_bandages__["a" /* BandagesPage */],
-                __WEBPACK_IMPORTED_MODULE_24__pages_transportation_transportation__["a" /* TransportationPage */],
-                __WEBPACK_IMPORTED_MODULE_28__pages_emergency_birth_emergency_birth__["a" /* EmergencyBirthPage */],
-                __WEBPACK_IMPORTED_MODULE_29__pages_wounds_wounds__["a" /* WoundsPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_python_python__["a" /* PythonPage */]
+                __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_list_list__["a" /* ListPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_state_state__["a" /* StatePage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_principles_principles__["a" /* PrinciplesPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_objectives_objectives__["a" /* ObjectivesPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_about_about__["a" /* AboutPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_broken_broken__["a" /* BrokenPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_fainting_fainting__["a" /* FaintingPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_burns_burns__["a" /* BurnsPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_sunstroke_sunstroke__["a" /* SunstrokePage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_choking_choking__["a" /* ChokingPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_blood_circulation_blood_circulation__["a" /* BloodCirculationPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_unconsciousness_unconsciousness__["a" /* UnconsciousnessPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_back_injuries_back_injuries__["a" /* BackInjuriesPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_musculoskeletal_injuries_musculoskeletal_injuries__["a" /* MusculoskeletalInjuriesPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_max_temperatures_max_temperatures__["a" /* MaxTemperaturesPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_alien_objects_alien_objects__["a" /* AlienObjectsPage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_aches_aches__["a" /* AchesPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_major_accidents_major_accidents__["a" /* MajorAccidentsPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_bandages_bandages__["a" /* BandagesPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_transportation_transportation__["a" /* TransportationPage */],
+                __WEBPACK_IMPORTED_MODULE_29__pages_emergency_birth_emergency_birth__["a" /* EmergencyBirthPage */],
+                __WEBPACK_IMPORTED_MODULE_30__pages_wounds_wounds__["a" /* WoundsPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_python_python__["a" /* PythonPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/about/about.module#AboutPageModule', name: 'AboutPage', segment: 'about', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/aches/aches.module#AchesPageModule', name: 'AchesPage', segment: 'aches', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/alien-objects/alien-objects.module#AlienObjectsPageModule', name: 'AlienObjectsPage', segment: 'alien-objects', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/back-injuries/back-injuries.module#BackInjuriesPageModule', name: 'BackInjuriesPage', segment: 'back-injuries', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/bandages/bandages.module#BandagesPageModule', name: 'BandagesPage', segment: 'bandages', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/blood-circulation/blood-circulation.module#BloodCirculationPageModule', name: 'BloodCirculationPage', segment: 'blood-circulation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/broken/broken.module#BrokenPageModule', name: 'BrokenPage', segment: 'broken', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/burns/burns.module#BurnsPageModule', name: 'BurnsPage', segment: 'burns', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/choking/choking.module#ChokingPageModule', name: 'ChokingPage', segment: 'choking', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/emergency-birth/emergency-birth.module#EmergencyBirthPageModule', name: 'EmergencyBirthPage', segment: 'emergency-birth', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/choking/choking.module#ChokingPageModule', name: 'ChokingPage', segment: 'choking', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/fainting/fainting.module#FaintingPageModule', name: 'FaintingPage', segment: 'fainting', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/major-accidents/major-accidents.module#MajorAccidentsPageModule', name: 'MajorAccidentsPage', segment: 'major-accidents', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/max-temperatures/max-temperatures.module#MaxTemperaturesPageModule', name: 'MaxTemperaturesPage', segment: 'max-temperatures', priority: 'low', defaultHistory: [] },
@@ -1228,42 +1472,42 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/sunstroke/sunstroke.module#SunstrokePageModule', name: 'SunstrokePage', segment: 'sunstroke', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/transportation/transportation.module#TransportationPageModule', name: 'TransportationPage', segment: 'transportation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/unconsciousness/unconsciousness.module#UnconsciousnessPageModule', name: 'UnconsciousnessPage', segment: 'unconsciousness', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/wounds/wounds.module#WoundsPageModule', name: 'WoundsPage', segment: 'wounds', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/bandages/bandages.module#BandagesPageModule', name: 'BandagesPage', segment: 'bandages', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/wounds/wounds.module#WoundsPageModule', name: 'WoundsPage', segment: 'wounds', priority: 'low', defaultHistory: [] }
                     ]
                 }),
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
             entryComponents: [
-                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_state_state__["a" /* StatePage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_principles_principles__["a" /* PrinciplesPage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_objectives_objectives__["a" /* ObjectivesPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_about_about__["a" /* AboutPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_broken_broken__["a" /* BrokenPage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_fainting_fainting__["a" /* FaintingPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_burns_burns__["a" /* BurnsPage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_sunstroke_sunstroke__["a" /* SunstrokePage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_choking_choking__["a" /* ChokingPage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_blood_circulation_blood_circulation__["a" /* BloodCirculationPage */],
-                __WEBPACK_IMPORTED_MODULE_19__pages_max_temperatures_max_temperatures__["a" /* MaxTemperaturesPage */],
-                __WEBPACK_IMPORTED_MODULE_28__pages_emergency_birth_emergency_birth__["a" /* EmergencyBirthPage */],
-                __WEBPACK_IMPORTED_MODULE_16__pages_unconsciousness_unconsciousness__["a" /* UnconsciousnessPage */],
-                __WEBPACK_IMPORTED_MODULE_18__pages_musculoskeletal_injuries_musculoskeletal_injuries__["a" /* MusculoskeletalInjuriesPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_back_injuries_back_injuries__["a" /* BackInjuriesPage */],
-                __WEBPACK_IMPORTED_MODULE_20__pages_alien_objects_alien_objects__["a" /* AlienObjectsPage */],
-                __WEBPACK_IMPORTED_MODULE_21__pages_aches_aches__["a" /* AchesPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_major_accidents_major_accidents__["a" /* MajorAccidentsPage */],
-                __WEBPACK_IMPORTED_MODULE_23__pages_bandages_bandages__["a" /* BandagesPage */],
-                __WEBPACK_IMPORTED_MODULE_24__pages_transportation_transportation__["a" /* TransportationPage */],
-                __WEBPACK_IMPORTED_MODULE_29__pages_wounds_wounds__["a" /* WoundsPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_python_python__["a" /* PythonPage */]
+                __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_list_list__["a" /* ListPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_state_state__["a" /* StatePage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_principles_principles__["a" /* PrinciplesPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_objectives_objectives__["a" /* ObjectivesPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_about_about__["a" /* AboutPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_broken_broken__["a" /* BrokenPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_fainting_fainting__["a" /* FaintingPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_burns_burns__["a" /* BurnsPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_sunstroke_sunstroke__["a" /* SunstrokePage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_choking_choking__["a" /* ChokingPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_blood_circulation_blood_circulation__["a" /* BloodCirculationPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_max_temperatures_max_temperatures__["a" /* MaxTemperaturesPage */],
+                __WEBPACK_IMPORTED_MODULE_29__pages_emergency_birth_emergency_birth__["a" /* EmergencyBirthPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_unconsciousness_unconsciousness__["a" /* UnconsciousnessPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_musculoskeletal_injuries_musculoskeletal_injuries__["a" /* MusculoskeletalInjuriesPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_back_injuries_back_injuries__["a" /* BackInjuriesPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_alien_objects_alien_objects__["a" /* AlienObjectsPage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_aches_aches__["a" /* AchesPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_major_accidents_major_accidents__["a" /* MajorAccidentsPage */],
+                __WEBPACK_IMPORTED_MODULE_24__pages_bandages_bandages__["a" /* BandagesPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_transportation_transportation__["a" /* TransportationPage */],
+                __WEBPACK_IMPORTED_MODULE_30__pages_wounds_wounds__["a" /* WoundsPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_python_python__["a" /* PythonPage */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_26__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_27__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_27__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_28__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_3__ionic_native_call_number__["a" /* CallNumber */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
             ]
         })
@@ -1275,20 +1519,20 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 282:
+/***/ 290:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_objectives_objectives__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_principles_principles__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_state_state__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_about_about__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_objectives_objectives__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_principles_principles__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_state_state__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_about_about__ = __webpack_require__(101);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1353,14 +1597,14 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 290:
+/***/ 291:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__state_state__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__state_state__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1392,245 +1636,7 @@ var ListPage = /** @class */ (function () {
 
 //# sourceMappingURL=list.js.map
 
-/***/ }),
-
-/***/ 50:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__broken_broken__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fainting_fainting__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__burns_burns__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sunstroke_sunstroke__ = __webpack_require__(116);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__choking_choking__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__blood_circulation_blood_circulation__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__unconsciousness_unconsciousness__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__back_injuries_back_injuries__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__musculoskeletal_injuries_musculoskeletal_injuries__ = __webpack_require__(114);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__max_temperatures_max_temperatures__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__alien_objects_alien_objects__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__aches_aches__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__major_accidents_major_accidents__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__bandages_bandages__ = __webpack_require__(120);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__transportation_transportation__ = __webpack_require__(117);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__emergency_birth_emergency_birth__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__wounds_wounds__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__python_python__ = __webpack_require__(115);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**
- * Generated class for the StatePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var StatePage = /** @class */ (function () {
-    function StatePage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.searchQuery = '';
-        this.initializeItems();
-    }
-    StatePage.prototype.initializeItems = function () {
-        this.items = [
-            'الكسر',
-            'ضربة شمس',
-            'الاغماء',
-            'الجروح',
-            'الحروق',
-            'الاختناق',
-            'اظطرابات الدورة الدموية',
-            'فقدان الوعي',
-            'اصابات الظهر',
-            'اصابات العضلات والمفاصل',
-            'تاثير درجات الحرارة القصوى',
-            'الاجسام الغريبة',
-            'الاوجاع',
-            'التصرف في الحوادث الكبرى',
-            'الضمادات والعصائب',
-            'التدبير والنقل',
-            'الولادة الطارئة',
-            'لدغة الافعى'
-        ];
-    };
-    StatePage.prototype.getItems = function (ev) {
-        var _this = this;
-        // Reset items back to all of the items
-        this.initializeItems();
-        // set val to the value of the searchbar
-        this.val = ev.target.value;
-        this.items2 = this.val;
-        console.log(this.val);
-        // if the value is an empty string don't filter the items
-        if (this.val && this.val.trim() != '') {
-            this.items = this.items.filter(function (item) {
-                return (item.toLowerCase().indexOf(_this.val.toLowerCase()) > -1);
-            });
-        }
-    };
-    StatePage.prototype.goToDatails = function (getitems) {
-        for (var _i = 0, _a = this.items; _i < _a.length; _i++) {
-            var i = _a[_i];
-            console.log(getitems);
-            if (i == getitems) {
-                if (i == 'الكسر') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__broken_broken__["a" /* BrokenPage */]);
-                }
-                else if (i == 'ضربة شمس') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__sunstroke_sunstroke__["a" /* SunstrokePage */]);
-                }
-                else if (i == 'الجروح') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_18__wounds_wounds__["a" /* WoundsPage */]);
-                }
-                else if (i == 'الحروق') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__burns_burns__["a" /* BurnsPage */]);
-                }
-                else if (i == 'الاغماء') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__fainting_fainting__["a" /* FaintingPage */]);
-                }
-                else if (i == 'الاختناق') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_6__choking_choking__["a" /* ChokingPage */]);
-                }
-                else if (i == 'اظطرابات الدورة الدموية') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__blood_circulation_blood_circulation__["a" /* BloodCirculationPage */]);
-                }
-                else if (i == 'فقدان الوعي') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_8__unconsciousness_unconsciousness__["a" /* UnconsciousnessPage */]);
-                }
-                else if (i == 'اصابات الظهر') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_9__back_injuries_back_injuries__["a" /* BackInjuriesPage */]);
-                }
-                else if (i == 'اصابات العضلات والمفاصل') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_10__musculoskeletal_injuries_musculoskeletal_injuries__["a" /* MusculoskeletalInjuriesPage */]);
-                }
-                else if (i == 'تاثير درجات الحرارة القصوى') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_11__max_temperatures_max_temperatures__["a" /* MaxTemperaturesPage */]);
-                }
-                else if (i == 'الاجسام الغريبة') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_12__alien_objects_alien_objects__["a" /* AlienObjectsPage */]);
-                }
-                else if (i == 'الاوجاع') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_13__aches_aches__["a" /* AchesPage */]);
-                }
-                else if (i == 'التصرف في الحوادث الكبرى') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_14__major_accidents_major_accidents__["a" /* MajorAccidentsPage */]);
-                }
-                else if (i == 'الضمادات والعصائب') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_15__bandages_bandages__["a" /* BandagesPage */]);
-                }
-                else if (i == 'التدبير والنقل') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_16__transportation_transportation__["a" /* TransportationPage */]);
-                }
-                else if (i == 'الولادة الطارئة') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_17__emergency_birth_emergency_birth__["a" /* EmergencyBirthPage */]);
-                }
-                else if (i == 'لدغة الافعى') {
-                    this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_19__python_python__["a" /* PythonPage */]);
-                }
-                // 'اظطرابات الدورة الدموية',
-                // 'فقدان الوعي',
-                // ' اصابات الظهر',
-                // 'اصابات العضلات والمفاصل',
-                // 'تاثير درجات الحرارة القصوى',
-                // '',
-                // ' الاوجاع',
-                // 'التصرف في الحوادث الاكبرى',
-                // 'الضمادات والعصائب',
-                // 'التدبير والنقل',
-                // ' الولادة الطارئة',
-            }
-        }
-    };
-    StatePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad StatePage');
-    };
-    StatePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-state',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\state\state.html"*/'<!--\n  Generated template for the StatePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header dir="rtl">\n  <ion-navbar color="orange">\n      <button ion-button menuToggle >\n        <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title  >  الحالات </ion-title>\n    </ion-navbar>\n  </ion-header>\n\n<ion-content >\n\n \n\n     <ion-searchbar searchbar-ios-min-height searchbar-ios-padding-horizontal searchbar-ios-padding-vertical searchbar-md-input-box-shadow searchbar-ios-input-clear-icon-color    searchbar-ios-border-color  searchbar-ios-input-text-color      searchbar-ios-input-background-color    searchbar-ios-input-placeholder-color     searchbar-ios-input-search-icon-color  searchbar-ios-toolbar-input-background searchbar-ios-background-color     searchbar-md-input-text-color searchbar-md-input-search-icon-color searchbar-md-input-placeholder-color  searchbar-md-input-background-color  searchbar-md-input-clear-icon-color  searchbar-md-input-text-color     searchbar-md-input-border-radius    searchbar-md-background-color animated="true" debounce="10" placeholder="بحث" color="orange" class="input-search" (ionInput)="getItems($event)"></ion-searchbar>\n \n\n    <ion-list  *ngFor="let item of items">\n      <ion-item class="ionItem" (click)="goToDatails(item)" >\n        <button class="dedails-btn">  التفاصيل &nbsp;  <ion-icon color="light" name="md-information"></ion-icon> \n        </button> \n        {{ item }} \n      </ion-item>\n      \n    </ion-list>\n    \n</ion-content>\n\n <!-- style="float: left; padding: 10px;border-radius: 10px" -->'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\state\state.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], StatePage);
-    return StatePage;
-}());
-
-//# sourceMappingURL=state.js.map
-
-/***/ }),
-
-/***/ 51:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the AboutPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var AboutPage = /** @class */ (function () {
-    function AboutPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    AboutPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AboutPage');
-    };
-    AboutPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\about\about.html"*/'<!--\n  Generated template for the AboutPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar color="orange">\n      <button ion-button menuToggle >\n        <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title align="right"  > حول </ion-title>\n    </ion-navbar>\n  </ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\about\about.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], AboutPage);
-    return AboutPage;
-}());
-
-//# sourceMappingURL=about.js.map
-
 /***/ })
 
-},[216]);
+},[217]);
 //# sourceMappingURL=main.js.map

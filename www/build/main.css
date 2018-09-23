@@ -30921,72 +30921,53 @@ page-fainting .main-ul li ul li {
 
 page-home .backimg {
   width: 100%;
-  height: 180px;
+  height: 250px;
   overflow: hidden;
   background-image: url("../../assets/imgs/Listback/back2.jpg");
   background-size: cover;
   margin-bottom: 20px;
 }
 
-page-home .info {
-  text-align: center;
-  padding: 6px;
-  border: 1px solid #ffffff;
-  border-radius: 20px;
-  width: 70%;
-  margin: 0 auto;
-  margin-top: 14px;
-  color: #fff;
-  position: relative;
-}
-
-page-home .backimg .info .con-call {
-  width: 27px;
-  height: 24px;
-  display: inline-block;
-  background: #1095f4;
-  border-radius: 100%;
-  float: left;
-  margin-left: 7px;
-  color: #fff;
-}
-
-page-home .contain-cardion {
+page-home .con-call-list {
   width: 100%;
-  color: #fff;
-  text-align: center;
+  height: 400px;
 }
 
-page-home .ion-card-det {
-  width: 33%;
-  height: 40vw;
+page-home .call-list {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px;
+  border-bottom: 1px solid #2699fb;
+}
+
+page-home .con-call-list .call-list :last-child {
+  float: right;
+}
+
+page-home img {
+  width: 54px;
+  float: left;
   display: inline-block;
-  border-radius: 15px;
-  background-color: #fbfbfb;
-  -webkit-box-shadow: 0px 5px 28px -4px #bfbfbf;
-  box-shadow: 0px 5px 28px -4px #bfbfbf;
 }
 
-page-home .details-state img {
-  display: block;
-  width: 9vh;
+page-home h4 {
+  margin: 0px 0px 0px 20px;
+  display: inline-block;
+}
+
+page-home h6 {
+  margin: 0 15px 0 0;
+  padding: 0;
+  color: #717171;
+}
+
+page-home p {
+  color: #fff;
+  text-align: right;
+  width: 80%;
   margin: 0 auto;
-}
-
-page-home .details-state p {
-  font-size: 6vw;
-  margin: 5px;
-  color: #1095f4;
-  border-top: 1px solid #dedede;
-  padding: 5px;
-}
-
-page-home .details-state h5 {
-  color: #fff;
-}
-
-page-home .btn-menus {
-  color: #fff;
+  margin-top: 100px;
+  font-size: 15px;
 }
 
 page-major-accidents body, page-major-accidents ion-item, page-major-accidents ion-title, page-major-accidents ul {

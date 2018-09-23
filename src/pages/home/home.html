@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar color="orange">
-    <button ion-button menuToggle class="btn-menus" >
+    <button ion-button menuToggle class="btn-menus">
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>الرئيسية</ion-title>
@@ -11,77 +11,59 @@
 
   <div class="backimg">
 
-  <div class="info" > <div class="con-call">  <ion-icon ios="ios-call" md="md-call"></ion-icon></div>  122 &nbsp;&nbsp; &nbsp; &nbsp;  الاسعاف </div>
-  <div class="info">   <div class="con-call">  <ion-icon ios="ios-call" md="md-call"></ion-icon></div>  104 &nbsp;&nbsp; &nbsp; &nbsp;  الشرطة</div>
-  <div class="info" > <div class="con-call">  <ion-icon ios="ios-call" md="md-call"></ion-icon></div>  115 &nbsp;&nbsp; الدفاع المدني</div>
-</div>
-<div class="contain-cardion">
-  
-  <ion-card class="ion-card-det"  (click)='goState()' >
+    <p>اذا كنت انت والمصاب في مأزق يرجى <br> الاتصال باحدى الارقام ادناه</p>
 
-    <ion-card-content >
-     
-      <div class="details-state">
-        <img src="../../assets/imgs/state.png" alt=""> 
-   
-         <p>الحالات  </p>
-        
-         
+  </div>
 
-      </div>
-      
-    </ion-card-content>
-  </ion-card>
-  
-    
-  <ion-card class="ion-card-det"  (click)='goObjective()'>
 
-    <ion-card-content >
-     
-      <div class="details-state">
-        <img src="../../assets/imgs/objec.png" alt=""> 
-       
-         <p style="font-size: 15px">طرق الاسعافات   </p>
-        
-          
+  <div class="con-call-list">
 
-      </div>
-      
-    </ion-card-content>
-  </ion-card>
-    
-  <ion-card class="ion-card-det" (click)='goPirciblse()' >
+    <div class="call-list">
+      <img src="../../assets/imgs/police-station.png" alt="">
 
-    <ion-card-content >
-     
-      <div class="details-state">
-        <img src="../../assets/imgs/target.png" alt=""> 
-        
-         <p style="font-size: 15px">اهداف الاسعافات  </p>
-        
-          
+      <h4>النجدة والدوريات<br>
+        <h6>121</h6>
+      </h4>
 
-      </div>
-      
-    </ion-card-content>
-  </ion-card>
-    
-  <ion-card class="ion-card-det"  (click)='goAbout()'  >
+      <img (click)="police()" src="../../assets/imgs/Phone-1.png" alt="">
+    </div>
+    <div class="call-list">
+      <img src="../../assets/imgs/ambulance.png" alt="">
 
-    <ion-card-content>
-     
-      <div class="details-state">
-        <img src="../../assets/imgs/band-aid.png" alt=""> 
-       
-         <p>حول  </p>
-        
-         
+      <h4>الاسعاف الفوري<br>
+        <h6>122</h6>
+      </h4>
 
-      </div>
-      
-    </ion-card-content>
-  </ion-card>
-  
-</div>
+      <img (click)="ambulance()" src="../../assets/imgs/Phone-1.png" alt="">
+    </div>
+
+    <div class="call-list">
+      <img src="../../assets/imgs/heart (1).png" alt="">
+
+      <h4>الدفاع المدني<br>
+        <h6>115</h6>
+      </h4>
+
+      <img (click)="Cvile()" src="../../assets/imgs/Phone-1.png" alt="">
+    </div>
+
+    <div class="call-list">
+      <img src="../../assets/imgs/objec.png" alt="">
+
+      <h4>الاستشارة الطبية<br>
+        <h6>404</h6>
+      </h4>
+
+      <img (click)="midical()" src="../../assets/imgs/Phone-1.png" alt="">
+    </div>
+
+
+
+
+
+
+  </div>
+
+
 
 </ion-content>

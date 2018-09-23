@@ -1,37 +1,47 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import{StatePage} from '../state/state'
-import{ObjectivesPage} from '../objectives/objectives'
-import{PrinciplesPage}from '../principles/principles'
+import { StatePage } from '../state/state'
+import { ObjectivesPage } from '../objectives/objectives'
+import { PrinciplesPage } from '../principles/principles'
 import { AboutPage } from '../about/about';
+import { CallNumber } from '@ionic-native/call-number';
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, private callNumber: CallNumber) {
 
   }
 
 
-  goState(){
-    this.navCtrl.push(StatePage)
+  police() {
+    this.callNumber.callNumber("121", true)
+      .then(res => console.log('Launched dialer!', res))
+      .catch(err => console.log('Error launching dialer', err));
+
+  }
+
+  ambulance() {
+    this.callNumber.callNumber("122", true)
+      .then(res => console.log('Launched dialer!', res))
+      .catch(err => console.log('Error launching dialer', err));
+  }
+
+  Cvile() {
+    this.callNumber.callNumber("115", true)
+      .then(res => console.log('Launched dialer!', res))
+      .catch(err => console.log('Error launching dialer', err));
+  }
+
+  midical() {
+    this.callNumber.callNumber("404", true)
+      .then(res => console.log('Launched dialer!', res))
+      .catch(err => console.log('Error launching dialer', err));
   }
 
 
-  goObjective(){
-this.navCtrl.push(ObjectivesPage)
-  }
 
-
-  goPirciblse(){
-    this.navCtrl.push(PrinciplesPage)
-  }
-
-
-  goAbout(){
-    this.navCtrl.push(AboutPage)
-  }
 
 }

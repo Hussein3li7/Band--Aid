@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { CallNumber } from '@ionic-native/call-number';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
@@ -25,6 +26,7 @@ import { MajorAccidentsPage } from '../pages/major-accidents/major-accidents';
 import { BandagesPage } from '../pages/bandages/bandages';
 import { TransportationPage } from '../pages/transportation/transportation';
 import {PythonPage} from '../pages/python/python'
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -63,7 +65,7 @@ import { WoundsPage } from '../pages/wounds/wounds';
     TransportationPage,
     EmergencyBirthPage,
     WoundsPage,
-    PythonPage
+    PythonPage,
   ],
   imports: [
     BrowserModule,
@@ -100,6 +102,7 @@ import { WoundsPage } from '../pages/wounds/wounds';
   providers: [
     StatusBar,
     SplashScreen,
+    CallNumber,
     { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
 })
