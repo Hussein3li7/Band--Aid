@@ -30623,11 +30623,6 @@ page-aches button {
   display: inline-block !important;
 }
 
-page-aches ion-title {
-  text-align: right;
-  margin-right: 15%;
-}
-
 page-alien-objects body, page-alien-objects ion-item, page-alien-objects ion-title, page-alien-objects ul {
   font-family: 'kufi' !important;
 }
@@ -30647,11 +30642,6 @@ page-alien-objects .menus {
 
 page-alien-objects button {
   display: inline-block !important;
-}
-
-page-alien-objects ion-title {
-  text-align: right;
-  margin-right: 15%;
 }
 
 page-back-injuries body, page-back-injuries ion-item, page-back-injuries ion-title, page-back-injuries ul {
@@ -30675,9 +30665,15 @@ page-back-injuries button {
   display: inline-block !important;
 }
 
-page-back-injuries ion-title {
-  text-align: right;
-  margin-right: 15%;
+page-back-injuries .con-deta a {
+  text-decoration: none;
+  color: #2699fb;
+  padding: 3px 10px;
+  border: 1px solid #2699fb;
+  border-radius: 10px;
+  margin: 5px;
+  display: block;
+  text-align: center;
 }
 
 page-bandages body, page-bandages ion-item, page-bandages ion-title, page-bandages ul {
@@ -30701,11 +30697,6 @@ page-bandages button {
   display: inline-block !important;
 }
 
-page-bandages ion-title {
-  text-align: right;
-  margin-right: 15%;
-}
-
 page-blood-circulation body, page-blood-circulation ion-item, page-blood-circulation ion-title, page-blood-circulation ul {
   font-family: 'kufi' !important;
 }
@@ -30727,11 +30718,6 @@ page-blood-circulation button {
   display: inline-block !important;
 }
 
-page-blood-circulation ion-title {
-  text-align: right;
-  margin-right: 15%;
-}
-
 page-blood-circulation p {
   color: #107895;
 }
@@ -30743,6 +30729,17 @@ page-blood-circulation .main-ul > li {
 page-blood-circulation .main-ul li ul li {
   list-style-image: url("../../assets/imgs/listIcon/Untitled-1.png");
   margin: 7px 0px 10px 0px;
+}
+
+page-blood-circulation a {
+  text-decoration: none;
+  color: #2699fb;
+  padding: 7px 10px;
+  border: 1px solid #2699fb;
+  border-radius: 30px;
+  margin: 5px;
+  display: block;
+  text-align: center;
 }
 
 page-broken body, page-broken ion-item, page-broken ion-title, page-broken ul {
@@ -30764,11 +30761,6 @@ page-broken .menus {
 
 page-broken button {
   display: inline-block !important;
-}
-
-page-broken ion-title {
-  text-align: right;
-  margin-right: 15%;
 }
 
 page-broken hr {
@@ -30809,11 +30801,6 @@ page-burns button {
   display: inline-block !important;
 }
 
-page-burns ion-title {
-  text-align: right;
-  margin-right: 15%;
-}
-
 page-choking body, page-choking ion-item, page-choking ion-title, page-choking ul {
   font-family: 'kufi' !important;
 }
@@ -30844,11 +30831,6 @@ page-choking button {
   display: inline-block !important;
 }
 
-page-choking ion-title {
-  text-align: right;
-  margin-right: 15%;
-}
-
 page-choking img {
   display: block;
   margin: 0 auto;
@@ -30875,11 +30857,6 @@ page-emergency-birth button {
   display: inline-block !important;
 }
 
-page-emergency-birth ion-title {
-  text-align: right;
-  margin-right: 15%;
-}
-
 page-fainting body, page-fainting ion-item, page-fainting ion-title, page-fainting ul {
   font-family: 'kufi' !important;
 }
@@ -30899,11 +30876,6 @@ page-fainting .menus {
 
 page-fainting button {
   display: inline-block !important;
-}
-
-page-fainting ion-title {
-  text-align: right;
-  margin-right: 15%;
 }
 
 page-fainting p {
@@ -30930,7 +30902,6 @@ page-home .backimg {
 
 page-home .con-call-list {
   width: 100%;
-  height: 400px;
 }
 
 page-home .call-list {
@@ -30945,7 +30916,7 @@ page-home .con-call-list .call-list :last-child {
 }
 
 page-home img {
-  width: 54px;
+  width: 50px;
   float: left;
   display: inline-block;
 }
@@ -30953,6 +30924,7 @@ page-home img {
 page-home h4 {
   margin: 0px 0px 0px 20px;
   display: inline-block;
+  font-size: 19px;
 }
 
 page-home h6 {
@@ -30964,9 +30936,7 @@ page-home h6 {
 page-home p {
   color: #fff;
   text-align: right;
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 100px;
+  margin: 120px 25px 0 0;
   font-size: 15px;
 }
 
@@ -30991,11 +30961,6 @@ page-major-accidents button {
   display: inline-block !important;
 }
 
-page-major-accidents ion-title {
-  text-align: right;
-  margin-right: 15%;
-}
-
 page-max-temperatures body, page-max-temperatures ion-item, page-max-temperatures ion-title, page-max-temperatures ul {
   font-family: 'kufi' !important;
 }
@@ -31017,11 +30982,6 @@ page-max-temperatures button {
   display: inline-block !important;
 }
 
-page-max-temperatures ion-title {
-  text-align: right;
-  margin-right: 15%;
-}
-
 page-musculoskeletal-injuries body, page-musculoskeletal-injuries ion-item, page-musculoskeletal-injuries ion-title, page-musculoskeletal-injuries ul {
   font-family: 'kufi' !important;
 }
@@ -31041,11 +31001,6 @@ page-musculoskeletal-injuries .menus {
 
 page-musculoskeletal-injuries button {
   display: inline-block !important;
-}
-
-page-musculoskeletal-injuries ion-title {
-  text-align: right;
-  margin-right: 15%;
 }
 
 page-objectives ion-content {
@@ -31097,6 +31052,19 @@ page-python .menus {
   color: #fff;
 }
 
+page-python p {
+  color: #107895;
+}
+
+page-python .main-ul > li {
+  list-style-image: url("../../assets/imgs/listIcon/Untitled-2.png");
+}
+
+page-python .main-ul li ul li {
+  list-style-image: url("../../assets/imgs/listIcon/Untitled-1.png");
+  margin: 7px 0px 10px 0px;
+}
+
 page-state body, page-state ion-item, page-state ion-title, page-state button {
   font-family: 'kufi' !important;
 }
@@ -31123,6 +31091,10 @@ page-state ion-list {
   margin: 0 !important;
 }
 
+page-state ion-title {
+  text-align: center;
+}
+
 page-sunstroke body, page-sunstroke ion-item, page-sunstroke ion-title, page-sunstroke ul {
   font-family: 'kufi' !important;
 }
@@ -31142,11 +31114,6 @@ page-sunstroke .menus {
 
 page-sunstroke button {
   display: inline-block !important;
-}
-
-page-sunstroke ion-title {
-  text-align: right;
-  margin-right: 15%;
 }
 
 page-sunstroke .main-ul > li {
@@ -31179,11 +31146,6 @@ page-transportation button {
   display: inline-block !important;
 }
 
-page-transportation ion-title {
-  text-align: right;
-  margin-right: 15%;
-}
-
 page-unconsciousness body, page-unconsciousness ion-item, page-unconsciousness ion-title, page-unconsciousness ul {
   font-family: 'kufi' !important;
 }
@@ -31203,11 +31165,6 @@ page-unconsciousness .menus {
 
 page-unconsciousness button {
   display: inline-block !important;
-}
-
-page-unconsciousness ion-title {
-  text-align: right;
-  margin-right: 15%;
 }
 
 page-wounds body, page-wounds ion-item, page-wounds ion-title, page-wounds ul {
@@ -31231,7 +31188,15 @@ page-wounds button {
   display: inline-block !important;
 }
 
-page-wounds ion-title {
-  text-align: right;
-  margin-right: 15%;
+page-wounds p {
+  color: #107895;
+}
+
+page-wounds .main-ul > li {
+  list-style-image: url("../../assets/imgs/listIcon/Untitled-2.png");
+}
+
+page-wounds .main-ul li ul li {
+  list-style-image: url("../../assets/imgs/listIcon/Untitled-1.png");
+  margin: 7px 0px 10px 0px;
 }
