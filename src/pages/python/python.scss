@@ -16,6 +16,18 @@ page-python {
     left: 0 ;
      color: #fff
 }
+p{
+    color: #107895
+}
 
+.main-ul > li  {
+    list-style-image: url('../../assets/imgs/listIcon/Untitled-2.png')
+}
+
+
+.main-ul li ul li  {
+    list-style-image: url('../../assets/imgs/listIcon/Untitled-1.png');
+    margin: 7px 0px 10px 0px;
+}
 
 }

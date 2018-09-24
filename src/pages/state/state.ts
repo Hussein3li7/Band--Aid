@@ -52,7 +52,7 @@ export class StatePage {
       'الكسر',
       'ضربة شمس',
       'الاغماء',
-      'الجروح',
+      'الجروح والنزف',
       'الحروق',
       'الاختناق',
       'اظطرابات الدورة الدموية',
@@ -78,7 +78,7 @@ export class StatePage {
 
     // set val to the value of the searchbar
     this.val = ev.target.value;
-    this.items2=this.val
+    this.items2 = this.val
     console.log(this.val)
 
     // if the value is an empty string don't filter the items
@@ -98,66 +98,66 @@ export class StatePage {
 
       if (i == getitems) {
 
-        if (i =='الكسر') {
+        if (i == 'الكسر') {
 
           this.navCtrl.push(BrokenPage)
 
         }
-        else if (i =='ضربة شمس' ) {
+        else if (i == 'ضربة شمس') {
 
           this.navCtrl.push(SunstrokePage)
         }
-        else if(i=='الجروح'){
-          
+        else if (i == 'الجروح والنزف') {
+
           this.navCtrl.push(WoundsPage)
         }
-        else if (i == 'الحروق') {                                             
+        else if (i == 'الحروق') {
 
           this.navCtrl.push(BurnsPage)
         }
-        else if (i == 'الاغماء' ) {
+        else if (i == 'الاغماء') {
           this.navCtrl.push(FaintingPage)
         }
-        else if (i == 'الاختناق' ) {
+        else if (i == 'الاختناق') {
           this.navCtrl.push(ChokingPage)
         }
-        else if (i == 'اظطرابات الدورة الدموية' ) {
+        else if (i == 'اظطرابات الدورة الدموية') {
           this.navCtrl.push(BloodCirculationPage)
         }
-        else if (i == 'فقدان الوعي' ) {
+        else if (i == 'فقدان الوعي') {
           this.navCtrl.push(UnconsciousnessPage)
         }
         else if (i == 'اصابات الظهر') {
           this.navCtrl.push(BackInjuriesPage)
         }
-        else if (i == 'اصابات العضلات والمفاصل' ) {
+        else if (i == 'اصابات العضلات والمفاصل') {
           this.navCtrl.push(MusculoskeletalInjuriesPage)
         }
-        else if (i == 'تاثير درجات الحرارة القصوى' ) {
+        else if (i == 'تاثير درجات الحرارة القصوى') {
           this.navCtrl.push(MaxTemperaturesPage)
         }
-        else if (i == 'الاجسام الغريبة' ) {
+        else if (i == 'الاجسام الغريبة') {
           this.navCtrl.push(AlienObjectsPage)
         }
-        else if (i == 'الاوجاع' ) {
+        else if (i == 'الاوجاع') {
           this.navCtrl.push(AchesPage)
         }
-        else if (i == 'التصرف في الحوادث الكبرى' ) {
+        else if (i == 'التصرف في الحوادث الكبرى') {
           this.navCtrl.push(MajorAccidentsPage)
         }
-        else if (i == 'الضمادات والعصائب' ) {
+        else if (i == 'الضمادات والعصائب') {
           this.navCtrl.push(BandagesPage)
         }
-        else if (i == 'التدبير والنقل' ) {
+        else if (i == 'التدبير والنقل') {
           this.navCtrl.push(TransportationPage)
         }
-        else if (i == 'الولادة الطارئة' ) {
+        else if (i == 'الولادة الطارئة') {
           this.navCtrl.push(EmergencyBirthPage)
         }
-        else if(i=='لدغة الافعى'){
+        else if (i == 'لدغة الافعى') {
           this.navCtrl.push(PythonPage)
         }
-        
+
         // 'اظطرابات الدورة الدموية',
         // 'فقدان الوعي',
         // ' اصابات الظهر',
