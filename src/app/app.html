@@ -11,17 +11,26 @@
    <img src="../assets/imgs/Listback/CodeLogo.jpg" alt=""> 
   </div>
     <ion-list class="cal">
-
+ 
       <div class="btn" menuClose *ngFor="let p of pages" (click)="openPage(p)">
         {{p.title}}
             <ion-icon [name]="p.icon"></ion-icon>
       </div>
+ 
     </ion-list>
+
+ 
+
     <div class="con-img">
+
+        <!-- <ion-item class="night"> 
+            <ion-label>الوضع الليلي</ion-label>
+            <ion-toggle  [(ngModel)]="night" (ionChange)="ok()" ></ion-toggle>
+          </ion-item> -->
+
       <p> Code For IRaq</p>
        
     </div>
-
 
   </ion-content>
 

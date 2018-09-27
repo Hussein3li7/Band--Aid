@@ -1,14 +1,15 @@
 import { Component, ViewChild } from '@angular/core';
-import { Nav, Platform } from 'ionic-angular';
+import { Nav, Platform, Content, Button } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+
 import { ObjectivesPage  } from '../pages/objectives/objectives';
 import { PrinciplesPage } from '../pages/principles/principles';
 import{StatePage} from '../pages/state/state'
 import{AboutPage} from '../pages/about/about'
+
 
 
 @Component({
@@ -21,6 +22,7 @@ export class MyApp {
 
   pages: Array<{title: string, component: any ,icon:string}>;
 
+   public night:boolean=false;
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
@@ -32,6 +34,7 @@ export class MyApp {
       { title: 'اهداف الاسعافات الاولية', component: ObjectivesPage,icon:'wifi'  },
       { title: 'حول', component: AboutPage,icon:'alert'  }
     ];
+
 
   }
 
@@ -51,4 +54,71 @@ export class MyApp {
     // we wouldn't want the back button to show in this scenario
     this.nav.setRoot(page.component);
   }
+
+//   ok(){
+
+//     if(this.night){
+ 
+//       let y = document.getElementsByTagName('ion-content'  ) as HTMLCollectionOf<HTMLElement>;
+//       y[0].style.backgroundColor="#222"
+      
+
+//       let shand = document.getElementsByClassName('test') as HTMLCollectionOf<HTMLElement>;
+//       shand[0].style.backgroundColor="#222"
+
+//     // let shand2 = document.getElementsByClassName('backIon') as HTMLCollectionOf<HTMLElement>;
+//     // shand2[0].style.backgroundColor="#222"
+
+//     let shand3 = document.getElementsByClassName('night') as HTMLCollectionOf<HTMLElement>;
+
+ 
+//             shand3[0].style.color="#f5f5f5"
+//         shand3[0].style.backgroundColor="#222"
+    
+
+//     for(let x=0 ;x<this.pages.length;x++){
+
+//      let title = document.getElementsByClassName('btn') as HTMLCollectionOf<HTMLElement>;
+//       title[x].style.color="#ececec"
+
+// }
+
+
+
+//     }
+//     else{
+
+//         let shand = document.getElementsByClassName('test') as HTMLCollectionOf<HTMLElement>;
+//         shand[0].style.backgroundColor="#2196F3"
+    
+//         let shand2 = document.getElementsByClassName('backIon') as HTMLCollectionOf<HTMLElement>;
+//         shand2[0].style.backgroundColor="#f8f8f8"
+
+//         let shand3 = document.getElementsByClassName('night') as HTMLCollectionOf<HTMLElement>;
+//         shand3[0].style.color="#2b8cd6"
+//         shand3[0].style.backgroundColor="#f5f5f5"
+ 
+
+    
+    
+    
+//     for(let x=0 ;x<this.pages.length;x++){
+    
+//          let title = document.getElementsByClassName('btn') as HTMLCollectionOf<HTMLElement>;
+//           title[x].style.color="#5da4d5"
+
+    
+//     }
+
+
+
+//     }
+
+    
+
+
+
+// }
+
+
 }

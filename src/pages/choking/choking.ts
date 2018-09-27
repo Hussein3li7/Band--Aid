@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { SafeResourceUrl, DomSanitizer } from '@angular/platform-browser';
 
 /**
  * Generated class for the ChokingPage page.
@@ -15,11 +16,34 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ChokingPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  video: any = {
+    url: 'https://www.youtube.com/embed/n8yXguceS9g',
+    title: 'الشرق'
+};
+
+trustedVideoUrl: SafeResourceUrl;
+noInternet:any;
+
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, private domSanitizer: DomSanitizer) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ChokingPage');
+ 
+
+
+
+   
+try {
+   this.trustedVideoUrl = this.domSanitizer.bypassSecurityTrustResourceUrl(this.video.url);
+
+} catch (error) {
+  alert("No Internet Connection");
+}
+   
+
+
   }
 
 }

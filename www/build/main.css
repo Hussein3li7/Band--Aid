@@ -22953,7 +22953,7 @@ ion-navbar.toolbar {
 
 .toolbar-title-ios {
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #000;
   pointer-events: auto;
@@ -30548,6 +30548,17 @@ ion-content, ion-item {
   background-color: #f5f5f5 !important;
 }
 
+a {
+  text-decoration: none;
+  color: #2699fb;
+  padding: 7px 10px;
+  border: 1px solid #2699fb;
+  border-radius: 30px;
+  margin: 5px;
+  display: block;
+  text-align: center;
+}
+
 ion-toolbar {
   background: transparent;
 }
@@ -30573,7 +30584,6 @@ ion-toolbar {
 }
 
 .backIon {
-  background-color: #f8f8f8;
   background-position: center;
   background-size: cover;
 }
@@ -30600,6 +30610,138 @@ ion-toolbar {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+p {
+  color: #107895;
+}
+
+.main-ul > li {
+  list-style-image: url("../../assets/imgs/listIcon/Untitled-2.png");
+}
+
+.main-ul li ul li {
+  list-style-image: url("../../assets/imgs/listIcon/Untitled-1.png");
+  margin: 7px 0px 10px 0px;
+}
+
+body, ul {
+  font-family: 'kufi' !important;
+}
+
+ul {
+  padding-right: 15px;
+  text-align: justify;
+  margin: 10px 0px 15px 0;
+}
+
+.menus {
+  display: inline-block !important;
+  position: absolute;
+  left: 0;
+  color: #fff;
+}
+
+.night {
+  color: #2b8cd6;
+  background-color: #f5f5f5;
+}
+
+page-about .conn-back-img {
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  background-image: url(../../assets/imgs/Listback/about.png);
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+}
+
+page-about .conn-back-img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  float: left;
+  margin: 37px 0 0px 50px;
+}
+
+page-about .conn-back-img p {
+  margin: 0;
+  padding: 75px 50px 0 0;
+  color: #f5f5f5;
+  font-size: 16px;
+}
+
+page-about .conn-btn-details {
+  width: 100%;
+  height: 90px;
+  background-color: #6A3CB8;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+page-about .conn-btn-details .btninfo {
+  width: 49%;
+  color: black;
+  margin: 0;
+  padding: 40px 0;
+  background-color: #4DC2FF;
+  color: #f5f5f5;
+}
+
+page-about .conn-btn-details .btninfo:last-child {
+  background-color: #6A3CB8;
+}
+
+page-about .conn-personal-info {
+  width: 100%;
+  height: 80px;
+}
+
+page-about .conn-info {
+  height: 100%;
+  text-align: center;
+  border-bottom: 1px solid #4752a5;
+  overflow: hidden;
+  padding: 0;
+}
+
+page-about .conn-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-top: 17px;
+}
+
+page-about .conn-info .info {
+  float: left;
+  margin: 27px 0 0 0px;
+  width: 30%;
+}
+
+page-about .conn-info .pro {
+  float: right;
+  margin: 27px 0 0 0;
+  width: 30%;
+}
+
+page-about .con-about-mob {
+  direction: rtl;
+  width: 100%;
+  margin: 0;
+  text-align: justify;
+  padding: 0;
+  overflow: hidden;
+}
+
+page-about h3 {
+  margin: 0;
+  padding: 20px 10px 0 10px;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 100;
 }
 
 page-aches body, page-aches ion-item, page-aches ion-title, page-aches ul {
@@ -30701,12 +30843,6 @@ page-blood-circulation body, page-blood-circulation ion-item, page-blood-circula
   font-family: 'kufi' !important;
 }
 
-page-blood-circulation ul {
-  padding-right: 15px;
-  text-align: justify;
-  margin: 10px 0px 15px 0;
-}
-
 page-blood-circulation .menus {
   display: inline-block !important;
   position: absolute;
@@ -30718,66 +30854,8 @@ page-blood-circulation button {
   display: inline-block !important;
 }
 
-page-blood-circulation p {
-  color: #107895;
-}
-
-page-blood-circulation .main-ul > li {
-  list-style-image: url("../../assets/imgs/listIcon/Untitled-2.png");
-}
-
-page-blood-circulation .main-ul li ul li {
-  list-style-image: url("../../assets/imgs/listIcon/Untitled-1.png");
-  margin: 7px 0px 10px 0px;
-}
-
-page-blood-circulation a {
-  text-decoration: none;
-  color: #2699fb;
-  padding: 7px 10px;
-  border: 1px solid #2699fb;
-  border-radius: 30px;
-  margin: 5px;
-  display: block;
-  text-align: center;
-}
-
-page-broken body, page-broken ion-item, page-broken ion-title, page-broken ul {
-  font-family: 'kufi' !important;
-}
-
-page-broken ul {
-  padding-right: 15px;
-  text-align: justify;
-  margin: 10px 0px 15px 0;
-}
-
-page-broken .menus {
-  display: inline-block !important;
-  position: absolute;
-  left: 0;
-  color: #fff;
-}
-
 page-broken button {
   display: inline-block !important;
-}
-
-page-broken hr {
-  background-color: #607D8B;
-}
-
-page-broken p {
-  color: #107895;
-}
-
-page-broken .main-ul > li {
-  list-style-image: url("../../assets/imgs/listIcon/Untitled-2.png");
-}
-
-page-broken .main-ul li ul li {
-  list-style-image: url("../../assets/imgs/listIcon/Untitled-1.png");
-  margin: 7px 0px 10px 0px;
 }
 
 page-burns body, page-burns ion-item, page-burns ion-title, page-burns ul {
@@ -30803,21 +30881,6 @@ page-burns button {
 
 page-choking body, page-choking ion-item, page-choking ion-title, page-choking ul {
   font-family: 'kufi' !important;
-}
-
-page-choking ul {
-  padding-right: 15px;
-  text-align: justify;
-  margin: 10px 0px 15px 0;
-}
-
-page-choking .main-ul > li {
-  list-style-image: url("../../assets/imgs/listIcon/Untitled-2.png");
-}
-
-page-choking .main-ul li ul li {
-  list-style-image: url("../../assets/imgs/listIcon/Untitled-1.png");
-  margin: 7px 0px 10px 0px;
 }
 
 page-choking .menus {

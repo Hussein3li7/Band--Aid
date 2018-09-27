@@ -1,11 +1,12 @@
  
  ion-title{
     font-family: 'kufi' !important;
+
  }
 
 ion-content,ion-item{
       font-family: 'kufi' !important;
-    background-color: #f5f5f5 !important
+       background-color: #f5f5f5 !important
   
 
 }
@@ -13,6 +14,18 @@ ion-content,ion-item{
     // body, ion-item, ion-title, ul {
       
     //     }
+
+    a{
+        text-decoration: none;
+        color: #2699fb;
+        padding: 7px 10px;
+        border: 1px solid #2699fb;
+        border-radius: 30px;
+        margin: 5px;
+        display: block;
+        text-align: center;
+    }
+    
 
         ion-toolbar{
             background: transparent
@@ -41,7 +54,7 @@ ion-content,ion-item{
         }
 
 .backIon{
-    background-color: #f8f8f8;
+   // background-color: #f8f8f8;
     background-position: center;
   
     background-size: cover;
@@ -70,4 +83,43 @@ ion-content,ion-item{
     margin: 0 auto;
     margin-top: 30px;
 
+}
+
+/////////////////////////////////////////
+
+
+p{
+    color: #107895
+}
+
+.main-ul > li  {
+    list-style-image: url('../../assets/imgs/listIcon/Untitled-2.png')
+}
+
+
+.main-ul li ul li  {
+    list-style-image: url('../../assets/imgs/listIcon/Untitled-1.png');
+    margin: 7px 0px 10px 0px;
+}
+
+body, ul {
+    font-family: 'kufi' !important;
+    }
+
+ul{
+    padding-right: 15px;
+    text-align: justify;
+    margin: 10px 0px 15px 0;
+}
+
+.menus{
+display: inline-block !important;
+position: absolute;
+left: 0 ;
+ color: #fff
+}
+
+.night{
+   color: #2b8cd6;
+    background-color:  #f5f5f5
 }
