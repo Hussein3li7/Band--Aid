@@ -224,13 +224,13 @@ var AboutPage = /** @class */ (function () {
     }
     AboutPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad AboutPage');
-        this.hideAbout = document.getElementsByClassName('con-about-mob');
+        this.hideAbout = document.getElementsByClassName('conn-about-mob');
         this.hideAbout[0].style.display = 'none';
         this.hideTeam = document.getElementsByClassName('conn-personal-info');
         this.hideTeam[0].style.display = 'none';
     };
     AboutPage.prototype.team = function () {
-        this.hideAbout = document.getElementsByClassName('con-about-mob');
+        this.hideAbout = document.getElementsByClassName('conn-about-mob');
         this.hideAbout[0].style.display = 'none';
         this.hideTeam = document.getElementsByClassName('conn-personal-info');
         this.hideTeam[0].style.display = 'block';
@@ -238,17 +238,16 @@ var AboutPage = /** @class */ (function () {
     AboutPage.prototype.about = function () {
         this.hideTeam = document.getElementsByClassName('conn-personal-info');
         this.hideTeam[0].style.display = 'none';
-        this.hideAbout = document.getElementsByClassName('con-about-mob');
+        this.hideAbout = document.getElementsByClassName('conn-about-mob');
         this.hideAbout[0].style.display = 'block';
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\about\about.html"*/'<!--\n  Generated template for the AboutPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar color="orange">\n      <button ion-button menuToggle >\n        <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title > حول </ion-title>\n    </ion-navbar>\n  </ion-header>\n\n\n<ion-content>\n\n\n\n<div class="conn-back-img">\n\n  <img src="../../assets/imgs/Listback/CodeLogo.jpg" alt="">\n\n  <p>الاساعفات الاولية </p>\n\n\n</div>\n\n<div class="conn-btn-details">\n  <button (click)="team()" class="btninfo">فريق العمل</button>\n  <button (click)="about()" class="btninfo">عن المبادرة </button>\n\n</div>\n\n\n<div class="conn-personal-info">\n\n  <div class="conn-info">\n \n    <span class="pro">برمجة وتصميم</span>\n     <img src="../../assets/imgs/web-design.svg" alt="">\n     <span class="info" >حسين علي</span>\n   </div>\n   <div class="conn-info">\n \n    <span class="pro">اشراف</span>\n     <img src="../../assets/imgs/project-management.svg" alt="">\n     <span class="info" >محمد عيسى</span>\n   </div>\n   <div class="conn-info">\n   <span class="pro">اشراف</span>\n   <img src="../../assets/imgs/project-management.svg" alt="">\n   <span class="info" >ميادة ناجي</span>\n </div>\n <div class="conn-info">\n <span class="pro">اشراف</span>\n <img src="../../assets/imgs/project-management.svg" alt="">\n <span class="info" >زينب عماد</span>\n</div>\n\n\n</div>\n\n\n<div class="con-about-mob">\n\n\n<h3>\n    "IRAQ For Code"مببط عة رسبطرية غيب عنحيبة تهبد البم خدمبة المجتمبع بن\n    ط يق الب مجة Programming .\n    تختبب "IRAQ For Code "مببط عة تخليميبة حقيقيبة ت بم المهتمبين نبتخلم تطبميم\n    ون مجبة تطبيقبطب الهبطتف الجبوال ومواقبع االرت ربت ونب امج الحط بوب واليبببكطب\n    واالتطبطالب ورظبم تيبميد الحط بوب نط بت دات التقنيبطب مفتوحبة المطبدع Open\n    .\n    Source ، كمط توف لهم جميع الدعوس التخليمية الال مة ونيكد مجطري تمطمط\n\n  </h3>\n\n\n</div>\n\n\n\n\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\about\about.html"*/,
+            selector: 'page-about',template:/*ion-inline-start:"F:\OneDrive\Band--Aid\src\pages\about\about.html"*/'<!--\n  Generated template for the AboutPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n\n<ion-header>\n  <ion-navbar color="orange">\n      <button ion-button menuToggle >\n        <ion-icon name="menu"></ion-icon>\n      </button>\n      <ion-title > حول </ion-title>\n    </ion-navbar>\n  </ion-header>\n\n\n<ion-content>\n\n\n\n<div class="conn-back-img">\n\n  <img src="../../assets/imgs/Listback/CodeLogo.jpg" alt="">\n\n  <p>الاساعفات الاولية </p>\n\n\n</div>\n\n<div class="conn-btn-details">\n  <button (click)="team()" class="btninfo">   فريق العمل  </button>\n  <button (click)="about()" class="btninfo">  عن المبادرة </button>\n\n</div>\n\n\n<div class="conn-personal-info">\n\n  <div class="conn-info">\n \n    <span class="pro">برمجة وتصميم</span>\n     <img src="../../assets/imgs/coding.svg" alt="">\n     <span class="info" >حسين علي</span>\n   </div>\n   <!-- <div class="conn-info">\n \n    <span class="pro">اشراف</span>\n     <img src="../../assets/imgs/project-management.svg" alt="">\n     <span class="info" >محمد عيسى</span>\n   </div>\n   <div class="conn-info">\n   <span class="pro">اشراف</span>\n   <img src="../../assets/imgs/project-management.svg" alt="">\n   <span class="info" >ميادة ناجي</span>\n </div>\n <div class="conn-info">\n <span class="pro">اشراف</span>\n <img src="../../assets/imgs/project-management.svg" alt="">\n <span class="info" >زينب عماد</span>\n</div> -->\n\n\n</div>\n\n\n<div class="conn-about-mob">\n<div>\n Code For Iraq \n</div>\n <p> \n\n  مبادرة إنسانية غير ربحية تهدف الى خدمة المجتمع عن طريق البرمجة \nتعتبر  <span>"Code for Iraq"</span>\nمبادرة تعليمية حقيقية ترعى المهتمين بتعلم تصميم وبرمجة تطبيقات الهاتف الجوال و مواقع الانترنت وبرامج الحاسوب والشبكات والاتصالات ونظم تشغيل الحاسوب باستخدام التقنيات مفتوحة المصدر <span>open source </span>,كما توفر لهم جميع الدروس التعليمية الازمة وبشكل مجاني تماماً\n\n\n\n </p> \n\n<a href="mailto:hussein@gmail.com"> <ion-icon name="send"></ion-icon> تواصل معنا </a>\n\n</div>\n\n\n\n\n\n</ion-content>\n'/*ion-inline-end:"F:\OneDrive\Band--Aid\src\pages\about\about.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], AboutPage);
     return AboutPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=about.js.map
